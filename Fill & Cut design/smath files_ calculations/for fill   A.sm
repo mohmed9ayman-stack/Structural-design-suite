@@ -1,0 +1,2338 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="0.99.7030.1435"?>
+<worksheet xmlns="http://smath.info/schemas/worksheet/1.0">
+  <settings ppi="120">
+    <identity>
+      <id>e23141cc-8e51-4cee-91d8-577fc592a74c</id>
+      <revision>68</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <trailingZeros>false</trailingZeros>
+      <significantDigitsMode>false</significantDigitsMode>
+      <roundingMode>0</roundingMode>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="false" viewMode="1" printGrid="false" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="1" orientation="Portrait" width="850" height="1100" />
+      <margins left="39" right="39" top="49" bottom="49" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Studio Desktop" version="0.99.7030.1435" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="Math Region" version="0.99.7030.1435" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="PictureRegion" version="1.10.7030.1435" guid="06b5df04-393e-4be7-9107-305196fcb861" />
+      <assembly name="TextRegion" version="1.11.7030.1435" guid="485d28c5-349a-48b6-93be-12a35a1c1e39" />
+    </dependencies>
+  </settings>
+  <regions type="content">
+    <region id="0" left="0" top="9" width="214" height="41" color="#000000" bgColor="#80ffff" fontSize="20">
+      <text lang="eng">
+        <p>for the fill</p>
+      </text>
+    </region>
+    <region id="1" left="108" top="54" width="80" height="50" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">γ</e>
+          <e type="operand">18</e>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operand">3</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="2" left="243" top="54" width="88" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">φ.k</e>
+          <e type="operand">28</e>
+          <e type="operand" style="unit">deg</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="3" left="405" top="54" width="96" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">c'.k</e>
+          <e type="operand">15</e>
+          <e type="operand" style="unit">kPa</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="4" left="549" top="54" width="82" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">γ.c'</e>
+          <e type="operand">1.35</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="5" left="675" top="54" width="82" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">γ.φ'</e>
+          <e type="operand">1.35</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="6" left="783" top="54" width="90" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">r</e>
+          <e type="operand">10.75</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="7" left="108" top="126" width="106" height="39" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">A.1</e>
+          <e type="operand">0.317</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="8" left="216" top="126" width="98" height="39" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">A.6</e>
+          <e type="operand">8.45</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="9" left="441" top="126" width="100" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">α.1</e>
+          <e type="operand">18</e>
+          <e type="operand" style="unit">deg</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="10" left="585" top="126" width="88" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">α.6</e>
+          <e type="operand">23</e>
+          <e type="operand" style="unit">deg</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="11" left="801" top="126" width="96" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ΔL.1</e>
+          <e type="operand">1.43</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="12" left="963" top="126" width="96" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ΔL.6</e>
+          <e type="operand">1.47</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="13" left="108" top="162" width="106" height="39" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">A.2</e>
+          <e type="operand">0.806</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="14" left="216" top="162" width="106" height="39" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">A.7</e>
+          <e type="operand">9.816</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="15" left="441" top="162" width="92" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">α.2</e>
+          <e type="operand">9</e>
+          <e type="operand" style="unit">deg</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="16" left="585" top="162" width="88" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">α.7</e>
+          <e type="operand">31</e>
+          <e type="operand" style="unit">deg</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="17" left="801" top="162" width="96" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ΔL.2</e>
+          <e type="operand">1.38</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="18" left="963" top="162" width="96" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ΔL.7</e>
+          <e type="operand">1.59</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="19" left="108" top="198" width="106" height="39" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">A.3</e>
+          <e type="operand">2.551</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="20" left="108" top="198" width="26" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">1.</e>
+        </input>
+      </math>
+    </region>
+    <region id="21" left="216" top="198" width="98" height="39" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">A.8</e>
+          <e type="operand">9.85</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="22" left="441" top="198" width="104" height="31" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">α.3</e>
+          <e type="operand">2</e>
+          <e type="operator" args="1">-</e>
+          <e type="bracket">(</e>
+          <e type="operand" style="unit">deg</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="23" left="585" top="198" width="88" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">α.8</e>
+          <e type="operand">41</e>
+          <e type="operand" style="unit">deg</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="24" left="801" top="198" width="96" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ΔL.3</e>
+          <e type="operand">1.36</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="25" left="963" top="198" width="96" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ΔL.8</e>
+          <e type="operand">1.81</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="26" left="108" top="243" width="106" height="39" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">A.4</e>
+          <e type="operand">4.781</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="27" left="216" top="243" width="98" height="39" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">A.9</e>
+          <e type="operand">7.87</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="28" left="441" top="243" width="80" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">α.4</e>
+          <e type="operand">6</e>
+          <e type="operand" style="unit">deg</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="29" left="585" top="243" width="88" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">α.9</e>
+          <e type="operand">53</e>
+          <e type="operand" style="unit">deg</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="30" left="801" top="243" width="96" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ΔL.4</e>
+          <e type="operand">1.37</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="31" left="963" top="243" width="96" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ΔL.9</e>
+          <e type="operand">2.26</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="32" left="441" top="270" width="88" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">α.5</e>
+          <e type="operand">14</e>
+          <e type="operand" style="unit">deg</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="33" left="585" top="270" width="94" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">α.10</e>
+          <e type="operand">74</e>
+          <e type="operand" style="unit">deg</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="34" left="801" top="270" width="88" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ΔL.5</e>
+          <e type="operand">1.4</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="35" left="963" top="270" width="78" height="30" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ΔL.10</e>
+          <e type="operand">5</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="36" left="108" top="279" width="106" height="39" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">A.5</e>
+          <e type="operand">6.757</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="37" left="216" top="279" width="112" height="39" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">A.10</e>
+          <e type="operand">4.342</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="38" left="801" top="315" width="522" height="30" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ΣL.i</e>
+          <e type="operand">ΔL.1</e>
+          <e type="operand">ΔL.2</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">ΔL.3</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">ΔL.4</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">ΔL.5</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">ΔL.6</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">ΔL.7</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">ΔL.8</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">ΔL.9</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">ΔL.10</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">19.07</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region id="39" left="0" top="333" width="224" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+      <text lang="eng">
+        <p>Self weight of the slice :</p>
+      </text>
+    </region>
+    <region id="40" left="108" top="369" width="150" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">W.1</e>
+          <e type="operand">A.1</e>
+          <e type="operand">γ</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">5.71</e>
+        </result>
+      </math>
+    </region>
+    <region id="41" left="279" top="369" width="158" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">W.2</e>
+          <e type="operand">A.2</e>
+          <e type="operand">γ</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">14.51</e>
+        </result>
+      </math>
+    </region>
+    <region id="42" left="468" top="369" width="158" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">W.3</e>
+          <e type="operand">A.3</e>
+          <e type="operand">γ</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">45.92</e>
+        </result>
+      </math>
+    </region>
+    <region id="43" left="639" top="369" width="158" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">W.4</e>
+          <e type="operand">A.4</e>
+          <e type="operand">γ</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">86.06</e>
+        </result>
+      </math>
+    </region>
+    <region id="44" left="810" top="369" width="166" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">W.5</e>
+          <e type="operand">A.5</e>
+          <e type="operand">γ</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">121.63</e>
+        </result>
+      </math>
+    </region>
+    <region id="45" left="990" top="369" width="158" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">W.6</e>
+          <e type="operand">A.6</e>
+          <e type="operand">γ</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">152.1</e>
+        </result>
+      </math>
+    </region>
+    <region id="46" left="108" top="405" width="166" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">W.7</e>
+          <e type="operand">A.7</e>
+          <e type="operand">γ</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">176.69</e>
+        </result>
+      </math>
+    </region>
+    <region id="47" left="279" top="405" width="158" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">W.8</e>
+          <e type="operand">A.8</e>
+          <e type="operand">γ</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">177.3</e>
+        </result>
+      </math>
+    </region>
+    <region id="48" left="468" top="405" width="166" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">W.9</e>
+          <e type="operand">A.9</e>
+          <e type="operand">γ</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">141.66</e>
+        </result>
+      </math>
+    </region>
+    <region id="49" left="639" top="405" width="170" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">W.10</e>
+          <e type="operand">A.10</e>
+          <e type="operand">γ</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">78.16</e>
+        </result>
+      </math>
+    </region>
+    <region id="50" left="0" top="468" width="320" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+      <text lang="eng">
+        <p> Force parallel to the sliding surface</p>
+      </text>
+    </region>
+    <region id="51" left="99" top="495" width="207" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Τ.1</e>
+          <e type="operand">W.1</e>
+          <e type="operand">α.1</e>
+          <e type="function" args="1">sin</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">1.76</e>
+          <e type="operator" args="1">-</e>
+        </result>
+      </math>
+    </region>
+    <region id="52" left="324" top="495" width="207" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Τ.2</e>
+          <e type="operand">W.2</e>
+          <e type="operand">α.2</e>
+          <e type="function" args="1">sin</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">2.27</e>
+          <e type="operator" args="1">-</e>
+        </result>
+      </math>
+    </region>
+    <region id="53" left="549" top="495" width="199" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Τ.3</e>
+          <e type="operand">W.3</e>
+          <e type="operand">α.3</e>
+          <e type="function" args="1">sin</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">1.6</e>
+          <e type="operator" args="1">-</e>
+        </result>
+      </math>
+    </region>
+    <region id="54" left="783" top="495" width="171" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Τ.4</e>
+          <e type="operand">W.4</e>
+          <e type="operand">α.4</e>
+          <e type="function" args="1">sin</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">9</e>
+        </result>
+      </math>
+    </region>
+    <region id="55" left="999" top="495" width="203" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Τ.5</e>
+          <e type="operand">W.5</e>
+          <e type="operand">α.5</e>
+          <e type="function" args="1">sin</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">29.42</e>
+        </result>
+      </math>
+    </region>
+    <region id="56" left="99" top="531" width="203" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Τ.6</e>
+          <e type="operand">W.6</e>
+          <e type="operand">α.6</e>
+          <e type="function" args="1">sin</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">59.43</e>
+        </result>
+      </math>
+    </region>
+    <region id="57" left="324" top="531" width="179" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Τ.7</e>
+          <e type="operand">W.7</e>
+          <e type="operand">α.7</e>
+          <e type="function" args="1">sin</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">91</e>
+        </result>
+      </math>
+    </region>
+    <region id="58" left="549" top="531" width="211" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Τ.8</e>
+          <e type="operand">W.8</e>
+          <e type="operand">α.8</e>
+          <e type="function" args="1">sin</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">116.32</e>
+        </result>
+      </math>
+    </region>
+    <region id="59" left="774" top="531" width="211" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Τ.9</e>
+          <e type="operand">W.9</e>
+          <e type="operand">α.9</e>
+          <e type="function" args="1">sin</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">113.13</e>
+        </result>
+      </math>
+    </region>
+    <region id="60" left="1008" top="531" width="221" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Τ.10</e>
+          <e type="operand">W.10</e>
+          <e type="operand">α.10</e>
+          <e type="function" args="1">sin</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">75.13</e>
+        </result>
+      </math>
+    </region>
+    <region id="61" left="90" top="585" width="370" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ΣΤ.i</e>
+          <e type="operand">Τ.4</e>
+          <e type="operand">Τ.5</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">Τ.6</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">Τ.7</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">Τ.8</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">Τ.9</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">Τ.10</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">493.4331</e>
+        </result>
+      </math>
+    </region>
+    <region id="62" left="9" top="648" width="307" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+      <text lang="eng">
+        <p>Forces normal to the sliding surface</p>
+      </text>
+    </region>
+    <region id="63" left="99" top="693" width="195" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Ν.1</e>
+          <e type="operand">W.1</e>
+          <e type="operand">α.1</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">5.43</e>
+        </result>
+      </math>
+    </region>
+    <region id="64" left="324" top="693" width="203" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Ν.2</e>
+          <e type="operand">W.2</e>
+          <e type="operand">α.2</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">14.33</e>
+        </result>
+      </math>
+    </region>
+    <region id="65" left="549" top="693" width="203" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Ν.3</e>
+          <e type="operand">W.3</e>
+          <e type="operand">α.3</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">45.89</e>
+        </result>
+      </math>
+    </region>
+    <region id="66" left="783" top="693" width="203" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Ν.4</e>
+          <e type="operand">W.4</e>
+          <e type="operand">α.4</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">85.59</e>
+        </result>
+      </math>
+    </region>
+    <region id="67" left="1008" top="693" width="211" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Ν.5</e>
+          <e type="operand">W.5</e>
+          <e type="operand">α.5</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">118.01</e>
+        </result>
+      </math>
+    </region>
+    <region id="68" left="99" top="729" width="211" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Ν.6</e>
+          <e type="operand">W.6</e>
+          <e type="operand">α.6</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">140.01</e>
+        </result>
+      </math>
+    </region>
+    <region id="69" left="324" top="729" width="211" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Ν.7</e>
+          <e type="operand">W.7</e>
+          <e type="operand">α.7</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">151.45</e>
+        </result>
+      </math>
+    </region>
+    <region id="70" left="549" top="729" width="211" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Ν.8</e>
+          <e type="operand">W.8</e>
+          <e type="operand">α.8</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">133.81</e>
+        </result>
+      </math>
+    </region>
+    <region id="71" left="774" top="729" width="203" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Ν.9</e>
+          <e type="operand">W.9</e>
+          <e type="operand">α.9</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">85.25</e>
+        </result>
+      </math>
+    </region>
+    <region id="72" left="1008" top="729" width="221" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">Ν.10</e>
+          <e type="operand">W.10</e>
+          <e type="operand">α.10</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">21.54</e>
+        </result>
+      </math>
+    </region>
+    <region id="73" left="99" top="792" width="261" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.1</e>
+          <e type="operand">Τ.1</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.1</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operand">α.1</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">5.43</e>
+        </result>
+      </math>
+    </region>
+    <region id="74" left="360" top="792" width="269" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.2</e>
+          <e type="operand">α.2</e>
+          <e type="function" args="1">cos</e>
+          <e type="operand">Τ.2</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.2</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">14.33</e>
+        </result>
+      </math>
+    </region>
+    <region id="75" left="621" top="792" width="269" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.3</e>
+          <e type="operand">α.3</e>
+          <e type="function" args="1">cos</e>
+          <e type="operand">Τ.3</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.3</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">45.89</e>
+        </result>
+      </math>
+    </region>
+    <region id="76" left="900" top="792" width="269" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.4</e>
+          <e type="operand">α.4</e>
+          <e type="function" args="1">cos</e>
+          <e type="operand">Τ.4</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.4</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">85.59</e>
+        </result>
+      </math>
+    </region>
+    <region id="77" left="1179" top="792" width="277" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.5</e>
+          <e type="operand">α.5</e>
+          <e type="function" args="1">cos</e>
+          <e type="operand">Τ.5</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.5</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">118.01</e>
+        </result>
+      </math>
+    </region>
+    <region id="78" left="99" top="846" width="277" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.6</e>
+          <e type="operand">α.6</e>
+          <e type="function" args="1">cos</e>
+          <e type="operand">Τ.6</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.6</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">140.01</e>
+        </result>
+      </math>
+    </region>
+    <region id="79" left="378" top="846" width="277" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.7</e>
+          <e type="operand">α.7</e>
+          <e type="function" args="1">cos</e>
+          <e type="operand">Τ.7</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.7</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">151.45</e>
+        </result>
+      </math>
+    </region>
+    <region id="80" left="648" top="846" width="277" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.8</e>
+          <e type="operand">α.8</e>
+          <e type="function" args="1">cos</e>
+          <e type="operand">Τ.8</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.8</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">133.81</e>
+        </result>
+      </math>
+    </region>
+    <region id="81" left="936" top="846" width="269" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.9</e>
+          <e type="operand">α.9</e>
+          <e type="function" args="1">cos</e>
+          <e type="operand">Τ.9</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.9</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">85.25</e>
+        </result>
+      </math>
+    </region>
+    <region id="82" left="1206" top="846" width="293" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.10</e>
+          <e type="operand">α.10</e>
+          <e type="function" args="1">cos</e>
+          <e type="operand">Τ.10</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.10</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">21.54</e>
+        </result>
+      </math>
+    </region>
+    <region id="83" left="54" top="918" width="466" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ΣG.i</e>
+          <e type="operand">G.1</e>
+          <e type="operand">G.2</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.3</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.4</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.5</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.6</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.7</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.8</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.9</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.10</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">801.3117</e>
+        </result>
+      </math>
+    </region>
+    <region id="84" left="0" top="1017" width="266" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+      <text lang="eng">
+        <p>Forces preventing the sliding :</p>
+      </text>
+    </region>
+    <region id="85" left="0" top="1044" width="254" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+      <text lang="eng">
+        <p>C.d  is the effective cohesion</p>
+      </text>
+    </region>
+    <region id="86" left="81" top="1089" width="172" height="53" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">C.d</e>
+          <e type="operand">c'.k</e>
+          <e type="operand">γ.c'</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kPa</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">11.1111</e>
+        </result>
+      </math>
+    </region>
+    <region id="87" left="0" top="1152" width="296" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+      <text lang="eng">
+        <p>Cohesion along the sliding surface </p>
+      </text>
+    </region>
+    <region id="88" left="99" top="1188" width="172" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">C.1</e>
+          <e type="operand">C.d</e>
+          <e type="operand">ΔL.1</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">15.89</e>
+        </result>
+      </math>
+    </region>
+    <region id="89" left="288" top="1188" width="172" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">C.2</e>
+          <e type="operand">C.d</e>
+          <e type="operand">ΔL.2</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">15.33</e>
+        </result>
+      </math>
+    </region>
+    <region id="90" left="486" top="1188" width="172" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">C.3</e>
+          <e type="operand">C.d</e>
+          <e type="operand">ΔL.3</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">15.11</e>
+        </result>
+      </math>
+    </region>
+    <region id="91" left="675" top="1188" width="172" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">C.4</e>
+          <e type="operand">C.d</e>
+          <e type="operand">ΔL.4</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">15.22</e>
+        </result>
+      </math>
+    </region>
+    <region id="92" left="873" top="1188" width="172" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">C.5</e>
+          <e type="operand">C.d</e>
+          <e type="operand">ΔL.5</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">15.56</e>
+        </result>
+      </math>
+    </region>
+    <region id="93" left="99" top="1233" width="172" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">C.6</e>
+          <e type="operand">C.d</e>
+          <e type="operand">ΔL.6</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">16.33</e>
+        </result>
+      </math>
+    </region>
+    <region id="94" left="288" top="1233" width="172" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">C.7</e>
+          <e type="operand">C.d</e>
+          <e type="operand">ΔL.7</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">17.67</e>
+        </result>
+      </math>
+    </region>
+    <region id="95" left="486" top="1233" width="172" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">C.8</e>
+          <e type="operand">C.d</e>
+          <e type="operand">ΔL.8</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">20.11</e>
+        </result>
+      </math>
+    </region>
+    <region id="96" left="684" top="1233" width="172" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">C.9</e>
+          <e type="operand">C.d</e>
+          <e type="operand">ΔL.9</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">25.11</e>
+        </result>
+      </math>
+    </region>
+    <region id="97" left="873" top="1233" width="184" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">C.10</e>
+          <e type="operand">C.d</e>
+          <e type="operand">ΔL.10</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">55.56</e>
+        </result>
+      </math>
+    </region>
+    <region id="98" left="99" top="1278" width="483" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">c.n</e>
+          <e type="function" args="1">Σ</e>
+          <e type="operand">C.1</e>
+          <e type="operand">C.2</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">C.3</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">C.4</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">C.5</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">C.6</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">C.7</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">C.8</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">C.9</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">C.10</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">211.8889</e>
+        </result>
+      </math>
+    </region>
+    <region id="99" left="0" top="1332" width="413" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+      <text lang="eng">
+        <p>φ.d is the effective angle of shearing resistance</p>
+      </text>
+    </region>
+    <region id="100" left="414" top="1350" width="399" height="105" color="#000000" bgColor="#ffffff">
+      <picture>
+        <raw format="png" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAA4EAAADmCAYAAABrs4CzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAP7bSURBVHhe7J0FfNTIHoC3Tlvc3d3dXQ4OOzj0Dnd3t4e7HO4czuHuFHd3d2mpu8t+b7K7bbftLhRo0fl+7/+OJpkkm81O5suYSq1WI5FIJBKJRCKRSCSSXwOV8n/t27encuXKMmTIkCFDhow4jEqVKlGrVi1NKP82tI2MXy+Ue6FBgwbynpAhQ8Y3C40EJk6cmEePHvH06VMZMmTIkCFDRhzFq1evGDx4sCaUfxvaRsavF2/fvkWlUmFvb29wvQwZMmTEd2gkMEmSJISGhir/lEgkEolEEodMnz5dExKJPiYmJrp/SSQSydcnQgJDQkI0CyQSiUQikcQdUgIlhpASKJFIviVSAiUSiUQiiUekBEoMISVQIpF8S6QESiQSiUQSj0gJlBhCSqBEIvmWSAmUSCQSiSQekRIoMYSUQIlE8i2REiiRSCQSSTwiJVBiCCmBEg0hjty6cpoVE7vTuEkzWrRoRpPGvViw9wL3HjjrNoo/wtTBBMuxIX9JpARKJBKJRBKPSAmUGEJK4K9OEPanVtAmWybSpE1NIiuVZtoQbZhgmzwNGTJmo9gfszhn76dLE3eow9y4sGIec2ccwTFMt1DySyElUCKRSCSSeERKoMQQUgJ/bd7tHESqJDaYRoifsUhA5tLd2P0iWJcyDggL4Oz8ZmLf6Wg68ABOusWSXwspgRKJRCKRxCNSAiWGkBL4C+N9gS7Z0mAmJM8iQUOm7TrBI5eobTLd7p9m26x2pNCIYBpq9N6KQ1w12wzz59TsBmK/Kflz4EEpgb8oUgIlEolEIolHpARKDCEl8NfF7eQ0MqeyQGVaj/n3fXRLDfN8ay+SCRG0KdmWPU99dUu/lCDOzGkoJDAVTQYdxlW3VPJrISVQIpFIJJJ4REqgxBBSAn9Vgri1uAPpE6hQVV/Ge91SY4T4PWJ5p98o0XwQW+66otYtj0JYIO5vHnLhzAmOHTsm4hKPHdzxNdCCNNjlMUePHGB293JCApNQqekUth05xunHjoSoDe5d8pMiJVAikUgkknhESqDEEFICf1XUvN4+hHSJhQRm6ssRd93iz8TP4Rrrpg+keeX8WEX0I7Sl8O9/02/8Ju45Bem21OKyu6tuG5W4B8O3V2HRbQMeQXKEmF8JKYESiUQikcQjUgIlhpAS+AvjfpqOuRMJ+UpO4bq9WHbsDg7OgbqVsSfU5QL/q52XxHoyFzXSUrnjLC47R1YJuuwyLIHmXaUE/mpICZRIJBKJJB6REigxhJTAXxk1zhcW0yCZVsASpslCrtz5yF+wLn0nb+LEuSu8+HBXQYEz+waWx0SRuGSZ+WPUCo6LdDdu3OTG9SOs/F8HimgELyt/jz+Mk84DQzzfcu3qBZYPqCzWJaV66wXYXbvBnbfuhMrWoL8UUgIlEolEIolHpARKDCEl8FcnFP/311k/tJ5mlNDwGjkzS2sSJkxEkmRJSZXqL+YfvoqjoUrCFxupoaRJmoVWiy/hHUXg1IQG+nBv+wgKK/us1IMDz/WsUh3I6Tna0UGbDDwkdFLyKyIlUCKRSCSSeERKoMQQUgIl4YQEOHL18FaWjGlHgZTmEUKoCZME5KgzlXNOUU3w8Splnj9Tshcby1Ujg4aGejxmdof8YrsyjNv9mIjegXKKCIlASqBEIpFIJPGIlECJIaQESowRYn+Hs2f3MLVpEZIlsRGyZkXe2lO46R7eZ8+XowOLiuXWFOy1nefuzjjY22MfLRxf3WPd8Hpiu0x0XnAR3/B5BqUESgRSAiUSiUQiiUekBEoMISXw1yTEx5F7Ny5w5uIzPII/3gnP7cZqmmdWoUpQlGHbHqCtD3Rje5vsQuL0agw/GClpPs0Or/DxYaQESgRSAiUSiUQiiUekBEoMISXw18T31hoq5DARAlaRhXc8dUs/QKgP+yfXFdsnpcn/DqCd8cGNba2yiWXmpK7YnF79+tCrVy8j0ZNuXUay2u4xAbImUKKHlECJRCKRSOIRKYESQ0gJ/EVxu0TvSrmFgJlRatwZPlr6DvXWSWAymo49iHa2h0DOj1dG97SmeN8TfPLEDlICJQIpgRKJRCKRxCNSAiWGkBL4q+LF6cl/k9xKhSpxdaYdfK1bbhjfJ1topjQHVeWix+LLeOuWu+7rjalKRfJczfn3upduaTQC37F5fEvyl+jI8lOviJgtMEICU9F0kBwd9FdFSqAkzvF+d4u9y8dQq3RO0qZLR/r06ciUuQ7j/jvFzfuOxMc0NP6vTtK7QW6ss/Vgz3NP3THUeD7fQ/esKSjTaS63XcPbQUi+T0LxdPXX/Vsi+Xn4uhIYjMPdo6wc3Y5ymVORNn160qdLQ/rig9h07gJ3HCInjf6uCfbm5IJWJLAuQc/pZ3HXLY53gpzZN70tqa1qMHXP08jRFOMBKYG/LurXe2iSNomQMFOsk6alQNclXHz4LlLSFFzuc2zbVH5PlEBspyJxiTbsfhQ5zYM64BpjCinrTElatBb/23wNT71iTsjr88zqXVM7/UShv/jvrt6vKEICE1GzxxYcdYslvxZSAiVxhjr4DYcmtyevkuGYmmgnMI0I8bdYprJIR+Uuq7jrFqBLFTf4PTtMq7KJUVm1ZPMj9wgJdH+0mRaWKrI2nsg1JymB3ytBb84yo0MVBtp9taKeRPLV+FoSGPb+MjM6l9fkuaZCMCLzX20ebCryYIvU2Wi79DQu/vHxOi7uUAd7cnjq7+K8M/DXKDtcdcvjnUBHto6uL45bmBGbHxAYj5dJSuCvTBj2e0eRzcJM+/s0McXMzAwzc3PMdaH8bWpqql2fMh+9Nz0kaikmFIfzs6kkyjjaMpZIL9JESW+irMtE80nHcNFvMyok8OSshpp9K/ehSmVD0QHbcQ7+5Ialkh8YKYGSOMKN/QPKaDMrMytsEyclefIUpEgRGckSJ8TaSsnQzMn39zweu8fdG2n/l8fpXicrpum7sOtpZE2glMAfAP/TdDYXDyHTfAw/5aFbKJH8PHwVCfS5yIjiiTV5sKmVDYmTJiO5Xv6bIkUykiS0xcpMWyhsOukwLt/xY/97kMCRUgIl8Yzfs210z5MYG1tRPrKMNj+gKEslTJSYtFkaMP/oMwy3kwnh2aHJVE9thXUCyygv301EPmCbNhd1Ju/HKUZxKwynS4v5PbnYViOKIgqM4orPD9JSQBInSAmUxAkhd+drawDN0lOx8TSOPHKM9sYKvB+fYe3E9mS2VjKc/AzccZ/AeH3pJCXwh8D/LD0SJsDEIr+UQMlPSfxLoJoHC7Rv9U1T56X++B08fB/ecyicQJ6e2se0LuWxUfLqLI3YdMv50weU+EpICZT8Ovjz/Kwd/07sSukChShWrBjFChekYIfZHLt0k/exKLqE+jlwYd1EGtUqR1ElfdGiNJy2mwePjf9y1GEBvDy3np7NqlCoUH7yVZ7BVW8pgb8SUgIlcUAw16fXEg9NM9JVmMrVD7X0VLuyfVQDEopCiNVfy3jrH59iJiTwsZTA75+r9FEk0LIAoy/FZw8cieTbEP8S+JRZxVOjMklIqbF2RmoMdHjeZWI9ZX6xhDT95xw+3+mj//uQwIe6OdniBymBEonkWyIlUBIHuLOrXS5RALEiZ9/jH+lIr8b7+SU2zZ/CuI0XjLY/D/V05MmZ/xgyZIgmho2fyobTT/AOMLx9sOtj/ls4hl4jNnLL2V8cReFzJdCDi6vH02f0NDbf1BY9vJ6cYs6YkZpzGTl6I5dfuXx0WOcwfw9eXdrLpHGjdJ9jKGMmrOTEQwd8DZxKsO9rDi0YyaB/1nHXI5BAhxusH6095uwD13nnHtWuvd+95t7xNQwcOFizzaCBo5m35gA33kV2HI8kDPcHdswdO5A+y0/rmoEFY3/jKEtH9qPvsFlssXtM1JQBPD+7i/kj+jNgwEjmbD7BS6+P1xuEuDzj0sHVjOw/kMEDBzBy2Q5uPHAycL3cubxmMeP6taSohTkq0xSUadmHoSNm8t/J1zHvoxBnbp3ZzYIRAxg0eCD9R6/ixO0nuBv5WoOeH2XY0CGM+ueC+EbDeH/7MAsmDKHvyKUcvfwMj7DIV/z+726zc9Uchg0cxBCx70Hjt3D52UtcpJNK4oB4l0D/s3SysBC/oSz0OPqxfrVBvLqwnwXjZ7Dh7DMCdb+fEP+X7Js2hN6DZ7Hj/NuoA1REEIqL+B3NGdWXIesv4KMWeezNLfTtN4K5yy/hpmwS7M4Du9WMGD6EoUPncfiufVSRCnDm5v7Fmjxr8PDRTN95DWf/mPlKVAk8Ln7D4Odwh91Th4vfvzYvPfn4PX4fydbDfF15cXE7o0cO1xxz6KgxrLB7gLu3kRxcSqBEIvlFkBIoiQNCuD1HeVibkabE/zhnyEFiTSDPTy6hac0y5M+cTOxT11ZdGf0qYx6K/NGHDTdjjmPl9+wgLUpYCRFtyqaHXzowzGsW1UmCyjILHbbe5emRuTQskQXziHNJStYCFWg9fDvPDdZ6BvPs6HxaVyhMgWxp9D6DEgnJkLsEv3eezVWHqIn9XS4ytLgpqsKN2XbmIMMalyGpLl2iXC1Yf1+3fZg9e8a1o1LRQuTNqO0DFB5WidOSPX9lus47Q9QpaEN5sWcsBW3FdlVn8VwUdI5N+5v82dJpm4apzEmWJjtVhm9Fc5lC3rFrbBNyZUiBlW7fFsnTka9of/a+NlYs8uHmhtGUKpKP7On0zss2JTlzFaT+tH1E6ZegfsHSOsWxDN8uIrLSYrIoYOo2U3C9spYeJQuTPUtqEkRsl4hMufJQqtEsThro3OR7crRmO4v8C7n5bCcdCySP+A4zd9uAQ7Byl7hzfHY3iuTPQaqElrr9KpGc7AULUbHuUPY88dPuUCL5TOK/JvAl88uKvMbEmkJD9mFksPgPEhbgwI4B5cS9b0P1vpuwN/QzVzuzf2QTEon8uPxEO/yFBD5f31rzmylUYxmPne4xvXN98qdPqPsdWZE2b3najDmMi5L8zQmGNKtO7jTWuvUqTJPnolr7yZx3iHrASAnMSJsJdjy9uI76FQuR2jT8N2or8tJy/DVgNY88DZVfQnC4uokODSuSP2uKiOMpkTB9bgrXbs/CMy9jdFuQzUElEsmvgpRASZygdt1HcwvlAZuYnBX+5p9tl7H3+dTeJkG8FMJVN1fSKA/sqGGCZabmLL/6XpdGi2Z00HJxNTroG5Y2SI0qaVbqDBlOk9Li3wbPJRctxx7AJcor8zBcb/xLgzS6Eb2MRmrqjtmFg1/kNfJ3ucTIcrao8hSjxe+lSRveWVuEZbbRXNecvguHJ/xFLk2/yg+EeVEG7NefeyiUl/smUjyZWNdwBofXdtHJX/QozNizr3m0qo0BOVPChGR/b9MU6KISxPVZLUibVDuUtcFIIO6NTtsi5yNSP2dRzcIGts1AkwnnIyTQ/8o/FE2RSDvMtaEwsSVjvgGc1FRDROJ3aixmosBoma0NndoW0kuTgPoLrhAkCrD2B4eTKaJQaSiSULT2LO766nYqkXwG8S+B4H5goPY3bZ2eMrXGsOXqU7xim+VpCObtqZmUFvuwqNqLk29ivvwIdbzMoD9yiN9FNeZdcBA5rJoXm9qLvxNQqvIE/hn+F6mi/H60YZGjKlOPXWZVp6qargDR16tU2ek0/RTueo+MSAnMTLM2w2hWJU+0NOGRgQajd/EuSteCUJyurqdVoajyFz3M09ZlxrFnhOqLnpRAiUTyiyAlUBJHhPH+/ByqCeFSHq5mFpZYWZljqqrEkBXbOXjwBE+ij1MQjUCHSwz/I7f2AW1ZiYELD/PCL4DAAH+8XB6xa3IHCqbUyVW56TzWe3LHvQRqa/CUkbYsCv3GuG1XcffxJyDAi4fHltGlalrNeouibdjz2EN3PHEVgh3ZPkgZot2c3BW7sOHCCzx9A0Q6Ef4+vDy9hk51dIWZMv05+iayvksjgRXDa9Cy8cfInbzx9tOkDQzSnrvvw920KKscOyV1By7mzHNPggLFvgMD8Xd7zfm1w8iXWSfRrTbr1QbqJDCNuZAmZfqOnLSZsY1bDv7itx+A25ND9C+ZXVPrl75mLaoIMcrWbQk3xPmFhgTh8eoYoyplxFIRU9OW7HCIWjIKur2Ckim1b/8ts3Ri1fF7uAYHExQciMuTcyzuWVazzsw6D122vtClUot9i1Kf+3G6JrTCxCIvg486ilMNJlhZruB/heGFtZ/H0roUw9ef5pVbIEFBYhunB+xf0JWUymc1T0TxAfu1zdF0aCVQGfraDNuUxem/+jJuAcHifgokWHM5X7C0pvI925Kz5nhOPHfGPyhQXO9Acb3duLl7ErWUyXxTF2b0MQfNPiWSz+FrSCB4c31+S13NvSkWliIPVkbdLdWJJdt2se/gnY/UEKrxsz9Pv0pKHlSeGUdfRmuSHYr92aXUSyP2LyTzmrPSMiFcArV5pWWucgxYfRZHD19NnuR0U4hYQVtUZknJVrgYqTKWpe30A7z10eZrLre20aGi8pLNhGwtpnHLOfKNmlYC62n2babkO5al6bPiNI5+Ih/298P51l76Ny6hmSxbZV2beeftI2QuxOcZc9sV0aRVmReny+SdPPQU5ySO6ev1msML+lE+vW4kxmLDueql90mlBEokkl8EKYGSOCXU9Qbzuv1GMiGB1tbWohAiHrLKg1YXKbO0YvHRG7z3iS5kQTzdP5GyynZZ6rLkkvKWOTrBPNk1noJplGZ7meh1ILJgHl8SaJHrN/45+TbGufi+OELnsspb5qx0X3aV8I8T7HmGwelVWOWpyTS7d9qFUQjmxYHJVFKGaU/QlLW3XYQ+a4mUQFNydVjAE0+91+IaAnmwcQSVE6pIWncS9w2O6ODMjvblSaJcxwwTuadbGimBypxEiak87bxYEpW3u4eTK7WV5nNn7XOE6C1dfc5MInlCpeBUjImX9BtrenJscG0Si89kknkAZw22nvTl+EBFjs3IUPYfHumWavjA6KBO+waTyMYME1EAHHvB8FsE14ODSa3cW7n/ZtuLyE8VIYFm1hQefNJA3547TMokrlPiTPy1XntG6ngs8El+Xb6OBGpxv72D3nVzCglMIPJgK71m7EqYke7PSRy69hxvQ/d6sCsHxjcjucqa2hMP4aZvQCGenJjemqQqWxpMOoSr5gcVKYGqpAXosPJmtL6Eah5v6qZtwm2Wl96rrhMle1AH8XjrcHIq6yv04ODzyN+4vgSqrMoxZuejGP2Kw5yuMLaR0prAhPwj9+Gt6WMehtvtldRS0qWtwPiDTw30Rw7l3alFVM5mI9KmocPmJ7rlgq8ogcpnCw0NxcvLS0Ycx9u3bzVToygYWi9Dxvce3gaWxXVICZTEC2Ge77hz7QSrBzehcMF85MyakXRpU2KtaeKYgvLdlvPARU8zgtzZO15p+mNN+R5reOtn5Mkb9pSpVfJrChWp/3dGtzB2Enj1U5uDqpJRq+tW7A2eii/n/ulMRnEeWXqs5t1Hh9gLxs/XV4Q7D+0WUC+HqUYC18WQQKU2LQsdZ57BI7oDfojQQHx9/fD3e8fhSX+SXKnByiREUbc6UgKV61+Hfx/E7Ljpd3UR+TPbivXFmXTZgHDZ76ZMEqUvT3Z6H9FrEOp1mQEls4nlaWmx441uoQHc99NAXC+b9PXE8fXevBuVQHf2dCqjaeKWtO2+qIXHKNjz7+9K892cdN7yTLdMfEM6CTRPkI9hpw0NlvGGNQ0zifNWkTxjJXqNX86uExe5c/8VTp4++BkeGUMi+WS+pgSG4+PwmGuntjC8ZiUK5c1F1gwZSJcysbbmLFkuOiw8jlOMAVlCcTi7lN8ziG0qj9bV9mkJ9njIpGZZhcyVY8aRF7pawkgJTFm0FZufRHvVolbz/sQ0Con1JsWasOl+9LrIUJyureJPJb8q0I7/Ivpzh0tgXbFvK0p1XMpjg9YawP1NwymQSKQvP4V7/iIfDgvk5vK/RTpzCjWZyX1PI88S9TtW/FWJxOLcEg/cH/nSS08C43uyeOW6ZcqUiQziu5ERt5E+fXrNZOny+sr4sSIjGTOkIZFmPlcLUqRNb2CbuAspgZKvQrDjQ65fOsL8/k0pkV1p3mdDuWF7cQzSFkJC/d+xtFsBsTwvPeddFYplDF9ODKhGCkUmW26OaP4XL30CbXPQeePjCEmLSjDP906istL8tfEMHnhEG0YyLACXpzc5tHc7m7dsYeOCcXTv2o3O7ZpQJJ3SRFGks23GujvRJLCCImFFGLrx3geHeQ/28eD1rRNsEfve/N8Glk4bRtdu3WhbtwQ2mr6ZIgxJYEqxPONQLhiYEDbs3hoKZlUktAmb3xjID97upJRGAnPQ96ieBL7cw++FlZrTovScu55tWzazeXP02MrWbbNpmUIUBlMVZugJvfRGJfAZc8plxUJlS6l+C9i5TXzWGPtVlq3jf81yisJpJhpMvhBx3cJrAi1tarLmiaHvXs3bI2PImTJ6P8Y0VG3VjQGTl7Br71XeeEoblHwZ30ICo+N0/y5X7dYysHYlciW3EL+XAgzYcZcYAy47X2FoA6VZfjlmnrPX5aVhuN1ZT11rFUlrDOSMfbgyhUugKfkqj+d6jHdHalwuLqCC+F2lqtaXU2+j5ZMiX3K8soJGSj5asD2bY0ig8mIwPS3/dxQXIzLmemEx5bMrowu3Z997cV6hnhwYrTQ/z0DTIXaaUUUNE8CVqS3JphS2Gq7AXrdUNgf9eVAEUCL58fBiR6+apK4+ksfRs8w4Rkqg5Itxu7GNiePHMnnBeQMDhkQnlMc7xlFWedNs05wtT7WlhhDfV8xvk0U8eIvQf/XtGE0RIwnh1oK/Sa28OW61lfD6nTiXwPqpUKXIy7DDEUWDaITw2m4utVKJ8yg9jHPOkcoW7HaP1RN6UL+kMheXWC8ibbHq1KtblwaNmtGurRBBJZ11UyMSWJLR2x4bGZo8mLdXtzO6awsq59A23VTeFuWu9Dv169ajafvOtKtdBFulGa4hCUwullecwl2/mL/30LurhQQqx2/LHmcD6mtEAsMebaVCAW0fyViFdUra7NXrY2dMAkMfML5AViMD1BiK5FTvdyyi31O4BFrZ1mersQrKEA+u7phDm3qVyZRc10coSuTk956TOfo8Zs2pRBJb4lcCfbi7YR4T/jeaf06/1S37EC7sndCKzOL+TlB/Fg/0+8Np8ODE1HakEflK8QnHtBIU6s+15coooOlpOkk7XYOWcAm0pEiNBTyK8b5EkcD5lBPHylhrMBdizHr9EQmcUkfzG+w87xKGG4OD5/VVVMytvMhpwn8v/MQu3dg5QHmhmI2/Jp+LNu2NPqE82tif3InFsRutIiJHkhL4U6A0dVNqOiSSH47gt2zoUpVUVYZxz8WFu0dW8b+x45m+9DgvPAyXDD8XKYGSL8ZlT2/xwBQPUts/2WKoG1x0PK7Rr05ekSY//7PTPnpD/e1Z1l15cOek66yo0wNExYfj/aqSQjlefNYEKhKYJDfddoYPYhKdQB5sHU1pZWTJP2fwUFcTGBbyio3tS2CdLCXlO09k4/bd7Nltx62Xjri6uuLu5YH9jf9omV2kU5qDGpTAEozeakgC1bhd30ynEklRZS9Hr2mr2bN3L/sPnuORvSturu74iaLS1VmtSGWsOagigb/N5knAhySwDbudPkECH26mbIHkYnllRq7dxf59e9krzstY7Dtsx20nvU9nVALvMTZvJsyE3NX53zoOH9hncH/hsWffMS4/cI3o/xMhgTb12KI/UGoMwvB3fs31iwdYOn0iI4d3opKNuE4aCVQiCTX7buDlB2fglkiME78S6M2RnqU096pZ6QUi9/o4nrc20KigFaqkXTjk4BchXuEE3d9CjZwiL8g+jOt+YYQFPmZenXTi79+Zf1F/2vZwCbSieK3lPIshTJESmOFzJFBTE5iFthNOR7zwi47rxSWUz2Yunj/dOOom8uFQTw6OUaa6SEej/gejDBYVFX8uT2kuawJ/UqQESn5YNBJYgwxV2jBrcDNyJg0vi6SmbJMR7Hv0OZMAGUZKoOTLef0flUxMUVkko+78O7qFxlG/OcbflTOIG7oU0886aRfq9wnsuZZ3xgrcX7VPYHr+HHva8BvoUA+OTv5LMyBJ0SFbcNJN9eBk9z/Sq8zIXXU8F1wMHS+E10emU1VpsmndLGafwAgJfBRTAgMcWDfkN0xVGWg954RuYIbouLGncyXt/ILGJLDWLB5/lgTuMNwc1PMSfUtlFcuLMulK7OdSiChbGW0O6squDmWxFp8l/8xbumWxQLfj8D6BH5fASMKCA/H388Tx2SPu3z3Bkj4NySSOn6BSe3Y9Nd4rUSL5EPErgWC/sy+WlibiN1SJ2beNt6PQEob9iXnUSifyguz9OOHkH/lbjOAF8+vmwVxVkAkXPAh5+C+VRb6Wp9pkrkcpf+hJYM1lsZDA6PlOiJDA5R+QQKVPoA3Veq7jlcFngi9X53cjl9I9IEafQAsKNZ31XfcJlBIYf0gJlPywCAnc2LMOyUTeV6TxANYcucbDB3c4vmYYpVKlolynZTyPo2mrpARK4gAntndQ5mEzIWmGhiw+HXUOvyioPTg27S+yKc0VzZqz5UV4nZ/e6KBWlZhx/HWEHEWiPzpoZnrH++igJqQp34O9Bgr/vs8P06mMdnTQHsvDRwcN4/G6NmKZJSXrLuSJgZ9UqMcdpjfVzVln2/zTagI9nzKpfVGxPjcD196JNgqfFtdzy6icUzc3VubJPNAtjxsJNNInkNesalhIM4CLea0p3DHiSmFPV1PDypb0ef9my3O970JPAkec1p/iPpQ7C5qRMIEytURjFt83kusF3WZq1YxYZC3OgH2R9SAfrQl89R91rGxIk6c5ax4abnjveX8dDUUBM0m1vhx5+bHCtURimPiWQLxO0yWLki+akabc/zju/IHnufdj/mlTRjNqqOkfM3nsZSgnCeP+ivaktFKRceQhrqz4U+w7GbUmnos2QFN81wTqRgfN3ICFF/SakOsIfnuKXrWUF1Am5B9hYHRQi6IM/e+uge4F38fooFIC4w8pgZIfFkUCu9fAIlV91txyJCQ8Dwr24NSM1mTK3VDklfplpc9HSqAkTgh6sJxKykNXiYQZqdVvMacevsHbP3KOvLeXtzO1RwPSabZLQMmx+/HSDQyjEGWeQCGCH5wnsOQornlHFijiRwKV8zQnQ/l2rL/wCh9xLjHmCazUjWOvIuXEYd8A7WTISbLx27htvHD1ITAwUIQLN/asoGfNdLr9KlGBKYdfRfzAPyqBfm9Y1ruadtL0HPWYfOAuvprrK66P63MOze9P6exK+vD9t+dgRBuq+JRAUa48P4MMKZR1yjyBHVl+5DJvfYIICgwixPcN5zaPp4pyTiZWZKu+jJe6dBp0Eqgyz0yLFbcJUocQEqo7vsdxWqdKot2vdUkGrz7GA3sfgoMCCQrx4smZDfQrn1KsNyV9oc4ceBtZYvuoBAbeZloV5Xu2JFPermy49BR3f2WeQHHPBfry/Mx6+tZWaqytKNFiFneMtUeTSD5CvEug8gJqRWtMNaMvq7BJW4peCw5w77UL/iL/0eTBAU5c3bGMfo2VZvfKdoUYseVBzIFhwvE+R5dMyVBlaUSLBpkxT1mOWVeiN0P6OhKoyfOy1Wbc7lvimaKdJ9Dx+jbaVtf1u7b+kzW3XcTetESdJ7DEh+cJLNibE+/1qhl/Vgn0P0NXK2WKIPGZxXMtW4lx3Ipl44Z3Wzvr0qlImb0T+uN6GceLEyOriDRt2WtsVJ94JM4l0PMwf+uugVI7Xbz+Ap7G8r3g89UtdOlMyVZ2KFf1G7zoUAf58ubmXia1q0aGiOMkpOLARew99fgDo2N/W9Tuzzl+cDuzO5XUnbMSJmQo1JSJyw9y640bgWGGv//3B4aSQel60XRDLMaT+IXQ9QlMXWUwN/RH0Rc53PuLS6ld4jemHH8T0fXlS5ASKIkjQnjy3wByJbaONi+VgTC1IF290VzVG35cSxAvj8ylbi7dZOcGwxQr21rMOBl1AIS4l8DUqGzSUKpZc8pn18pNjMhameHbo75lDnY5Tt+M4Q9aQ2FNitSpSKTpc1aGCfufx14CxZHubRhO2Sj91aKGWYJkpEmVFFOlr6Lqb/Y4h2e+8SuBygP/9LTmpNbMIxj1nCLDgpRZGrIoelVh4GUGpUmkt116Gk0/HTHAi+uJqRRNpryx199X1LBOnYN2qyPrPRVi0yfQ4eBIslnpXiwYCZtcVZlxwtgAQRLJx4l/CRSoHdg5uCZJbJQaQcP3cniYmGWk9rBN2H+wn6s3dv0qaqeUUOYXLPA/bsXIlOJbApUuAplp1mYYzSrpXhBGD9OCdFp0Fs9g/YOH4nR1Pa0K6VpFGAwTLKwrMnrHg8g37Qo/rQQqL9sin2XWOWqy8IoBG4mBPWvDX84KeUyXpysnP1piF9/r0WkU0gy21Z59rvF4EY0Q5xLodZS2EfeOisTF/2Lrw9gMGPaCxVXDX/4mIHfFEVyLVomjvLTYMqIhqfT2HzXMKDd0O6+/p37pan9eXd5A50LaaZaMR0HaTN3NSwOD0b0/OIKsSn+3FpvQ72n8yxMxMMxgrkeXwEvLqJ21NEP++/AI8rFFSqAkTnG+sYnBdctRsmAukkUvXKfIQbHS1egwdDW3HI29QhMieGYVrepVpmgO/Qe4KcmzFaJ080FsvhvzCeT39ADNiyuFnyZsiihICAl8uJE/Rfp09cZy5ZMkMBWqRLnptOky51cP57cC4TWDKszT56NU1caM2HYD7+iupA7m9anFtCqah1SJ9QpjCTNTuEQZGrRaxNmbF5jSuYRmeclR+/DWlUD8nS8wtJQikIUYvvmhAQkUBLxm9/hu1CyYGYvwfYswTZVTXNuGDJplx5NrqyiZzkIsT0GrbeHNI0N5sWcsBRSBrDKdR4Yk8M5KcqdTHtot2eloSAK3UTiBMr1FRnocNlQK8ObCkn5ULlOUPBn1RT4hWfIXoly1Uex8aKiHZQC3l3ajUHZxzTXb21Cu5fIob1ldTy+iaaXS5M+RTtNHULudCSmy5aNExRZM2/MoRvNY3xOjtNuZ/cZ/r3QLYxDMg20TqFOyIJmjiWbirAUpU+NPJh00NjiQRBI7vooEagjg7qZJ1C9XkkK5M2KtmWsqMpLnKEypCn8wcMEJ7AONVQFGEnBhEknMxG/ePBElx10UuUh01Dxf30qz7wJVFvM0RllfjfP5fygh1qes0o9zDtHzHVGoubyEusr55W7FxgduUSTw4MQaYt+paPG/ozy7sokmNYqTTvOCS4lU5Clej35zT+BmMGsXInJjK92bVqdYTqWPd+R1SJS5IKUbdmPZxbcRzfEjCHzP5uG/ie3yMGTj/Z9SAq2TJMLCLBPNZ5wz3Oddn1dbqJYkKUmSJsFSyEjaj0qgPy/sFvOHeAZoXyD8ZBIovjObROJZYVmQvmtvf7wg/nglJUwTkEhcP3OVlQEJ9OD4kErae9MqJflKV6FOvQY0aNCQhnWrU7pAFk1XC5VVOppOPxHxcvTbEob7vV00zau8NDYhVdZ8lKz8mzhn5by1Ubd2DSoWz0VizZRVCSg34iju0X5sUgKNoJPApKX6cTnK4A+hvD46nXJFajP3wvuYeddnICVQEveo/XC8f4F1c6cwdPBghgwZwpChwxi/8SwvHd0MFCRiEurpyJMz/2nTihg2fiobTj/B20jbpWDXx/y3cAy9RmzklnP4QAdqIVa32DBiAFPX2vHWJ7Y/GV1NYMIctNusTD6uxuHGXsaOHqE5l5n7buDg9OHGGYGOd9m5cg7DBg1iyKABDFp2mPsv3urmPwzkxenNTBnUk8Frz+IZoj2vYN/XHFo0il5D5nH4trPxqn51AM6PTjJ7zEjt9Rk+kqlbLvDa1UuXKThzfMEEhg3uz6RDL3TXQmTaD+yYO3YgfZafxkV3TH3C3l9l9pRRDBzwH/d8DDy0Pe8yX3PMaex5Yvzzh7g849LB1YzsP5AhgwfSf+Qyjt14jNuHLn+wB4/ObeV/AwYycOBoFm46j3P0bnohztw6s5sF4vscNGQwA/tPZuOJG7xwN3xHBT0/yrChQxkx6l9uf+SFd7DbE46tW8y4geL7EvsePGg8q47f4Z2rnCNQ8uV8PQnU4e/E/YsHWTh9NIMHa/PQIUMmsf7MQ97rTWfzMbxPjiOtqQnmyRqy/KnB11K43dxC334jmLv8EobK+r6vz7Gw10AmLd/PqxhvzcLweXuZNcN70Wv2Fm456Z1baACPT6yiZ69JbDz8TPNSzM/hDrunDmfQ4GGMm7iNWw6eHy0Ihfm68uLidkaPHK65DkNHjWGF3QPcvY3ksCE+3D78L4N6zuHQLac4aXJljG8igSamFGjfiXo2NuRvPJNbH8wbg7m3rC3WqsJ07t1K05UjzYckMOAdh9eOpXoWbRN+bXQQEqhb/xWJNwlMYE2Jv/+msnliyvZYw4sPDtARwNUZDcU1KErnni1JKSQ6Z3QJfPsfVZVm3FZZaDx4rbin9Z+twby7dZCxtQpoRDBxqY7sfhpHI4J8CcGenJzTTNPqK1W+Niw/cJVXMSpFQ/F4eYkl/f8ghSKCZpWYdiOqwjpKCTSM0iewRy2szAozYMOViBc1atebzP6rItlK9+LkO2MVKZ+GlECJJAbhEpiTdv89jngzLZFIJJ/DV5fAOMGdbS3yYyIKein/3vnxGiPJJ/NNJNDUjIrzd7GwRTZUORqz/OoHqvW8rtGvUkYsy03h5olpH5DAMFxvb2dknQqkT2SKKmUZundrRuqI5qC6zb4i8SaBtolpsGATY+qkR1WkK3uffqBuzu00bQokwaraPK4fHk9ykT66BL5a01Qjy5ZZ+nPeyPsZT6VFkyJLCcsybt/zeH0xERuCvR8yu5H4/OaF6L7yWpQuMTEIusW4StrmsKmGno5SnpISaASlJrD7b6TNkI/aNWrye7PWdOjQjqY1i5AqZWF6rbwRJ01BFaQESiQxkBIokUjijh9PAoO5sWkQ+TSF+ErMuBmbvk+ST+VbSWD1VTe4sawD1qosdJ53AW8jDznXM7PInzQjDZffJfj6TNIYlUB/zk3VNmlMVbYvm2+8w/v6cnJlUJqf/mTNQW2S8td/1zg8/g/MVAUZscV4k2GH/cNJa5GJvze/xOfseM3UTdEl0N/5Kdeu3+DOY5cYXRrCCfF9wT8tlL53xRi1xcD0UV+ZQI9r/K+8+G5TVGH8EUMjuesThvebR9y4cZ2br6PW3H+8Oagvj6/bsahbLQoWKUqRwuVo0nUqO2/aG2lR5sTh/3WjQq4K9Nv+UFN2C3p3ntl9fqdAgQLkr9uFeTtuxKJJbSAvLxxjyeAG5C9UmMIFK9NpzHKOPvyIqoY4cPn8FoZVKUihosUoXKgibYYsYN/lN7FqARdB0Bv+bV0am1LdOXZiCwPrKAPUieuU+k9m77+OSxw2UJISKJHEQEqgRCKJO34ICVQH89buH6pa2pA0RTIS6QaYSfznGmJOziCJC76ZBK5/jNftNdROYkm2dvN54WWoiOqO3Yh6JLaoz+pHvoRc+5AE+nJuSm8mb72Evb+2hBp662eVwCT8tecFDnYzKJUgAQUHbsbNYDcVJ3Z0KIVFgr/Z9T4Y71PjDEpgbAjyus3YKolQJSrHhMMvv3lNYJj/O9b0UaarSs1vg3fyoRlpPsSHJDDU/TKz6hcgRWJbEpgrYxGI7USYmltiZZWacp0W8TD6fat+x6a21bFV2VJ/+V2CHq+mZgIrzMPTm5iRwMqSBFWHc8bJiEl5Xmdmi8IktBXHtYg8rpmlJZaW+eky7wKGvr7gV7tolyUtiRLaRBmvwcwiAdYJLMnSdhnP/WP7Owgj0McLNy8/QsNCCfT1xMXVFTcPP4KNjLT6uUgJlEhiICSwfiptn0ApgRKJ5Av5MWoCQ3G5s45GutGHlWagquJ9sLP/1vUOPy/fSgKrrXshpOYOQxpmQZWuBdueuMeszXG5woBa2UnQaDbP/PiIBMYk5CeWwBa77YXBnKJVBVFOyNGTk4b62b47RssiqUjUfi0uwlU8P1sC1bhdX0wFExXJKvXE7vX38HsM5t3puVTVDPpiQd5mw1i14QxvgkIIDQ0jTK1G/O+jGJVA96v8r1p+EijX28QUUzMzIXLmmjAzE3/rpsJJ1HA29/WmClMk8L92NUikSsYfo/9H+7RC4oT4mZmFpzWLSKsqM4m70S9lwA3GlE2rzfvEcZXtYx43KVVnXo4q4kH3mfZbTizFehPx+zLTpdGEckzNYFaJKD/5nNHa3m+FlECJJAb2rGtXiIS5ytN/93PdMolEIvk8fgwJVBPgdJ0Jf5UjUeI8NBu6nGsOUgDjk28mgWuVEY892DeqKclV1tSddRqfKPNkqHE8t5iqGXPQcsEFfIUhfpkE6hZ+ReJTApvvVOrG37O6fTVsVeLvf+8QGkV6wni1bywFkuWm++aHmqaAnyuBId73WNiikLiOGWk86tD303cuzJvzS3tTOlUCrTRFRFUGL1jJhu2HufXMCQ9vf4KNtBc13CfQi7Pzu5JDeRllakXengs49SxyMBzf16eY1KACaTUjHyeg7KxrujUKigTW0vS9VM7FLGFFxmy5iLPOE/3fX2V+05KkUqakUWWm3Vb9YcP9uDDjb1JaC3G0TETJ4eu54RCpbF4vzzCrXkGSmCtpqzHnduQ5eV9aQMEsykipheiz6lLUmsJQZ04s7kaebGlIlW8c178zC5QSKJFIJBJJPPJjSKDka/PtJFD7cvPdsTlUTicKtZUnctdLbzhmtSd2U5uTOnENVl511EiMrAnUl8B3mkXPNg8nvyIxvy/ktf48lWpHtvSpSqKUzdnzwlvTmuhzJDDM8wFreil9Lc0oUG8cZ2Nx3b82Pk+OMaR1IyoUK0yBArlJm0CRpPBIQLE6XZi64QLv/PRq7HQYqgkMc77BsIZ5RNpk1Byxz0j/PXv+615ROwWObRdOhPuYpiZQJ4FWFRlnZ6Ahe9gzljcviJmJCoty83iqW4z7ZXqXzi6E1oLSY88Z6cP3inl1smg+W/a+RyMGxHE9NZ2CGS3FvdGYpXff4+vt882b7MYWKYESiUQikcQjUgIlhvjWEojjWXpWyyYKtZWYey2yLibU/T7jGxUgVd0x3NKNQiElMKYE8noffxZU5rf9nVV60yaF2J+ja8XsZGqzkDe+Wp34ZAl0vcHCzhU1wpG5Um+234199aHXo6MsWrSIhQsXxj4WzGPuyjPYBxmptvsIQY6vePz4OrvmDKVL5w40/6MW5Qqk15y/SpWV3/tt4Em02S1iSqAyyuwW/sxliipVE1bfcjHeHefOYjInUvotF2P6NV1zXI0E1tRc58StYvYzDCfkyjRSWZpiZdWMHfbaZZ7XVlEupxWqRB05+aGhkK9OIJHYf5KsoyJq9cKebadOdu281hZF6tKlay9GT1/E6i0HufnU+ZsP5PMhpARKJBKJRBKPSAmUGOKbSyAu7BvUgGQqM4pPPavrrxSKy6311E2VhUbjDxM+DauUQH0JfKtbaM/61uVIoEpAhQW3dMuCeW03m9KJ89Jl+RX8dE71KRIY6nCZqa3KawYYyVR9GHseftoU8U9XNdHJ1ydGgu4c94g+Qe/n4ef+jsfX7FgxrTuVUir7T021mVej9ImLKYHBvDk1j+pWYtnvY7ji9IHJJ7xP0SKZjdhvdgbYuWmX6foEJlQlo8m/t433S3TYQVUrc8ytyzH7hnIMNW8OT6VEWiGfqcvwd4+e9OrVK2b07kufVtVIIq5VopStOeSk3Z0yN/OxqZ3IHf16WqehaIW6tGjTm5nbLuLyHWqWlECJRCKRSOIRKYESQ3x7CRQaeHw6OVKZoMo+mutKeTjUlyvL25MwTXmmn3gXURMjJdCQBAoN3DWEpLYqTApM45GyIMiF/RMakiB7I9bdco24frGTQDVud3fRuX5hjURk+n0SZ999+uTwT1c2jiojsQ3zrth9RALVah/OLWpD4VL1GLY4ciJz4/hxc0ELTExVWKbtz3m9j2NIAl8dnUElcS6mdcdw1fEDEhhyjYHJEorzzsGg4+7aZRoJVEYHTU+XzY8xOpCm834aCwk0tS7IyNPKl6Hmxb4JFEtrEfOaGAureuzQVQgrqAPduL1jKeMHNyGTge2tUqSnwG//cOc7qxaUEiiRSCQSSTwiJVBiiO9BAvE4T6dcqUVBtSjjz3tAwHMWtMxHxqrDOOcY2TRQDgxjoDmogssRGidXaqTKMfeOkBa364yunYt8LeZw3z3y+n1cAoN5sGMMVRQhFxJTe9BGHrr6R0jkpxDq7469vf0nxjvevfck6GMHVAdyeX5DcY6mFGk8g9uxaaX6dDU5zUywtKnP1je6ZYKYA8OEYH9hGXWSi2Wl+2P3IQF23EfFpMr9pVcTqBkYRqkJTMyfK28Zrwm8t5jclmbifGqz5qnyHYXxYu94iiUTx606jsuv3+Jg8BpFxvv37sSYGUQdQqC/N06vHnFqxwrmjOlK/tSR00yoVFaUX3Bbt/H3gZRAiUQikUjiESmBEkN8FxKIF0f6VMZGFFLTDT2Ox+stNLJKzG+DDqHverIm0HBNoLA+drYuhKlYV2Dyed7fWExVi3S0mX0hyqAmH5JAdZgft9b2IIeyf7PctJ5zAo/vtkiuxuX0dAoo55q9Fv+ciqwtNobT3r6YmapIYNueI+G+JohZE6jG6/F+WpVQRtqsxFS7l0QZtFYPd7uxJLU1E9tVZdUTXZtl3cAwynVO2Pk/3A1WBYbxfG1nLM1VWCccyFldd8KAB1upWiARKqs2HHSOmyax4fi8Oc3Uxnk090iSUst4rVv+PSAlUCKRSCSSeERKoMQQ34cECr85OY5U1qIwXmUeB9Z2JEGSPIywe69bq0VKoDEJBJcD/UlgoiJxvUX8N685VhkqsuCKnu0IjEugGvvDI8mp7DtVETqtuoqBWQe/K4K87jC9fibx3VqSt/oQDj5ywj8oJMZck2Fhofg830eP/Ek000gkLjKLx7p1CoZGB8XnGbM6VMBMbG8qrtUlJx+Co8y/EYb/2xMMr5BR02fSPPt47oSv1h8dVFWCEYeERIZGPSv/l/vpWSCJRshSttmFriGp+BIv0LliDpHOimJd1vPEL4jQKMdVE6b25NyU38U2KmwLz9KNLBrAtTltSaucS+05PPQJNNAM1Y+zE2pq5hlM1mpH5DG/A6QESiQSiUQSj0gJlBjie5FA/C/SO0tSUbjNRu486UhXuC9nozqMlMAPSCBeJ2ifTBmpMhvZsmcgT80J3I42losxCQxzPEi7nAlEWhvy1x7L3kvXuHzhPOfPR49znD17nWf23kamL/iKhAXyZO9ESigDuCjXJHV5Og+ZxsZjZ7mgO9+zx/ayZu5AqqZU+u2JbZKVYcTZqO2CDUogQTzbN5XK6ZQmtirMyrVm4so9XLx4gQvnTrJnzQT+yJZaOzehWV46btHTSp0EJhPrEqawFaKXlzbj13Dk0iUuXTzFvk2zaJUnmWa/VikbsOap/jA1ITz8ty+Fkppq1tvW6MHsZTs4fekiFy5c5MyBTUzrXk37WczS0mjjM1064a03V1MtZxKxzoK8TQazdPsJcbwLnBfpLh3fw7L/tSK1Zl7DFNRb/VCX6vtASqBEIpFIJPGIlECJIb4bCcSPc8Mrawu4JraU6nkwxoAfsk+gkT6BGrw41ru49vpZpKXe2DPiikbFsAQGcmViTU26qBOuG4u0tJ16Lupk5N+KIGcOLxpAufQ6yftApMpRinYrbseQV8OTxQtCHNg7sTPFEun3p4saVmny8dvofbyP8n5B2ycwkSoRNYdPZXR5pbYyZtoE6aswdPODKCOVagh9x94xTciumRDeSCTKTrUum3gV5cO4YjetLXmjzJEYPVJRqu1aXnxnqiUlUCKRSCSSeERKoMQQX1cCT9FBVyAtszJiiuwIgq5NJ6Oy3iw3g05EqwYUhFyejK1Yb5uhLXbOuoUfIOTGQtIlUY7Xkt0uP0FNoOdBmmuunxkNtuiNbqLD++wYjeSpkpdl2uWYUzp4HB+haeKYrvhALnvoFvKKRUWVGkTt9/LxSEe770UCNfjy5MRaxnTvSJt6xaKJbEIhvA3o2G86O84+N9jE1WHvQFIqNWQN10bpf6oh1JmrG6fRve2flEkTuV+bNIX4rdVAFu66hneM2yp8YJiENFx1C58nR/lfh9/Jk0ibNnGm4tRrO4yVh+8ZSKsjzIETy8fSo2VjymbT+25S5eG3hh0Yuv40bw2N8Kl25syy0XT6qyFFlYFtwtNZpKPUb83oPWUXj3y//u/gY0gJlEgkEokkHpESKDHEV5XAMA8enjzBMTs7rjsYKJIHuXBLrDtx+hbvDaxWe7/izJFjnLnwEPcYVSgxUfu84/xZcbyj99HNN/9ViXMJDHHjnrg+x06c4o6TAQsIcOSauD6nzovPa2B1iPtzTh224/zVZ3hHFLf9eXtRXKNjdtiJfX84jnH0yHkevvbkeyutB/v54Pn+KWfFeSr3l90xca5nLnHvlRO+HzjZINdnnDsltr37PmatnIYwfD1deH7jDEfFPo8dO8HF649x8DIyz0LEPIEJqb/0hmbAmlDf9zy4dJIjR05y+fZTHL1jdzP6uzvz4s55jhwVxz16lBPX7vPO2ecjg+CE4uPuyJOrpzXna3fsKEfO3+CZvTtxO9RM3CElUCKRSCSSeERKoMQQX1UCfzHiXAIl3z96EthASKDReQIlEUgJlEgkEokkHpESKDGElMD4Q0rgL4iUwE9GSqBEIpFIJPGIlECJIaQExh9SAn9BpAR+MlICJRKJRCKJR6QESgwhJTD+kBL4CyIkcGPrqiRQWfH74utSAmOBlECJRCKRSOIRKYESQ0gJjD+kBP6KuHF+8UTaNWjH9GMvUEsJ/CgaCUycOLHmD4lEIpFIJHHL3LlzNSGR6CMlMP4ICwsjU6ZMur8kEokhNBKYJk0aKlWqROXKlWXIkCFDhgwZcRRVqlQhW7ZsmlD+bWgbGb9eVK1aVTOPWLVq1Qyul/FlUb58eaysrOT1lSHjA6GRwGTJknHz5k3u3LkjQ4YMGTJkyIijePjwIQMGDNCE8m9D28j49eLJkyeamsCnT58aXC/jy+LChQuaCo4XL14YXC9Dhow7kX0CQ0NDlX9KJBKJRCKJQ2SfQIkhZHPQ+EP2CZRIPo4cGEYikUi+Y/xeXGH7rHYkU6k0zcdUSTPSZNJOHjp4EabbRvJ9IyVQYggpgfGHlECJ5ONICZRIJJLvlIAHG2mYOiUJU2Uib7585BORJ0dGEqisKdppGc+8pAb+CEgJlBhCSmD8ISVQIvk4UgIlEonkuySQ+xvH0/zvcex+7q9bJgh9wbwWxTEr3IkDz710CyXfM1ICJYaQEhh/SAmUSD5OPEqgGuer28SDbybzFh7nXbBu8XeI9xM7FsyZwfT9jwjSLfvuCfPm+dUDzJsyjenTpjFr1W7uOvqJqx7HqN25umk1s6dMYdklB93CH59Qh0vMnzSTpetO4hCoWyiJNeoQH24fXsH46as5ec+VuMw9QgLlC6mYhOD0+jVv3rzm6bV9DK+WHVX6FqwX117WBX7/SAmUGOL7kEAvrm1exPRdd/DVLfl8fHhx4xSblsxm2vSpTJ2ykbMPXmDv/fUnbJMSGLe4PIQNh+F5gG7B5xIKT+7DDrGvtUdgtfjvrbeiHP6RB5mfM2w7oE1jKNaI/ey9Aa4/TCH++yAeJdCBtbUzaPqwmNhUYc7d77ek/XZbNxIqfW2a/Yenbtl3TfBb9o5vRbHcabV9hJTI0oBFlx3jXgLDHjKjVG7NMdJOvKhb+OMTeHEiNspnKtSXC+66hZJYExrwjiVtM4n7Ig/9Vt/lS58LCmqPh+xePolt9/10SyTi0cit3bP4q1F1ShQqTOHCBcmVMRkmym8+W2s23pcS+CMgJVBiiO9BAj0uLqVqapGf1FuGvW7Z5xDocIopzatQLG8WEproyiUqW7IVLUXF2p1ZfvrrvkSWEhiHeMC4SZC/tRAtV92yzyBEpFWmS20yBEq1hwIi8otoOA56LIKzxvYtCrYvz0CRv0WaDlDQQORvC43/gXveujSSWBFvEuh3dTa5k1ppMwLzFJTtuBs33brvjbc7e5PSWpxnq638CI2rPE6NJ2MS3bUNj9yNWX0rHq5w2GPmVCyElThG1mmXdQt/fALPj8dCfKYU+Xpx/nu9Mb9jFAlc1Ep5CZGd3qvufLkEep9nSM6sZMhWiXk39Jo+/tKE8XrfJMqkS0G2Bn2YNGkSE6fOZOWWncxpUwHz9C3YICXwh0BKoMQQ31oCA54cpEu13NqXSo1X8dmaFvqMlc0LYB5eHokRZmQo1pWdL79ekzApgXGEH2xaCRW7QWEhWwc+t7zkC5NHQcmOQtqE+OUV0panjQjxX0XsinUWEjcDrhuSOCGBp9YK0RPbFRZplXR5o0WuVtBgtpTATyWeJNCHE4OqY22Skmp9elBPZULKgp059l63+jvjx5LAUG7P/QNLM1MsEtRl5vl3BPr54O0bQHBYPDS5+EklkNAgfLy88fENJPTrt1T5CVATHOCLl7cvgcFxoCHuB2kh7jGLVJVYeEtKoIagp8z8LT/JG83iuXcAoSKPDlV+4/5vWNi5DKp0LWRN4A+ClECJIb6lBPo+O0Ln6tpWPpr4Agl89V977T4sEpK/43zOPnyHl58/vm+u89+Uv0msrLNJT62pl/habcKkBH45YUIANy6DykLQinf9Mgm8skYreqV6w9DdotwtCtv+QRDgAusWCzHsJNZ3hx6bxTJdmnDU4rG3ZpyQvT4iLz0n0gld8RMbiWJvlFD2Fx/F4J+Z+JFAnyv0ypteZAqlmXP1CnMrJEVllY2Wi65/tQzgU/ixJNCfU8MqYWGqwrboYl7plsYbP6sESr4v3A9pJNAytZTACAKfMK1mflJV6cOxp56Ehobg73GPdX0akE4pVCnNQWWfwB8CKYESQ3wLCVSH+nFv/3Qa5EygETdTU5MvlEB7Vitdf0ysyNZxKzFb9PlxcWptcQwrClaZzu2v1NpfSuAXIETK84W2CagiZ6W6QYkvkUBn+Evso7iQvDabwFB98PFFkE/sv8VseBlt2vIwb+gn1pUcDpue6hZK4oR4kMBQnmzsT+YkIlNJP4TL/sE83tSNxCpLijeex90PVNWG+Lrz9tVznr33UvqOil0F4uPhwttnz3n+/CVvndzxCfjYeYYR6O+Dq/0rkUake22Pi5e/Zn9qfzdevHjBq9fuBOq9LYiNBIYE+OHp/Fa7T3Eu79674hMYBxPshwbh6+XKO+UzinN7/tIeV09fgmO8zVAT6OnC+/f3+a97KY0EWuebwBn7t7wUn9HNL/bfnzo4AF8PJ16Kz/LihTjuSwfcvHwx+HEMSaD4XjycHTTpnz97h6uxtFFQE+Qnvpf3r8X1E5/z+Wsc3bzwi0UtkjrYH28PZ94qxxPX6IX47ytxL/iLe8sQ6gAPXortXr71IkSpsRL3lf3rFzzTfE5/QsS1VQd68OrZC97YuxGodwpheveI0r9YrdQYujnx+qX2uC/eu+MXGKzkkR9AHNPPC0eHN9r75Zk97j7a44YFeGL/9DlvHMU9GNvbJ9QXR3Gur9+5inNVE+Lvyds3yv39VtzbfgRH309YCIG+brxRrpUSr8S19vAj5INVnmK/wX6427/RplGu3ysHPHwDDadTh+Lt8oanz9/h5hMU83qEieumfGcvdff18zc4i/skICj69x2E+zt73t5cTX1xj1mkKMX4Aw949+Y97r4GrrOyX0/xe3n9UnsvKPHaReQLQYZlSBR4nMR38FLsz1u5XZRr4+3K61cvdZ/TES//j9cGq0OD8RO/v8h04nP7Bmi+0w8RGuiDi8M7ce+INOI8Xrt4ERDrgW9Ceb5jLGWyJtYW0nRhnTwlaVLZikJXZaYefWnwgSr5vvg5JVBNgJu95nf4xsU/5m81HJFX+Ijtnj57i6u3kd/pL8rXl8D37O5UVJuX2OSi0ZC1HFjahxwJxd+NPlMCPQ7TXGWCiXV+Bp4w3MFe7XWCzolUmOWpx8JrX2fkBSmBn8/r01D+byF9Qvz+mAXHTkEzIWCF2n+eBIYJcWs2CpqMg8tGRh96cRDyiP23nAtvomUSQc+gVjuoK6T0pmzuGafEvQSGvGBlm/LYqkwpMP6EpoDib3+YrmlFJpOhGtPt3hp5WITwZPMgsigdiqvN5pnbC04tm0TXJuVJpCv8JClSlx6jlnH6qbvhB0mYH2+ubGXy8J5UTadNozJPT4WWI1hz4Rnv9vXVLDOzGcRFvRGEPiiB6gAcHhxl0dhhtCydTLtPESly16DrhLVceOisFdbPIMj5KUdWTadfuxqk0O1XpUpPlZZ9mLn2DM/d9OtNfTg3vom2BkATprr/ikhUmB67nuu2+zD+7+6waf44ev1ZPDK9KhM12/RmwtJDPHQK0G2pQ18Cp18VJ/2ec6vG0rBUZl3alFRt1YdJy0/z1s/I4z3Ui6eXtzNjQFeq5Azvy2hG/trtGDJbmfTa2KvBEJwenmPdnNF0+aOMdvCe8CjyB8NGzWfHHfsYI7r6nxqj3SbzLB76P2P9oHqkN1PSpafuqO28Ejel0idQ6b+QPF9Pzullap4HdfeI9SBOO77l5OY5dK9TRNN/ULPPnH8wdOJ8dt818r2r/Xl98xCzB7ahUCYbbRpVRup2H8XSvfd4dHQqhcSyZNUGcdkxlneO/WaqizS2Obpw4vFTdk3+myRWyn5tKdt+MdfdI39RId7vOLl9OZN61cE6/JxV5hRsMoTFW0/wxtfA71wdhPPtEyyfPYR6GfX7mmblj74TWbzlJG99oqYL9Vf6BKYR22Sn18qofQKDXJ9gt2qq+M7KkjRiXwkp22oAY2et5+Jrr8g8IPQWQ9Im0W2jd0+rijJ44wO971aN75tb7Fg+jZ7Nq5Ja833qwqIi3cZN579jT/CMfkkdt1NX2SZFFRZcesW1A2sY36mGtg+MJgrRatQMNhx5jK/hTAXf93fZu3IWA5uVxzIiXRp+6zmBVXtv4qr/RikccR+8umnHknFdKZctMt8wK9+WsROXceqNp/FCcxSCeX9xA21/r02NGjX5o8k0Dj4QYn1lBwOa9GTh0ecGXhhJvjd+TgkM4fqUKpr72rbWQl7qlkYn2OsRs5ukE9vlYPCme3EyiNTPwteXwNtMzJeRAlUaMGb3fc2Sp+v6kNVG5E+fKYEhV2aQ3MwEK5sW7DbS5Scs6DEzqydHlbAAHdfe/+wy06cgJfDzUZpu1hwNwzcLIVO+rFfQfOjnS+AHEeUxV3HjTRPHK9QdRh5ScpaovD+p7Tf49yJNpSLvX8O1B0IoRYgiIF6y8dBnE+cS6HFtHY3yJ0Zl1Zg197VvhcJEgXFDH0U6UotC+E4co5faNYTybMcoCiQTmVHBP+jVoSopdQWn6JGm3AhOOkc/X38e7ZvObzlsDaZRZapK11bKA8uUZGlGcSVWEujPve1TxedJGnN/mjAlc5nOrLyh3JafRoj9acb+XQ5Tg/tVIjUV2szmzLvwR6YP5yc2I1PEer0Cc9Ji9N4dCwn0uMKkhgUj08UIawo3X8EDX71SpZ4EZh6+mj1jG5IqRjolMlB3/GlivqRx4/S8npRNo1/A1w8biv4xhj0voougGpeLq2he2Ni110WOhiy+7KJLo8X/7CSsLEyxyDWCJYvbRTnfLP224yZuncDL00iuMiFrqUFc0nt56XV0qNjOFOuE1WjVvh4ZTPWOpRe2FbpFnbtNQxCv7eZTO38Kg2lUlqVo0bYB2cRxs9UfxTWnWD4KHXZoasnS5GnBuNHdyWGht89iswj/5oNd77F2WCOSWuqt1w+bTOL3t5VnXvq/nTDc7u6iZwm9kWajh3kmWv1zDKeAyPsiNMCeFZ1zivWFGbxOr2AX+JL13cpqRl41uC8R6euO5aS97gcYepthGUThQLNO/x4pwdD/HkZIoP/LIwz+LZfe+phhmrg6Y3c+itrk3Gk3TcU6i+R5qd+yGbmS6Zo+RQvLNA1ZePJtjMKJr/0FZjQvFvEiKkZYFaTHwpPR8rQAHu+cSM28kfIXPdL81pd1l5xiKYKSH52fUwJFLv3sX8qaiN9X0uJMumC4hsfzwSb+EJJhW7YjB17I0po+X18C33F86zleR9TGhPBgTe8vkkDnvf0wFc9JmwwTuW0kQ1OHerFrWAmR92Wh5YQzBsoJcY+UwM/nzTW4qjdUbMizOJZAcZ+8eQq7hdyt3gYDx0LBLtB3o+EpKI7MExLYTUjgUthxEDoPgsJtIE9rqDgGxm6AY7GrB5FEI44l0ItTMzqSRRRykrVaydsAXZFKHcjj/RMoqBRei/fkWGQOpIdWAgumstQVlERBuXZHxs5ewbq1a1g2bzLd6hXGylIpKNpSban2LVY4gQ+38EcxpR+iSJulJr0mL2Tt2rWsWb6A8b0bk94qvIAZUwLfGZFAz1sb+SOPtiBnVrQhfcbNY82aNSJWMm/qIOpm09ZgJCowlBNOn3D9gp6xsnVFXW1Ecir8PYBpi1azds1aVi2YzoAW5XTnakPBOot4otl1CM53zrB70xKG1c2DmXh4WGVqw4z161i1eT9X3vhodm2cQG798zfJFKlJWIZWI2axSlyf1f+Kz7N2Ff+M70Z5W+0xa658qEsj0ElgAnE+1lkzk06VnQa9xzF/5Vpxff9l3qTeVNV9Z2aJm7Ptnf5TQM2bPSPIrzxgxPpkldowavpizedcs3YpU4d1oJzSDEVlSY5a/3Bfv3zge43/lVKmIFCRpPxfjJimpFvD6tXiuCvnMqr7H2TXXCMz8tRdw1tdMgWtBJpjYpOZLFmyUb71GJasXsPK5Vs490xbi/wxCdRefzPSV+nAhH+W8O+adayZP5FujUpipqyzTEujyeeizKsU6nCQrtm00po4dTV6TpzHSuWzrlnI2F7NKBwxbLYlOT9RAhuIdGZWyUmcITelWgxmwfLV/LtqJZtv6F69BrtxaHZ70mmkNSPVWgxk5op/xfVazarlCxnVqQ5ZlCbaqhy0Wn4RX13vaXWgM9vG1NF8poxFGzFkxmJW/Sv2rcSq5Uzp15QciUQ62wasuuIYIUnGJND52HBSi31ZJMrPn30msfhfcY+Jc1gtvrul4jdTp0BCkSYRVQcc1k7Honbnxo7trF84kNIinXmiPLQev5Q16w9y/aWXrsbfkZ3dtDXXibP+Tt+J/7BcXFfNvbtmGZMHtqFCBqUGM4G4F8ZzQ79Fkk4CtdfdhHR56jNg2gJWirSr/53LiE4NyK35XpJRrcc6Xuo/gNRu7B9ZE1slrfi+i7cYxIJlq8TnWcO/iybRqWZ+zX5Nc/7J4kuRL4K8b6+gRmoLsc6U1HkbMXi6OJ5Is3rNv8wZ04PfCyrNO83JUne0kOHvd+ocSdzxs0ogvGbl76lRmSahxvATxHwK+XNpQXNxvyekUsd1vI1llver8C0HhtEiJHDtl0ngszV/ifKIkPxiS4yPURDmh920OuI+SEPD/vuJ+to2fpASGHeECMHSSOAXDAwTBfHY27gK8rfUNgEt3EnI3EQ4b2iOElEImNUXiggJrNAPSgn5yy7kTzOyqBJttX0JK/4Ptj9QSp2STyFOJTDE9Raj/8wnfuh56b/9XpS+VgH2l+inmTcwGz3WXsc/xsNAVxOYSik8JSB/55XccfSM0t8l4OU+OhdKpak9s/1rm96cfh4cH/4HaZQCcI52/Hv9Lb56+w8NeM/ZRT1JZ6EtmMWqJjBMFDwH/altplmyF3sfOeCjfzJhgbje2kz7PIoI2lJu0R3dio/jcnoWZTIoTQXz0GLOUd65++kKuwph+Hs8Z++k5poRtUysstFu52vdOoVQzo+sohsYZhnvdEs/jijs/5lf00Qwbe8DMd/EBXvy6sYlzp8/x7XXemv1JFClSkuDGefwiNIXz48Hq7qSytwcswT5GXBML3sPvs/Y0jk031eyetM47+CJfpew0ABv3p6aQ3Xl2tvkoMeByBzAcf8A7bW3rMui2y4x+l6F+L9ifau84pzMSZ+7Dyf1MiatBIrv2sSMNA0Wct9AM9WPSqCZDZn/nMH5d956tUOheDqcZWRFpRlkEso3X8XziJ9NKLfm1dc0G02YvCGLTr7GX++wQd5OXF8/gKIaSfs8CVTus/y1xnPaIUq1k0CNz5sT9CqWSGyTlSZjd/LUyS9KZhjs85qj87uTVZHuzAM546bdR4j3M2a1yirSFWDgqusxJgsO9XHi0e1LnDp7l3eegRH7NCyBYdyeW0sssyJb5bk8jH7ZQ32xf3KDM2cvceuRc9RmvL7H+Et8RsvUVVhyP9p1eb6afJrPn5+B254SFP1e8HXhwtymYr0K6xJN2PxQ71NESKA1WYr0YMf19+hVaOLv9oJNfcpr0mZpMIYLDpH3dtjrHdRTalUt0lBl8AbuRmmeHYLrkxMMri4KwKqUNBl3FHfN53Vjb/sCYpkZKQr2Ytc9l6jnG+TFmzs76FBYfFcWhem1ROSFulWSn5efVwLDeLlRGRnSlFxVRkfJSxXUvpcZks0cVeryjN71QhbQovFdSOAX1gQ+X/s3ZuK5ZlNkkdEmwYT5c2p2A01eWa/7bpx0i+MTKYFxR5zXBIrC+6zF0G0RdOiNZrqIon2gxWRYc1O3TTjiZmkqpC+nOHatabDjEtx8AbfFOd0Wcnr8KPQW55a3I/z+D1z5Gm8YfiLiUAKDeH18DpWUQm7lQVxxi14C9OXg/1qIgreQl1Yis4gxkEm4BCrNtSoyz2DvT19ODq+qESDLQgsi3zo5n6NnNaWpWFo6/PfE8IMm9BFz6iiF1thJYMjbU3T7TSkcF2TEnud6khaVN1t7YWFuglXeKdzTLfswbhwcWI+0ynWot5Bn0Uu0ETxlUTWlZtOWvM12EPlsFZnpcO3ooB/MdGPgzsHuFbA1U2GesCIj1h/j2p33H38o60tgxbk8NpTA6xhtLa1QWSWm7qbIM/K7tpg8aRXZrcHSKNV8+gRxbU5dsY0NJf7eHPEQCgvyxc3NFVd3X6ODb7jv66X5PtPl6cpRvadKuASaWmSm/U7DmvwxCbRInJ/eBwx1cAjm1tJmYhtLitWfxu2I2/Qu45TR1sxtKDPtssHrGhb0jjVdimj2/1kSaJOdFvOuxuxTow7i+Z7/kVNsk7LOcE6/MXKtvW8yomIecfycDDyorTsNFXK4QHNOQtRrdmPF1iPcj0Umb6wm8MlKrYxZpM7DX7N2cP3Je1HMiAUfGh00NAB3F3EvuHkR3rggOkGP11BJuUZF67NOf6KgcAm0zkSt8WeUKY+iEcY7u+mUENuYV+3K/ufhW4TxeHVL8VlMSCuefPtfGvoUYQT6euLs7Ia3n25wHOd9NLQww8QmJ112vtFsFQN1IPc39Ce9uIdKtVvEs49V4kt+eH5eCRQ5osMumit9dLNVZOLpqMV7r1NjSCryu+wl/8flGB3uJb+iBNbvISXwRyM+moMGiEKDMqWDn3jce4riyOSxkL8T/DYJTukXvUTh21s8Iz18wSdQ/BmtcKUWZQI3IQP9ekI+kX7qcaVqQhJb4k4Cg9w4PPVPXR83pTmdsVDWl2P66egFbJ0EJhfrUwzisn41YgT+nB1TQyuBBeZHZDgBD7ZSp7jSD6suax8bL1E9WtZIcw6xkUC3W5toWlAU6nP34ZiDoearOl5upIClOeZWrdkbm5wt8Dn/NC6DpSoRjVbd1S00RCg359QQ52tJ1oLTeRBxOT5XAsVnOjKCpLZKszn97yI9v7WbxNozjwkIMXDN9foEph501MgUH8+ZX0BcK8uE1N4YfkZqXm4bTCalKWHFyO/KEIqQpVKZkavsJG5+8NcbiP29C+zfuZu9i/uQwdRMnL+FRgKPxZBA8Z1Ylmf+HcNn/DEJTJSyGTv125hGEMK9VX9pjlu03lRuhd8wTnv43cwcU+vCjDlrpLQjcqtHm/tqamOzf44Epi3AYJ28RSHEl4uLlHNKyR+DdqNXmRUNTw52rUgylTUV51/TLgr15dKiHmTU3Avh94UJJqYZaTh+A2cuPYtRO6hgtE/gszWUj7Yv5UVG8c5T2bzjsvGH/2dMEeHx+Dz7du9ix7aZNFXyDZHeomgDwxKYLi999W+SCMJwODWbMmIb06qd2fcs/AYM4vK0SmKfCcgj7ss7sTslQq/NIp343DZJO3PE6MMyDJc762hioSKFkPZLMWp2JT8bP7MEqkO9OTaxmvitZKDpGDs8dMtF0Y2jg4qiMklG2ZGnPq9gFurB0QnNSZi8DgsuOYin4s+FlMD4Q0pg3BHnEmiAUFFs+l9fyNtdCKEQuU95KoaJYt6+VZCrtZDB7aKs+6V1Wr8QcSSBavzsT9G/pPGBEKKGJYVGHo7SLEvcAto+gUnF+tJTeGiw+sewBHpcW0GNfEJCEvfglKfREjD227qKY8emT2AY788vo14O7Tw6sQlT81qseWasvlAP73sMrVdYpMnJ6GOGGkBH4rK3t9jOIs4kUKkNvLy4GymTJSeRdXjfS/0oROdZe3mkPxKkngRmnW5snsBICawTIYHB3F3emfSJlCa40Y9jKCzIWmIAZ/QmGQoLcOPGgdVM61k9cjtza6ytbbFOlJLUyZXmj+YfkMA6bDLSSeFjEpgkdW9OGhznwIgECvnJZWaGpU09Nr40dO8KhAS+PjCWXOJzZP0cCcxUhHH6Q5nqUAd7cmhKvchrFItI87+TutTiE3k/ZkOfRuRMlBBLk/CXA5FhnbkqE7Zcw0WvWa1RCRSi/mjnWKraJhLfUwK9UTjDIyV1Rq3ndsSARzo+IoHqIG/eXNzBRHGe2r6gIswSaO8Fm6SkSJVcM3KnuREJtMxUjZkGqyLEbz1CAruwL6Im0InNLbOI4ySkYMVFPDPylUbH5/hIkSbmNTQW5pU7cvRVLA1T8sPyM0sg6jCczsyigLifczWcwE1XXT7hc4KuSVSYpSjPpEtGXox9DFEyPDNHPEey/smSy++VSoGfip+hT+DLDW21ElhwPsIVDKIMDLNvtNLsPiPNxp7Q68oTf0gJjDvivE+gAUQ2wrnNkLsNdF4Dbwy/vzeMKErdsYOCraDTBnD8lLS/OHEjgeoQnu8cRBrxEEiYKjclylWkQvmKlI8WFSpUpFSB7FhrRjdsyvb3+sfU1QQqg1fUXcBbg9P+G5ZArxurqVlAGRW0OTvfGi9QvdncQWwTm5rAMBzOL6VediFKCTNTuHT5GJ8lalSgUpUBHLSPRUnR9wGj6yvz9KSh05YPz3r5bmtHsZ0FWQsICYzwhS+RQC1uDy6xY25PihQpTP7cOUmfxFocR1soVSJNk5WR87ToS6DRyeIN1QQGc2eZeHjbigJxyjyUEd+94WunjXLlqtC00wJuh5cVAp+wpkdFcT42pMlZhLLly1O5WVfm7TrDtSuXuPLGD+9DfcR6ZbAPYxJY26iQfUwCk6UZzVWD7xOMSODLDRQyNcPcujxzbkYTnHCEBL7cO5rMyrX8TAkce9aYBCpNas1JlakQpctXMniNw6NcyRL8seqGLrWOMF9e3zvAxCYNKFM4P7ly5SJdYn2Bz067lZfw1U2oZ1wCtQQ4XGPrnOHUL1yIfPnyklWZ1y5iX2ZkrD6Oyx56382HJDDMjZMz/9LUVibJXEDkL+UpWbUz83fYcenqZa5ce4vny41UVfZtRAJtstZlxT1D34uxmkA3dnfJLc7VlgIV5vEkll+Vt90IkcYUM3ORb5SrZDAfDI9ypUtTpdc0rryXT6yfnZ9aAlET4HKJISXFcyRzHVZe0WbG7gcHaAZVSpl/HDe/5BYXz8yF/27E7kFkHePPws9QExh4XjxvzVQksOnDKSONpsJCnVnfRXle5Kbt3OsxuzTEA1IC446vUROoNBF9fkYcozW0XiH+/SlNB8Tz+eZhrQT+vRrs5XvVWBMnEqgOeM6yJtnEDzwtjUYfF5ryAV7vpnaOlGLbZNSae1NkQeHoagIVCfx9/idJYOizvTQqpQxxX455N4y9Ywrl6gSlyUpsagLVuN/cRBNFbPIO5tIHWoN+MmFvWPlXBRKK8ygz6WyUgW+iEsDpISXF+SYgW+mFEdMAxIUERuLN20c3OLx0Mv06/80fVYqSWinAWuVl1Dmd3XyiBEbWBKp5sW0wGZXmoFVX6DURig2B3JzTEkshCxkazOOKo+Gr9GBRfc33GT8SGPUeicSIBHrZ0cpaCG+CrHTZb6SxizqEGyvbirQqcsShBBLiw/mFf4v9pqbJaLsP//5ig/sL7t+/yYGlI/j7r+bUKpWbxMoImsVHis+rvSgfk8AIwrx4++IhF7bOpHOnDjStU5Zsic1QJS3IoK1PI9/sf0ACPU6O1Yw4bF2wF/uf6gmeHh6nJ2ok0dSoBP7O8ruGJdBwTaD4rv6pKT6fJTlLj+K6wVbmYXi9us62pUtZuf8878Xug6/P1jQHtU3Wi/M/W7WF5LP5uSVQEOjC1lHK7yUTXRZfEnmQBztaKS9RElB8/CWljBaTUG8eXz/OwQduhAU4cvHgdv5dvo79l5/iE/HbCebNhS1MXbKZB+6xzC9/IH6GmkCer9OM7GxhI/LYx4af1erAW4wuKPL99CUYdDj2w9l9CVIC444vrQn0egN7z4u0V5TJzowgimrnN0PeNtBJiNxr3YsjURxhj0h75IYyKogRhEic3Qa5hQTK5qCfRpxIoO/NuZqmIBaZajH7jJECcASObOpYRTNAiSqtEKyIcpleTaCQwDefIIEEPmTmH0WxVpmTp/cew8Lhdpz2+VKJh1JsagIFjhfpW1cZbCYn7ZdcMSprAXd30K9Pb/qM2MMrw74RjQCuze9IFmU6hozNWfXIcPE57NkWmmRKpBlopPjQ03rH/0wJFKL+37gR9Oo6nm1PjRTZnY7QI6kQGZsMdNynexx8dk2gSHp/NQXS2KIyKcuYw8abvrqcXkbnbv2ZvOQC2vzlKbPK5sBClYQG24w8MDwvMLKEMkqn0hy0O3Z6I0J9EwnkPev+yCiWC2lotAz98Vwj8LvBiPJK31XzzxsYxpgEqkVB6dhUioptEpbrxvaHEScVDWcOzZtI744j2HhT2+420PMhG0f3pPv4FdwwPIEnDqfmUSWLeICn7cFJN+29Y1gC3Tk/fwTd+w5i4UkjxQmv28z+Iz0q0zx0WXYzUh4jJLAyi2/r35++HB+ovAwxJ03no0YKk69Y26OM2EbkQcUasP6B3mMmFhJouCZQ3JfHRmjmKrXIWI1pxw0NEuTJkQm/a46buv44brmKe83vJO2UifwTZKPpkmvKs8kgbnd2M6ZdLyavssNRvrX86fnpJZAgnuydrJGB9G0X8/zJbuomF3lGwsasfW0gXwlx4NC0dhTNm48m6+/wZNcECpuL341Ir0pbiAZ9tvJK8+MJwvntS16+8Y58YfQT8TPUBMJDpuRJLMoqSakwWb+sEon9gaGal3RJCzZjw+Ov0/JBSmDc8aU1ge5noaBIW7gb/GusAZx4Dv5vgJDArjD2cOTgLo522tFDy4h1h/S6C+kTKspw40dArp6wSBRTf77XRfFHHEhgMFemVhWZtzV5a/3DQ2O2pIfv2elkTySkQZWa+uvD74gvkEBxDo/X9CNDIvHQsc5CmaHruatXIeh6bx/96pUkgYlYH1sJFDpydMrfpBayapkiFw1n7uLOS/13GIE8P7mMBmWUGlBRyGypP2XFhwl+tp2m2ZTaUAtSF2zLypOP9N5w+PLEbhG1S2XHXOzXzKIKM27o1358pgSGPWFePWX6DjPSFh7Crhtvoz5Ufd9wYmknslmZYm5Vmtk3dCXTL5BA1C+YX187jUPSbKXptPIUr1317rNgJ65uH0/xLMo0GxZUmnhB9wB5wYKqeYTUm5A8X3923NAf89ef15c30alGEZKI9cq+k2dvzHq9N5DfRgKFbxweoqmxMjHPTv0ua7ir19zR6c4hptXNp5t0/DOniDAmgajxf3eBvlWU6QoSkK5Ud/49cksn1Dq8H7JlZHvyaSaSr86Se9q7NdDtJiOrKS9HklOj7wLOhb9+C8f5BosGNdFOuF9jIo9086QYlkAvIWylxDIVKYu1YsnZF1ElKNSJ81vGU0opHKYuwoiDeqqsk0CzFGWYdknfivw5M1LpS2KKTbaGzD/1Qu++FfL78ARzGhUjtY255riq7DWYdd5Rt17wBRKo9r7KsCLKnH4WJC3Tipl2+j1e3Lm4ZgRFkitNZrPRatoJPDVftzcnhpbVnItFutJ0HLeTR576N5IXdw8t5a9sysuA5NQasBMnWWP40/PzS6DIGd9fZnR9kSek/p3BAxtpXvQmbbPT4Nv7Z5u6kjFBRuoMWMd9pzf8N6AuGUq1Zumuo+ya24GcqpQ03PTh7hI/Az+HBAZzbYoyiJ0K80yl6LjkNE4RWZ4Xdw79Q43MiVCZJKJop3W8/tyi5iciJTDu+OLmoKLoPKI/FBGCV38KnIk2cLbjI5grssdyHaHaGIgyXIYHdBXLi3SHVvPgmt7jXcFdFDmXzYFS7eC3aXBRThHxSXy5BDrupaEygbttKuot/tBol3qEPuKfuspQ9SYkLTlfN9XD5zcH1RDylKV/FdcORGGRiOSp05M+fUbSp0tPquRJNEKlKSQqBfzUI7msVy4zNll8mMtFRlfOoklrkiAJyVOkJZ2yTyXSpiNFkoTa41k3Ze0LQwVMYwTxcFVX8TkUibHAJklKUqcN329aUiQO7z+ViGpTLkQbkfPzm4O6HRtHZgtFhBOQKFlq0oZ/FhFpU6ciiY0ycqiKzB22RQrEZzcH1eL/5D/+SqsMlGGCmU0yUqZKF3HMdGnSkCyhtj9ighx9ORFRhRvCzbnNSGSlPdeEydJEue4pkyXSG3DEjKRZ67HyfuRV+lYSSKgju/tqJcjMXO8eTK/cg0k111B7zpbkqDeKq3EmgQJ1AA/2TKZUeuU7tMA2cQpSpc2gO34G8f2mJKHmetpSYdRB3MMnbAzz4dKK7mRT9m+RkKQpI78fTbpUKbDRiGNh+m++Q4AumbHmoMHP11NL0+fXUtzXqUiTLnxfItKmIanm+7Ymd73Z3NN3Pff9GllTmVqRMGkqkhdpwsxjWon0OzWahMo6EwusxT7Thu8znbgXkifTzWGpiyzVmHxa7wny2c1BFYJ4tGs4hTX7jn5s8VlslRdZJqQt25sDTyPThbqcZ0R1pXm6KBRZiXwjdbrI+zddWpKL37dy/yYr2I7N94w2jpH8RPwKEqiU1k5Oa63p82yhyWty0OeQoZZBz5hTPCGq8v/wRMlP/N+wqtdvZG04gVuaQWVc2derENZF5/BEs/3Py4/THDSM20uakjxlBopWGsqFaI8htet+WiktIER+aG6ThFRp0or8Tjz/0qYW+Z32GW+VogrTz+s9bOMZKYFxR2ybg97bBdUHQQshY/rlKoXXZ6CGELXi3aCyEMLfhkAdsU8lavSDMl2gWE8YaafcbVF5ehyqtNWmrTIAauvSKVFT7KuskMsy4r8rbsZMK/kwXyyBb7cog5eYkiJDb058wu/bfns3TTqLhAUYekK5q9RfUBOoJeT9GcbUVub2UzIjRTy08qH8bS3ulAXDlLdV4lyLzuShLo2C4ZpALWHOJxlURHlrr83gou9XVaA16259zqsHb24t60FqY/tVlab/ptviE0fnS/oEBvPiv76aJm5Rjxl53NStVvFC3zq/pCZQh/+zTTRLphxTiZjHVFUdwdHX0T6p722mN1ZqEaOnUf62pnD7OZw/toCKyt+pctNlR+Rxv5kECoJdrjH9L2XgH/3z1n5O0wydmDGlHYlV5hRuOp17se0oGRsJ1ODDrQ1DyZdKK/ORxw+/bumpM2Azz3W1eREEvmP36D80c1fGvC+UZdn5a4YdLnrXw3ifwDDsz82mqq5AEHVfyt/mpCo1mtOu0QXYgQ1/Kc2vlXRKZKP15ON4aDZz5uBApbWBslx/f7ptKw1i/ekdDFamdFHlo9fSa5H9Dr6gJlBBHeLNnR1jKZ02fJAc/c9iSeoc3djxwF3pzqCHmgD7MwytqhXBqNdB+bcZyTN1ZIPINwzfnZKfjV9DAtU4nV9CpezK3LDivk/ah5M+Bu5wDzua2Wag1soH2r99X+skcDw3nLR507M1LTCz7fiBaVZ+Dn6cmsBQrs1U8mAT0uXuyskYRZ4gnh2bQi2lHKXJ86KGiWkRhmy4a7xPVzwgJTDuiG1N4M1NULCTELNRRBnpPRxl4JfqQgSLCuErIcQtPIorfwvBG39ayUVioowcen4nVDWStnRvmHlRt7Hkk/hCCXRka8vC2CROQd7eh4XWfAI+Z+mTOwkJkqaj3IiTmkLkyz0TKJPBGpM/l/LOiARemNSA5EkSkaL0EsP9rkLtOb9/LX2rZMIqgS2WOavQfckp3MSt9Xi5dp7AlBX/Rb+nmf3ewWRLnQjbTjtjSKAWXx7Y7WFWxxJYJkhEQhtbkpf5g6lrzuJgcD7D2BP85hJbFg2kjLk1NgkTYpmyCn1nbRIPQ4MGIvDn3NjammuQpvwKw9fgIwS9vqg5ZinlmIkSY2OVhjIdJ7H95DNdc0w9wp6y8LeypLS0oOCcq7qF0XnBktKpsEmRjsZbjZ2RK9e2r6Jv/Tzaa5ggAemaDGfznpvGB40Jc+TCgUW0y2xDgoSJsbbKxe9tp7LlyiuCNbeHA1s6F9MMxlK7x26hCloCLszQ1BAlS9GYra8NF7MDr84hi2kSClQZyVW9E/A6PoZEiZKQKccErhuRwAfrOqIySU6FZrO5a+CmV4e4c3vXAlrULIC1jbUQ0mqMWnMae/ETe7a1rxBqK8q1Xhz70a/e76G5mSW2+cozJforWAMEvn/I2Q3DKZA8ueaz2CbJSLnm0zn66G20aVn08eflvZMs7FSFFEmTatIlTJGekj2XcfHxu2i10YoEvmdNbyG7NuUY9d9DPQnUEuzxgF3zhlElV0psbBOTyMYGmzqj2XX8esT3FJ0wx5usGduS1BYJsDTPTssJB3CN+A78eXJsPX00909Ccc+mpkynyWzdexONw4d6cWxGMxKpUlBrwHoiWm4776eNpS1pCjZh9X3DEuh4dgHVRUElSd0+HHph6EsJweXlZVYPaUb2NMnEtUkk8symzN5/hkfhw+EbItSX56f+pevvpUhqk4hECW1JmLMbq+zO8Sa2373kp+DXkECB62W6VVUGhFGRasAB8as1wMNV5E2QhporjEvg09XNhQR24ujXqzj6JnwPEvho42AKprHC/K91GOr5rCWUm/PqYi7KDBlydzEggVoC7a+wakInyiS3EmULWxJYFqDL3K2ceBTbN55xh5TAuCPkBbQbA2V7wOEP/CbvbIMyYptaQgJPG+m/5+8I6zZCMyFuFftC+Z4w5WDMZp6G8LaHFSuhkS5thV4w44g4rmwC+tl8mQRGL1AaLWDGgtikNXa8UD/ePHnA9as3eeIWQ2N0+HJkkNJXx4R0XfZ/mrB+T8TlNY8nvsNT+goE4nj3Btdv3OL+O2PvO/05O0t5EZGcWl034xDL1qASieTH5peRQN6yqmEZbFVJabnhsW5ZNPwu0i1tApK1+Q9NOTGiOaiQQBflpcp7NrfLg23ZhYiy50/Nt5fATyP0xiJqpOvEyR9AzqUEfhtCngjBGwxnv773Sz6DL+8T+D3gd5sR1ZSmaSoytFzBA3vPqO2Cgzx4dmgOdVIrE6Qnpv7an7/DueRr85YlJbSDkySqPplLztGqevxdeXR+Fc3zJURlmYt2864YfksukUh+On4ZCVS/YXmD0tiI52zTtfqdLvQJ4Mq4WiKvzEPXf2/g4fGatQN+J/ufU7jj5MKd1V3JqsrIX3pN/H9WfigJDHLi8IQ/yFPr388cQObrIiXwGxAMJzfAbyKr+xHuEcnPIoH4cWlqc1JrBrBIQ7Fazek2cBhDh4oYNoju7RpRPLm2n5RZoUGc+8mbmEi+DS/WtNTcYybmyShQoznd+w7R3oNDh9KzzR+UyaYd8CdlmZ7sjj4Kp0Qi+Wn5dWoC9SRwnTEJFLhfYmyj/CI/zEGtlq2oXTIbSXNXoHmLWmRTJadU7x04/gJNSn4kCXQ/M5V6TXuw/E5sx0H/tkgJ/Pp43IRWE+E/Wc/yw/CTSCCEOF1iWsvwATkMR7oq3fn3ysfmMZRIPg+1x23mtdWODmosLMp0YfXpN/zYvzaJRPIpyJrAmAQ53GDF6L8ooMyZq8kfTclcuiEDZx7gsYexbh0/Fz+SBPrb3+bSk+iDYH2/SAn8+gQ4w/W3Sk97yY/CTyOBCkE+bzi5aQVzBtSJMoVArirtGL/WjhdOPshuWJL4JNjLgSv7ljOiw29kiLgHVVjV6suiZXu57eYn70GJ5Bfj15HAVyyqVVAjdPVW3dctNE5YkA8uT84ztU1FMlQfhN1jVwJ/oQzyR+sT+CMhJVAi+TgaCUycOLHmj5+JsNBQQsPCCA0N+0UHKpF8a9Rh4h4U91+ouBflmzGJ5Ndl1qxZmvg1UIvn7yfkeMEOrOlbm2yNJnHnFxtMQkpg/OHv70/GjBl1f0kkEkNoJFCZ1NPU1FSGDBkyZMiQEYdhZmamKewrofzb0Da/dIhrYmFphZWlBea/0PVR7gWllYi8J+Iv5PWVIePD8dPWBEokEolE8j0wd+5cTUgk+siawPhDrVaTKVMm3V8SicQQP1WfQIlEIpFIvjd+mT6Bkk9CSmD8IfsESiQfR0qgRCKRSCTxiJRAiSGkBMYfUgIlko8jJVAikUgkknhESqDEEFIC4w8pgRLJx5ESKJFIJBJJPCIlUGIIKYHxh5RAieTjSAmUSCQSiSQekRIoMYSUwPhDSqBE8nHiRgLD/Lkwr3HExNixjtbb8dTtIhI1LvePMrONMuGssp056Ur3YN+LQN16N67vmkOz5OH7yUCjMQdx+oYTsYV5vsfeJ9oJOB2lQc6U4vxKMvumn27hr43a35H/RlQV1yQxDUfuxiVIt+K7JJT3V5ZTW7nHag/iyvvw+08ikUg+DSmBEkN8FxIYdI+J5VKgarQCB92iz0Idio/9VdZN7E7JtNrpL1Sq4vRduJ7dV+11G309pATGLRfWQakOsN9Nt+BzUIO3E6xeCXU6QpHOUKATzDoEN1102xjh/U2o3kabppiBKCz212w+3PfWJZDEijiTwIvzm+h+9J8QBiTQ49oS6iS00tvOlHRlurD/VahY68mZcX/qrVMiPX8OPISzNvnXJcydq/unUc+2Lbtcok1JHyGBpaQE6lD7O7F5ZHVxTZLRaPQeKYESieSXQEqgxBDfXgLdOfNPB1Jbiudco1VfIIFBvDg0lpJRymb6kYx6Y4/xkXJ+nCIlMO5wvQWNB0Ch9nDgcyVQFJGfXoR6rSG/ELaiegJXSMhlIbFsxhWl5GUAkfb+QSgojl+8S1T5Cw8pgZ9HHEqgImempMxYlEo1fqNmjVrU+FBUrUKN6Wfx1e1CiwcHelUlsbnINBJnpUTlmtSoVpe2A5Zxx0usdj1K8/QpMFFZkixrCarWqkWVmm2Y+t+daPv5OoRcX0i6pMqEpO3Z7xpNAj2uM6Z9U6pV7s32Z1IgFH4sCQzD/dEBRtQqTa0Ry3jkHqxbLpFIJJ+GlECJIb6pBIa4cn71MPKmstaKWuPPl8DA19tpntlCsx/rdHkoVVGU72rWomaVchTKkVqU2VSYJynNyKOOuhTxj5TAuMH+HvQfBSUU0RKy9rkS6P1AiGQ7sY9uUHMEdJ4NPf6BnjOhkRDMwmL/ZfrCarFddNSieL17HuQTAlhvnEg3V8ScqNFN7G/ibnjtr0skiRVxKIFKc9CUNOp7BB/d4k/nFUtqF8ZWZBiJOm3CVbc0HPX9NRTJmEQcJw99tr/VLf12hNxaTq4MtuJ82rMv+slKYqCRwFE/igRKJBJJ3CAlUGKIbyWBge9vsmVSe3IkV15i62rrPlsC/TkzrKxmHzaFmjLt4H28InrHBPDq2lY6l04n1iemZPutvNetiW+kBH4hAXDhFHQaBoXaQjEhYJ8tgcEwf6zYT1chgJPgyEvdch2Pr0NfIYaFhAj+vZgYLfvUoqw4vb9YPwhWGpBEyecTxxKYgvo9dn/Bj9yRxVWKYC0ykxzzH+qW6fFsHbkzJhLHqcKq17pl3xJxPnkyKhLYlRNSaD6KlECJRPIrIiVQYoivL4G+PNw1k7qVC5FclLOSFmxIl5ZVSWUhJPBzm4OqbzEqgw0qizTUXXxPtzAqbpdmUUwcL03x7ux7/QVlzU9ASuDn4/UKZsyF33tB/p4wXIhZbaW27nMl8CmUawMFOsLCu7pl0Xi2B/K2g+Yz4Xm0WyRUSEVLsa7K/8Dua71F+EX4PiQwyJVjiwZRNl8eMiS0wVRkFpbp81K8eEmqNOjDplMnmdajNgVzZcbKwlwcJxEZ8xWjaJHK/NVjB/bRWmKCH09O7GZKjzoUKFSEQgVq0nvmJs48U9qUfpgwp9sc3jaX9mULUrhIEfKX787ivVeitmV3e8DsIS0okDOT7nxSkqNwCUpWqcOkc7oqQbdLDGhckyIF27LhUQCEeHJ2ZV8KZPuN/62+jrexgWyCnrK0fWOK563HjPB96eH5+gEH/+lGqZIlKVasFJVq9mTVmYe4fmkVuN87blzfw4TaJShctARFStSg9dCN3HP/wI7FZ3pxayfDqlehRLESFCtehpqt53Pq6RvlJVIMojQHHbUHd7EsxPEm/41rTsFCxShcqT7d5x3gqetHGveqPbh/5yCTfi9FEXHcIiWq0XLAaq7au/Oh8YG83z7i8LyelC1VSly7EpSoUJ3uS4/x3N7DQLpQXO/vpHeJHJTo/Q/3XQ0YqzqA9w8PMbFpfcoWLS72WZyyDadz+O4TDDZLDwvk2vr+ZM9Rg35Tz+JPMG8fXmBVv4YUFedTtGwVmk7czv13bh/8HBKJ5MfiZ5ZAt9MzKJmnFC26beKVsWJEmAfnlw6nUrYK9F97lQCDHX9+Pb6+BD5mbn5tzV+hzgu4+saZO2v7kM3mCyTw4XLyi89hYVOdZQ8N3wBh/lcZlssMVbrSDDr4dd7gSwn8fG5vhdx/Q/lhsOOxuJaPhJwpNYKf2SdQFJV4/EbEW/A1Urg5sUhIYCdos1IZ/SMqPjehhJDAJkIQv4f6n5+J70MCAx3ZOqoRFiJjUvoVasNE898k2X7nn9276FUjrfg7+vokFK25jBd6EhjmdIYJDfNibW2LlXn4CFWmmFtZi2Ul6Lvypih8G8KPB6tFAd02ITY21php0ilhSQJrGxLn7cd+J+2TS+10TQhe+Oil4eeiwiRpBroc1H16p6M0zJVaLC/NHM3AMIE82TuO4mK7LM1mcsvFcD/BwHvrqZQnMSqLtuxx0hOPEBdOLe5JkUzJsbFS2t4rx1TCAkurdJRpPIXz7z5nAJowPK6s58/COUicMCGWIjMPv/Zm5gmwTFmdMbsfEP3uCHx3juH1S5HM2lp8b+HXQISZtbhe2ajZcRUPPKOmipTA5DSZuJ8XJ+ZTLkNqrC0VkVaupRnmFgmwKNCUFZftCY0h98pxTzOqYmFSRjtXU825VqT36sv4RC9gqH24snYoJbOkiHbtxH2RwJYEycvQa/lFog7wGorjleXUMRHfa53BXHGM+n2Fej1gQYcapEhgjaWpcp/p9mmSABvbdJSoM43z0QeTEb+Tk7Pqi+3SUL/9YlZObEOutElJoLlPdZ/DQuwvR1XG7XtIgIHPL5FIfjx+ZgkMst9JMzORf2erzOQzTrqlUQl1vcP4v/KIPK4cU4++UFqHSQRfXwJvMq3VaDZffI5fsPLAC+Xh2t5k/QIJ9D8zAQtTFdY2fTll5P2tWpRfNvZQvv+ctJ55xUgZLG6REvj5XF0Pc06AgyjCKMWQ0OdCAod+vgR+iEBRZN63Ecp1gwoDYbeBnl63NkO+ztB+DTh6wZoF0GAAVOsPHdbBxSe6DSWfzPcjgaMbYRkhVeFhRtLsdZmrSGDN9OLv6OuTUrzWMl6GF5b9LtAnp9I8U38b/VAK2ulptip6o+JQ3u0cSkZNYd5QOiVMsM45lHNKJudyjYF/FhLLop6PabKMdNWTwD/ypBHLy+gkEHxeHKNnRaVPY3XmnHoTQ6yURtg3F/cgl5WKhJ3+wz1M98HU3lxY0p3cIqPVP15kKJ/LgqxCLh+4f1obS//nR+hQNpum47bhfYvllrVZesNFkxkoBLncYlKzfNp1BtMo55OEUh2X88w78nEfKYFJqFi1LvlSJsfUYHoVVk3+4aleWoWw9xcZWr/gh89VVYC+m+/rCWQYrre38mc+5bp/IF3mJqy77aw3MpUigSv4XVxz09+HRJHA0IA3rOtZUpvO4P6Uz29L3rrjuOSgVycqfienZv8h1hlLFx4qzKoN5NSbbzHckUQiiWt+ZgkMC7FnbfvsIt/KRNMxdnjolkcSitON9TRLL/K9KgNkvqbHNx0YRkMID9Z8mQQ+X/s3ZuI5aVNkEdG6ekWgDvVm//8qiXskg5F7JO6REhh3hDyLYwkMg8NC7Kp0hOJdoYSI0n1g+yvd+misGQmFe0LDqdCuHxTtok0THsV7QFshrnJg0E8nDiXwU6eI+IMt9tGP6cAiXZ/AbHNu65bp8XiNrk9gRZaKmzIqnhwbVhtzUyFjtqmoMXkXj90iTACXh4f5X4XMWJuoSJDoT9Y81ZMlz1N0z63s1wzbNGUZuOFK5GijAa/ZM+VPklgJQTTPyN9b9Cqjnyjno0hnF45Ff7XldCyGBOL3hjWDaguJSUidKcfwCYk8Pw1+T5j9ZykhRpnpu+u5ZkQk5dfi+XQ/rfNp5TZdg378d01vhC21A4dn9KRcMuWaZqb9vzcIjG1bwhBnDk1pSVrl+zDLSN3Rm3gSMapPGC/t5vNb4VRivybkH30Uf2W/4ru+srQDqTVpstGw3yKuOUaqk6+4zqPbVRTfg3I+Oem35QFBuvPR9gmsKZYr64ToVOzF6tORjw214yUm/V0JG2W9SWPWPdR7VIS6cXxOGzIp68zz037qVh7pte71fXyYfg3LaAYVUmXrwtHwWrhQL87P70wKsTxhta7suBu1oUGYOOb41jVIY52XLquu4h9xSxqTwFBe7h5IFuU4pump/PdETr6MrIENeX2eeQPqYKm8GVel5++ZJ4kYWDSaBJqXaMWsffcjXwY4XmXBgAYk1ayvyvRjLw28KJBIJD8aP7MEog7m8ZZemud23j8mcNM12gMoSOTdM5qTRGVDnZE7cPga1UA/CN+FBH5hTWBsJJCwAPHsayieaymp1303huuL4xYpgXFHSHhN4BeMDhoFUcBevgLKCHlTagCVKR4qiuxx/zXwiF7oEfnFMCF6hYX4lRTbVxsEdcS5hEetAVChu1gvov9uUZyPbflXouEbSuCfbIsugepnzKlYSPMwyTrtsm5hJCG3lpErgyJr5Zl/J1qvM8cj/JVNka6EVJh8VbcwGuq7TCiTEpVlYipPuRRR6/NmS1+S2FoIqSlEv0OGhjB2ZvfAPyldoSqNJ0dOa6E9n/DRQaMJnYGaQHGheH9qEZXTiM9faSz3vfRrusJwOLuUahlNUWXoytF3ftqat1A/bq7urhGD5FUGcfytoZq+AK4u601uK7HfmjN57Bu779L/zVn6/5ZRnGNyqo09aGCajRAe75xJ82qlKNxuDc+FtIb63mdStaQiTXr+GL0f52gfW4P/MxZ2rEJC5Xv+bQ7P/HXNaDU1gTVEWrE8rZC8mzFzE8+bG2lYMLHYpjgTj0dOMBvocJnh9TKL5Rlouei8wT6HeFxi8G95hWQnp/l6XfuAYA/sZrXCXGVF6U7LeODgjlegoZOOjhEJDH3F8j+UpslJKNt2FU8NtWtSu7J7TGNNx3tV2cGcc9B9//oSmLU+y67EnDUp8O1J+lRR7ptc9Ft7O/ZCL5FIvlt+agkUTyrv57v4S3kRme13Vl5ximg1ouDvdJHhZcVzMl01Zp98E/Hclfw6NYHaZ18D8VxLqWktJiXwxyLOawJ9YMteWHcGViyDTpOFzAnByy9ksPdWcNMv94hi0shp0H4WjDsgivrRCqqB4qbdIISyYicoMRy2PtKtkMSKOJRAZZ5AS7IWrEeHXn3p1av3B6IHXbus4mZ0Zf8CCXQ6OoEcacxRpRnElQ88ZYJOD8VMnGfOinN4rDm8Jwe6lCOxUnOVb7oyiNHH0T3hPl0CBc6X6FlNaTpTnrnX9AZ+CXUTstJaiIMtNScfwUf3dYQG2LO2ewGxfV66L76p1KIbxvM87SsrktSAdZHVeR8glPeXV9BIeXAnbsyq687G962H/5N11BDfj2XeBqy+Gb37biT2R2ZQURFaVVv26JpERkqgOUV7rOSdrwEZc71G3wbK583JsP3hbQOEkF1dRcNE4lxL9eGUo3GJe7uhF5nEA838r/ApRvy5t2U0+RXxUmWk4h8taTdwIgsWLWbVkds4uBtrQGBYAtXvd/Kn2JdJmuKMtzM+55H77c20zG8pjlmfFeHXVvMgVN6GmpK30QRuRcnpdHg8YkonpalpOjovvyIHUJBIfgJ+bglUsra3rOlVRpPHdlp4Hs+IfEuN/akpFBB5Zo46Y7mu1zrnY6hDA3h2YSdLNh/jWYzqgZ+DX0cCo9UExv42+GykBMYdcS6B0RFFobP7oZ7SzHMgrDUygqgx1EIMF4yDXG1guJBLz69wf/0sxHGfwJT80ecwHx+D0wifLYGhPFzTk2xJhHRkrEa73n0MiKeI3kJOW1QW+7cgc+FBXNQ4zGuWVMunbYLYZAOfcn9/lgSKI+wb1JBUKjOKTz0b0UE+2OU2U5rnRGVWhRlHI5sBBvs+YNbvqcTytBSv15aefQx8NvG5+nVtSdFMycTxijPlXMwappgE82zfZMopn7tAZ3Y88Yjy9tYYXuemkE5lQo6qw7jygYsV9GgHdUumFOdTnzWPtFKq3yew3vAdOEd2s4vE5z7jmyoSJCTwQHjT22BeHpxMaXGu1jnK8VennvSOfg1E9O7Tl45/lCaxUiOafwbanp9q/B2uMP2vEpr7KkptdPoS1G7wJ62GzGTztbfRPr9hCQy9NY+cIm2KXK05GFlRGYMQ+/P0qZ9VHKcis06+iyaBiajW/l9eG/r87g+Y1L642CY9XVbIUfQkkp+Bn10CNc+T/VMpY6Iifet/eBDeBl7tw5ExFUV+lpb6o47GGPXvQ4QFOrGhZ0FUWf9k80P9Z+jPw88ggU9Xt8RMfO+2xZZgpEuXEHpfjk6upbkPGg0+GGMO6PhASmDcEe8SqCDKOhtnCpHrAAO3Q/Qi9QcRBeYLuyFfK+ixGZw/bWiMX5rvY2CYcD5bAoO5u7wzWZMqNS/RCvpGImm2TpzS3MyPmFwsNwmU5W22fVLH0s+TQHCxm0betOaoso/muuZjKMKxkgYJRUb620jOvo3sNBHsc4ep1ZNHOfcPR1aGf6CGKgJ1IA82jdC8oVWV6M6e516xkkCPk2OxFRKYs+pwLn8oJ391mIbllMF8GrD2cXQJ/MA8gd73GNukhNhGTwLVooCxe7xmniHDn9lAJBnDTW1qQRh+DrfY8e902pcOH2VWP6xIlLY8AzbfJihCugxLYMjVGULgVaTM2ZaD7zSLDON8g0FN84t9V2L2KX0JVJrEpKJut50YrNCUEiiR/HT8/BII/i9P0KNaSlSJm7D+tosmz1P7XmJgJpHHZq7KlNPRp4D+COoQnO4cYvqMSRx6aajd/Y/PzyCBHoeHYiqek9YpR3HFSDFSHerB9sFFxHMtK39NOqe0Box3pATGHV9FAkV56JEdFGwNbVfBy0/pOyzKSbePibRCAlutBnvZ7zjW/GASuNyoBN5Z2kmbkTVcwN33DjjY22NvNBxwdPYkSFMId2ZL40IkUmSg9qpPOnft+YRLoG5hOIYGhgnH7wZjq2UR64oy/ryH+Nw+nF/cGnNVUhoM3Y2DnhwpEji5ivjMqcvRf8s17J0dDXyeyHj3zhnv8JFYPkgIb0/OpbbIvFU52rH5oVusJNDnyj/kEdcqbfnuHH9n3FC8b62hVmHlu4pWE/ixyeJ9jEjgrrEUFMfN+ef/OPvwLe8dHAx+fm28w97RJ6I2NZywkCB8Pd1wuH2E5UuWMKlLZXEc8fnDI1VXDtiHf1eGJTDs4XJKim0TZWvAxifGCyYBL4/RtYYyRUilaDWBigSmNt4vQkqgRPLT8StIIIFv2di3NpaqNLRfeV08lcVz4MxYkqtMyF5yDJc+uYlQKC539jOr/yxufg1r+Ab8DAPDhF6bTRozExLYduaoMvmvAcJCXjK/fkpUSQrTdfNj7fMwnpESGHfE+cAwhhAF0IdC5AoICWy9Ap5/SuW/KOxd3gf5RNqO6yF8CAfJx/lJagLFw+biXPJlSIAqeX/OfFLLEW/sBtYiibnIBNMM46qRQvfz9a3EcS1ImbUZ219qs7DPrQkUF4wHy9uSyExFhuEnCAx6xtwmGVAlLMWovc80D89wwgKd2T6snNhPbjrPvRiHQ+CGaYftVt7SmtRi7mlDU1aA/63VVMivNOvMw+CjToS+30NzC5EmQ3mm2UVvQhlOMA83jaBEUrFdkj6c9NDa3mfXBIpzdb23hb8ziP2VEQ+alzGHsPk01KjVIsLCxPX14sH+mZTNk0IcMx9jjoW38TQsgXjZ0VXpm5gkB903PDLyMAvl3dkl1EsntkvwF5sfuWuvk5RAieSX5JeQQIJ4tO1/FBVCYdlyCY5hnhwbIvIyk6SUGX7SwMBjIksMceXqllk0K6u8MEtJtc4LuOmqezAE+4q8eQmrL3+NYUS+DT9DTSC+J2lvaiqedbnoccjwdxXicog2CcQxclZg6kUjphjHSAmMO760JvD5ASjbAyoNEqKnWxadMFHW2TwL8rSDvv+JIrSucPVgB5TsBnX+h9ExO8JE8Wz/v5CzDYw/ohl8VBJL4kEC9xCLxoiG+QIJ5O0+GubTjtpYru923gSFEhY+z56CKPSHBDtzbHQVsY0JOer+S3hrPu9zU8iUzFosT85vM87jq52bIQK1zzXGV1D2bUWWmisIn8syUgLbsTd6N7wPSqDg2QaKJ7FElXIAB6+tpYH4zLnqjOdW9Al0Qvy4uqKjprlqiuId2XjtHf4h0dUjkLcnF1AmkzKNRWv26s9N9wGUCXwntC4szlFc77/m8cjVL+oE7aFOHJr0N5mVzDtFX055haIOfseK9rlEGnNyNZzA+Vc+UdOEBeH+5Bg9qyrbqEjWeS2OujaWny+BQkbtzzO8djqxPA21R2zntYc/MS5D0Es2966uuVbJ+h3UjCAa5v2ChZ2VZplZaDfvNK4GhtsMe3OS7prBeioyN6KNqxEJxJ19A4qKbU1JX7obO+57RBXBsGC8Ha4zpXkxsY0K28ZTueOqSyslUCL5Jfk1JFB424uDNC6VEpVpc3bc3UfPZCps0jVly6uoz1QNoc4cHPEbpiKftEmSnJQpk5FQmVonT1+O/yKden4KCRRPsv/+zCaeWeakbTqbW+76ZUml3OXIgaEVxHozslcczOmv5PRSAuOOL24OKuytRncoIaL3PuWui0qYWOAutmkp9l+4Pyy6qtw5WoLvC3nsIiRSLJ97XbdQD0UeHe5Ck7Yi7QjY8li3QhIr4lACldFBE1Op6RyOXr/NzRs3uPHReIJLgN7D4UskUBT5r09vSVpLkZmJ9OkaD2fVlqNcvX2Lm7duceXIf0zqoNSoqTBJkocue8NVThD6iLl1cmIm1ilvI2v0W8CRCze5des2V+3+Y1TTgpp0KuvMtNj6QpdInM/NpeRIr5xPaQZvPse9u49wCJ/g/GMSyGsWV1TEMivVqpbGQhT66486YaCmT42v/WkGlVHm61MekDUYOG0Dp69d11zD65fPs3PeAEpk106Gnn3QdlyDY4qOYXy4sWYwBZUHgBDjbA0Gsu7wZW7eVPZ7mo1TOpIzlYVYZ0aeMYe1cqw0zdw/kZJKzamQ4jzVO7Nw52muXRdprl3hyOoJ1C+lyJpYb16JaUdfRkjil0igMmH+lWUDyauZfy8hpVoMYsH205pzvXHzOudPbGdCqwokU87LtDTTL+hkLtSLy8v7kEM5n5QlaD9+NSevaq/djRvXOHd8I8PqFdfMI2iStS/HIiaxMiaBatyuLqG6tTIhvDkZizZh2sajXL6m7O86JzfPoX0N5YEojmdSmAGrr+MbLnJSAiWSX5JfRQJF0Zujg+qQUuRx1WpUILHIBzPWWR3xwlWfgOszyS7y0AKtV/FYV/x4vKk/6VUW5Bt3LqIQ+DPzI0mgn9MTronn3J37ryNGLw/n/YF+2i41JlZk+WMEGw6e5vrt29w6tZNZfetgpayzyUyD2ReVad++ClIC447YSqC/OzwQxban9qJ0Ge0e2TYDineC8n1g2kG49goevYEnoii+Zwc06wAFhey1WCDS698koji7eCQU7QgVFRE8Djd1aR+LtIcPQIeeUECk7bZWlKxjVwci0RGHEvip8wQqUYoF9/WO+9l9AnUEP2dDr5pkiHEcvUiWn8aD98Zosur3YAddqhXUzm1nKJLmpU7v7bzTfzK93E6NrMqcduHbZaD16ofah9eH+gTqeLlO6QeoTZsgS2WmXDDWTCKQ53YLaZZHGf0z/FjRw4bMVYZx7IX3Jz081Z6PWDGkGdktlOkcDOzXJAk5ao3lnF7tojrQgX2z2pMxoSKIBtKIsE1Vmg7zj+Cq7Xip4bP7BIbj85xNo1uSRiOghsMsWS4aTD0SZRS6gPdXmdKqtHbwHyNhmboa4w48JnL+fmMSKFD7cHlNP3KntDG4LyUsbAvSdOwmnnvrWZyUQInkl+TXkUDwODOTwul1eaNJSlpsjZaPa/Dh1IjyqBLVZNEDvQ4QoS/4t08XWk8+/kkjdf+o/Dh9AkO5PKmU5jtNmL4Nx6KP8RP2jJV/FtTMZ6z/HIyMRBRvOJ6T4W38vgJSAuOO2PYJvCYkLNvfUG4QnIjWOi5AiOHkyVCsLeQVkaeNXoi/CwjJ+2M2HDIwxKyfkL1ho4UIGkibW0QBIZctF8KNrzHs7E9GnEngudm/G/jhfyxKs/CBvgQ+YVpxpVmeipTjL+gWRhJyYyHpkijpijLrlhHdD3rF4QUj6fxnPQqlM4s8VoZiNGrWjVFbLuJs5KMGvr3Eij5t+b1ifizD09nmonrDVgxce473McYBceXk3IHULRwuZ5YU635IO0WG4yF+0zQVLci060Y6KbodpXVG7TmmKTGW6x98RRbIi3ObmdinIw1K6I9waULmCs3oMX4ZJ15Gb0saS/xec3TOaDo0q0K6iP2akapoXTpOWMnZNwZ6Ivq/58S/M+jZpg7ZI9KISFqKJl2GsnTnXbyi5fdqf0fWDy4rtjPntyE7DA/j632HEXXzim3S0X+PgVmHvF+yd9EEOrdvSEFNraA2zBPlpsZf/fln8wVcDEwG7/P6EkvG9eev6sq+9dLZFKZ++6Es3nsH3yjnG8r7S4upomxXpQ+X3utJoEKoB9d2LGFAhwbkt9EbldayCA079GHG6osxOyeL34nd1JpiOxuqd9huuNm02z3+1zKP2CYxrRddkhIokfwE/EoSiO9l+hfPoGlZY5qoNfsMzlj0iuXVU2OdohenPntOqR+f70EC763sQkrl2VV7CcZnPRISOLm05hmXOk83Thr4Tv2dbvDf6A7ULptH72W6BXmrN6Zd/8Vcevl1R/eREhh3hDyFBv0ge0vY8wHRui4kMLuQshqj4IyB7QJFoWfdRug8FsooEieELndraDoDxm4REvmBvmSuQkT/3QDtR0IJkVYjgyJti1kwaSfcjs3MaJIYxI0EqsPwfHObw0eOYWdn9wlxnXd++gV2f15fu8SJI0c49zLmk0Ht847zZ09y7OhV3vh86I2SGl8XBx7dOMvRo3Zi+6OcvPkEZ1cjMqZPkBfvXz7g/JGjHDt2lCMX7/HWyTPKYC36qIN8cHh8RWwrjmN3iqsPXLTtnYPcuHXhjDj2FV7r1wZFIRinW2c5cuwkF2+9F5r3cUIDfHB8eoPjdse11/DUGW6/ciUwsgrr8wgLxMv1NTfEPo8pcfIs156+x++DTUtD8fdy4O7pU7rv8zhnrjzD1S/AcG1kWBCOz65z6NApbj9zxuCuQ315fucyRw+d56mrsXr9EHy8HXl07rj2uh87wbnL93nnaeS4OtTB/ri/vc+J49prp0l38TFOvoEG0qnFrWDPTbtD2Il7x8vgiKtiG18nHl48zwlxHso+T5wX+/P2FVfGAOJ34v76lvj8p7n10BmDvV5CfHl5/7LY5iwP3nmh361VIpH8mPxSEqgMtjaoKglMVJg12mBkTrhXLKuWSkhgb07rP+p/sfzu20ugKCs5POLcCVHWuW3/gTKIGu9X19k5vw+VMhmoCQxHPL/fv7jPpeNK+ekYR4+c48EbZzwNvJiNb6QExh1qf7gjRPDSfXAxVhgWeL+H40eE1A3F4IsCDaKA/F5sd+sBXH6o3edLkUlEbz5qCLU4tv07uBmeVvz3lRv4yZfln03cSKBEIpFIJBKD/FoSGMDFiXWxViSw4x4Mv3oN5uY/dVHZlGTCZf0aIl9ODv6NrMUmc+MDhc2fhW8vgZ+G88HRFMwwkps/wHcjJfDb4HoJagsJvB2bWg3JN0dKoEQikUgk8cgvJ4ETftdKYIfdRiQQQh8so5jKhEy1p3HRXVtT5Hh0NkVtVSTvczBWLWN+dH4kCVQ7nqB/lcyUm3NTt+T7Rkrg10ftBqOHQfOtugWS7x4pgRKJRCKRxCNSAg3hy+UFrUkW0X9MGyZpO7PPQU4R8b1hv3swTaac4DNHHvjqSAn8+rw/DZ038MPcIxIpgRKJRCKRxCu/mgReGF8bC0Xq2u36yMTNfjw4tIQuvxUha9aydBi7jntuv04Hnx+tOeiPhJRAieTjaCQwceLEmj8kEolEIpHELXPmzNHEr8Lbg3Pp0qENHdfc0y2RGEJKYPwRFBRExowZdX9JJBJDaCQwVapUDBgwgEGDBsmQIUOGDBky4iiGDBlC5cqVNaH829A2P1UMHMTQEaMZO3YcY0cN0/xtcLtfPIYNG6Zp/jp8+HCD62V8WfTu3ZuECRMycuRIg+tlyJAxSCuByZMnZ/PmzWzdulWGDBkyZMiQEUexc+dOWrdurQnl34a2kfHrxZ49ezQSuHfvXoPrZXxZrF27VlO23b9/v8H1MmTI2BrZJ1AikUgkEkncM3PmTE1IJPrI5qDxh6+vr2wOKpF8BDkwjEQikUgk8civNTCMJLZICYw/5MAwEsnHkRIokUgkEkk8IiVQYggpgfGHlECJ5ONICZRIJBKJJB6REigxhJTA+ENKoETyceJGAtWhuL+4yo4dh7l85z2BusUfIsTlIXv37uPgoQd4hOkWfg3Unjw4vJs9R0/x2O3rTUirDvHlxU07tu85wyMHH77mR/48wvB1eMSZPTs4cPMlAaFq3fL4IAzPV9fE/bOfM1ef4y3fR8SK0OBfZz6tSMIIifLjCcbhxnF27z3AqWsO/BpTTEt+NKQESgzxfUigPy8uHGXv1dcE6JZ8PgE4vXzA+WP72bN3D7t3nePRO2fcA+Kz/GAYKYFfEV+4fBfuuOr+/hzELeL6Dk7ehDO3DcepW/DwvfAHXRLJlxM3Ehjmz7nZdVCpLKneYTsOusUfwvvoYM3IWCqLflz8miW3kMv0TyCOmyQnI059yR37aYR4PWF289TiM+dlyKaHsRLlb0sgDzcNJZ/yHTWfwzvfeBQOdRBX5zfQ3A8F6k7jjrduucQI/ry6vINNF96g/n97ZwEWZdIA4KVBELtQsbvb3+5uPbu7u1tPPc/OM84+zzy7Fbu7uxBbERGQhvefb3eBBXYVBVbEee+Z52S+jp2Z95syft76w/j0+CIH1hzFJVx68YGNTVOp353MdTfyThsrkcQlpARK9BEXJND37iYapRP5fI1FvNTGfQ8BbjfZMLEHjSoWJpmp2J9SdlAlpXid32jbbwYHb3/UrmkcpAQaj0vboEQ76OSkjfgOgkURc+cCcGwJOdvqD1lbw4BNwh+020iiT4xJ4Nl5DcUPPhl1emxHiPpX8Tw8SqxvSsIkQ7lgVAm8xLAUInFKW4BxJz9oI2MftQT+lkJccw4Gr7vzU0jg/U1jKCIScpt2C3j5OXYl8MripuLeWFOs8SxueWrjJXr4yLm/RlPN0ZE6iy8T9ItI4IcLi6lcrDBl/zeTO+FqAt3Y0jaLeHcSkK/pFt5rYyWSuISUQIk+frQEBr46y7imxbBUhK3h8ih9wNdL8Cu2D6hIIrX46QsWZK82hmNvjdcGSkqgcXh8EdoOgEIdoNdRbeR3EOgPswdCnk4iCKHM0SZyyNJKSmBMIyXQSAQH+vLO+RYXLt/l1UdfpeY7jqMjgW2FBMZyTWA4CZS/cMMEP+ffNhWxU9kICbzyy0igy4YO4v0wJ3eZBdyXEij5yZASKNHHj5TAgNfnGNmsBBYhtXbRkMBXewaQxFzsw8QSx/ojWLv3OJevX+fasa3M6FsDK2X/thlpMP+a0ZrySQmMfR6chc6DoUgXKNgxehIYIDLvjm2h3BhYfw0ePoe7zyKHlx+VTiGSmEJKoMQAUgLjJMEvWN+uComE9NT9lSRwU2fxfliRR0qg5CdESqBEHz9KAp+fXkq7Ykr3FK0ARksC37K+USaxD3PSNl3KQx/dBDqYAP837BlaWiy3oUC1udw1UnlPSmAsIoqDThugZjchf51EiAEJdLsAhdpBA5FM3v6sjZTEOnFQAoMJCgwU5xMYWsANDg4iUB0XoI0P/npNmlgnKEhsF7JNyM4MSqBYX1k3MEizb2X7kPMQ20Y6nnr/gdr9a0Kgsu0XOmkp6+telwbNcdXbav8OVs5be71KvHK9X0e7Xej5RPE+KYRea8h2SmR0JTDi+YhrUe6jvmsxIIHB6vulOadAsa8o3YVw1/L1ZxJGyH3XbqccU+zH8L3XHCf0uSnvaOi5RvG+a9Gcs+a46u0NnbMSFfCMtW0rqyWw9l8X8fNXrjFkXbEf9T0LOaewexH2foUn/P3S3md9K6oJWTfsHY6J36buMdX7FyH0N6KsK/57ur6jeD+EBJaexx0lvRDH1ayiTwI15xnueXz1pCSS2CO+SaD6d6/8vr4yYJiyXshvUBIZ40vgO/YPqiDSS0X8kvK/drPYOLc7mW3F3w2+UwK9jtLe1BSVdVZ67HurjQxPwPt9tLZWYZ27IcuuG6e/h5TA2CFAPOJB/SBfZ8jfC2buhykToXg0m4Pe2go5xT46LFY6vUiMRdyTQP+LDExuK5alotOuF/i+vcX2OUMokyupNuHKQbvf57P5lAu+BvKVQJ+P3D2wgpGisJxYvU1qqnRawNlXXiLjusRwfRLocZCWyroWNVj30IMHO6ZQLLOd2NaWMp1mc+ZFSC++IHzePebE3tWMaFRY05ZeGywytGbOlgPcevk5UnW10idwVrPUYr3cDF2vMzDMy41UFduapqvBshsfcLl8iJUjG2EWut8KDP17M2cffDRYBR7k58qd07uZ17MaNqEdsrPSavIK9l90wd9g3XkQXs9vs//fidRKYa/drgT9lzjxPMCb+5vHUFTEfWufwGD/j3rOR0WGVpPYsOUIjz76hRcFHQks3mQ2dz7543JxJ1Na5QvdNkWtEazdfw4XgzIqnsuLW+zbMoc2WZT3R7OdTZa2zNl6kLtvfAzISTAB3q+4fHAbSwbVCd1OCVZJStHvr+1cfPiegPAnjIfzAdplFuv9rxsnn7twfs0I9b1StsvaZQEXXby0636B4AA87p9i9fJx1E4QdtxUueszShz38tP3+Ice15eHW0aTVbuOykRkutp/W+RdyDNllVen6FhJeccastX5PQ8PL6BVbmvxtymO5Uay5967sKY4wf64v77C5lnjqJtfec+VfdlSstVwFmy/wkdvPemB31m6WSnHdaD73ld4v77BtlkDKZgxoXb7vHSc8hfbzr3Ez8BvM+DzB27vW8bQFuWx155/5nr9mL/tKm6ed5lVyQaVVU46bnyoXt/31CSstO+QibgOzXFEqNSXc6/9xRohEmhL/mZbhQR6c+/kP/QuGPKV246SvWay+cANPoZ/iBKJ0YhvEvhkQ29SKs3/Cv7BLYNZgz9XZlZR/w5zN14brUFH4ivGl8CbTM5sTULHXLRdelY9mvKDNX3IqOQ/3ymBgZdmksrMBKsEDdn8XBsZgUDfW0wqKfKZxPnosuG+wbJMTCIlMHbwvQklu0HdCbDjgSZu7iQoFk0J3Dsb8gipHHJE87e7B7wTNqgET1Fgltl37BAHJfAywx2VAlwaag+ZSKdSadSZSORQkH4iMYmY/wR9fsiWYfVJpW+bAj3ZeucQI1KJf0eUQM/DdDAzx9K+BtP/XUrttCZh26XqyxkP5UhBuN3fR48yjuH3Gy6YkLrYAPY/cA8nHQGfHjG/rdJkogijN90Lk8BXW6grtrNJW5xO/XqQN6VFhP1pQtLc3dh4PXLzVf+PD/hnaD3SWkTeRgkWScowbPUZXCM93kDe39rJ4NJZReE68nZ5u85j2/IRFBf//paawGDfdxyZ14m0ZpH3qQnmZGswldOvvLVbCHQksGjdUfyzeAy5dKQoNJikpOKYzbzwjpAaiO1dLvxL27wOkbdRB0uyVh/DgbuuETKfYHxeX2JGs0JY691OE6wzN2b5uRc6iZCQQBcnuuS1wLRiB1bN7EkGpUCkXd8ubRv2vtGuapAAXJxmUjWR/uetDuK4Ky+/0ZxzsC+Pto4lZ+jyMCGyKfCXRgJfn6VHLSFE1r+xYtdsqihfd7XrmGapypxzIe+PF7e3TKJmRvPQ5eFDEsp1WcTZ94pk6eB3gb5JlI8FDtQdMp62JTSjckYOJRn836NIGX2Q133W969JCr3bJKF8v7F0/V9iVMkK02PLI/U2vqenYGsZcq1h12xadQDnw0lgAnLXncu6lQPIqIz+G7pfbTDPTJvpR8XaEonxiW8SyNv9NMmqfJh1oN12A3oXeJ0JeRKiss9K991SAfVhfAl8zOb5O7kbmhAGcGdV72hJoNu+IZiainwoxVguGSgmBAe6s3VIIfG+ZKTF76cwRl2glMDYIcAZVp4W9zekPCTKlnOiK4HCAUZ3gaID4A8n2L8NaveG7K0hWyvo+jesOSOKOLKZaIwTRyUwlY6YZKRc/VZ07tmXPn260rJeBbJaKvEmJM05hNPhUpPPXJrXCgf1dnZkK1Ofjt360LtPH7q0qUuBJAlJVaU25RKJ5en0S6DKPB258mYnZc5KtOnam17dujJw/SW1tAV9fsKqDvnV550iS1madOhKz15iHRF69uxM4yrFSWenHDs1jabs573OdX1NAkMKq4nTFqNemy706NWHXj07UL98IVKrl4mC9/AdvNZ5TMGBbpyc05JkynKblOSt1IQu3XtpzqdHO+qUyqupCU1RhVn7H4WbQy3A4x4LWxbEXCw3T5mTKk060KOnci09aFW3NJlTpSZX8SKkE8ttlZrAKElgIK7X1lI/hRBo29QUrt6cbj0090cJ3ds1pnjGROr789uMw7iHXEuoBJqSKkUGkqTJQu7S9eigvZYeHZvyv2xKDZe4lvT1WH35nY5gBOP12IkBZTTLk2QqQq0WnbXPpRddWtShQMYkYpk5WZvO4abu3JB+rhyc0Qw7sZ19uoLUbN5Jew9E6NGdNvUrkCGVplbRoeMKnn0OPWG1BHYtkABVmrRkSZCanP+rL95RZdv+jJlz+uvNGdwuMbiqIuBWZChUnZZde9Fbfc7iuXdtT+2SitgIAS03m/vqarUA3l/fx9ROraic0xFLIbYZKzQT710vBv95SiM3igTWzoHKzJG82dNgn6sKrbsp19KPCXN28ET7W3E7M4cyCTXvm22u8jRp05XevcXvpHc3WjWoRFb1BwUbCrT7lxe6j10tgcrz02yrMslMhYat6aL8Nnt3pXmdsmRRb2tOqgKjOBeuMtST87ObkVK9nT05yjWkY3flt9mbTi3ri+cbUhMtQuoioRIY8OQQQwYNoF31POr9Jk1TnpbdejDgr204f1LeghAJNMcuRS4y58hE/spNNb8DcU1dW9ahkKNS02lCknwt2PJA5+ODRGIk4p0E4sr29oXVLVYSN94g/oqM5+nJZBLL7TP14FDk75cSwY8cGEZD9CXw4crmmJmIvKTQIoQf6CU40IuDk6uKdDg1DQbv1fu+xDRSAo1EDEhg0EOo0glK9II6QyBPC8jRFnK3E6G9ZnqIvJ2h53pwliIYo8RhCTTB3LQg3Wcd4Zl72Ar+7k/ZPagiVmJb2zSVmHNZp6T5dh+N1JJhR6F2czjtrFMUF8J0c8+f1EijqXkxS29AApX9pqjFnDORr8Lz8lxyKIXUlJX5/b87RCxOejw9x9SWBdT7T9NmFvfcwmpSvi6B1qTO1oJFu2/xUafg/eHBKaY3FAV7UcjN0fRPrr4Le05+zjtollQIl40D1Yev4MILXSMOwvX+KeZ3KK0etjmTELl77iHnE8Tr41PJaarCJHUJBi514oXODyvgw13+m9yaLGrZVpEwqhIY5M/DzQM0x6s7nMPPI27zidvHt7NgxiK2HL+HVyQJVI6XiHytpnHska5GeXJlyxTKpjYTy/MxbP0tQisDA705taglCcS2SfM2Y/7OK+HkG793XNo5n+o5Eott8zNm76PQGj2vF4fokV4c0zQXPRce5nXoQ9Hy8S7LBtXR1Fxl7MeRtyFPXCOB3QppBDFh8X7suP5t2ZrnjXVUUr6Sq6qx6PwrsUddgnl39zhrli1kljivZ+HaVrqxtVN1Ife2NFhxRxunIViRwDq51eekSlaPeSefRqopJ+gBs6vmVn9ksSvZjVWXnuKlU2Xn7/6c04t6UlDInIlNAUYc1xlqJVQCTbEwL0Kfecd47hH2jvt+eMSO/uVEwdAEe8ea/HVN56V6tZ166YSMmSSmWKf5nH32SbtA4OfGg6MLaZhX2+Q7VZgEhuC6o7tYZkW+8ktx0cZpCJFAsZ1lEsr0/Jvr73QepP97zq/tQ2Zleeri4vk7R7jXEknsE/8kUPzy9g8nsZkJZgmb8d+riL+qN6xvlF38LhNSauAho9T8/IzEBwl8vLolZqIskaDAQp5q4yIR5MOxmfXE+5Cc2t2389YIibCUQCMRAxL42gmytRaiJ0Sw5TxYvA82H4NNYn9KmLYQqgohLNAdJohlobWQkmgTp2sCrcst0J+ouKynhlKoS5GdXgfCOiK/2z0Qe0tTTJN2Zvd7fW9JII9Wtld/vTQ1JIFmdmRvvRl9Hy4D3J9x5tgpLt18yie9tyuY2/8MJovYv1WTSVzXsZGvSqCVIzXGHdGTWfrzaPtosin3o3p/DruEiEgQd1e1FvszI1vpUZx8p/9X4fVgHx1LJ0Nl34jVV99ppCDYi6O/lxXbJqV857W46PG7YLdbzGhTVKzzbRL4eNsw0optzB2qM2bZbs481SnsG0JHAhMWaMnqy5HvfpDbbSa3yivWSU3HhWfw0N7/AO/bTCkvrs88Ox2WnEd/TzxPTs7rShYTFQ491wtJ1FhPoI8r908f49SVe7wz0Ofx3fF5VHUQz8dWvFMvQ/YeIoE24nzS0XbBmXAiFRU+395E5QLivFWJKTVuHRcv3sDAIwzPl0YHVUtgLvV9zDJgBx569ud7dTEF0yg1Y8X4/ZShxpHuHBpRRqxjS4ku28NG3NSRwISVF2maoEYg+OlaKonjqxzyMehw2NTtD1e0xsbUBGuH3uzXWysgfpub++GobKtHAr8+OqgFDrl6sifShwexZ0+RphSxFrKflz7Lb+CjjZdIjEV8lEA+n6BTMvF7NUtMrdWaPryhuGyilL2ZyMers+y+bgYv0eXXkUBvIYF1RTqdXF1G1D98TMwiJdBIxIAE+oiiyFWR5d94Ai9FkTFiccrHA45vgZJtocR42B/+S7AkGsRpCcw967o2MgKuu2muFBZTZKLr3pCj+XFhal31QCSmLTdjUD1c99LSRmxrqDmodWIqzr+hjYwanx+fxemwE3s2TqN+GktxXSJB/G0SN3Ql0ENIYLsQCbwfWQLT5mPgQX0dyfxxOTCVgmIds6q9OeQcIoGf2N0/PyqTVNSaelEbp4+3LO9bSRw3H6O3P1AP2BEc5MKyxmlQ2eWizeo7kX5wGjy5+HdftXwmiPLAMEF8fLiNNmnF9ajMsbZNTOLkqUmTOjUZWs3k0PlrvNO3m1AJNCNX7XGc12dDvq/ZMFIZuCU57eafDpVAv9e71c/TWsjjtqeGLcrvxiqqZrdCVXQC10KrIA3g+YDDh5w4sG0ZHStnxlR5PvZd2PMypGZLK4EFxf5UJZm851HY84wqXrcYUyEPFsq+re1JkiQ5KVKlJ2fxRkz85xTPPkbojxfK1yRQqTVOTqsV1wnQ82CfbupPentxzJLzxJ6+wJU/SSqeR/bSU7keYk2hEmhCwXk3tZEReLeDhso1pclJ30MhWb07e7qVUF9rgg47DNYKBLgfpbdybikjS+BzrQTmNSiBNuSq8bfeQkiQ/xtWdskm1slF7yXXItXgSySxTbyUQAK5taCB+F2ZkrbCknA19I9Wd8RO6SddbhEGxgqRCOKEBK7+ATWB2ujYREqgkYgBCYwKnuKlGd4Lsovw9xX1YSUxQBweGCYVjdYbSFJcd9FMKWimyKwjgW/ZWD+nerTOdCOOGRAbgaEpIkIkMEES6m/UV8ehJdCXV3f2M7V9ZRzUg58og1VEDHok8Cs1gZaZqzH7oh51DRYSuP8PrQT20ZHA16xuklZ9LP3noBuUdTLSc811fISEBfme14yQmqYwg/cayqK/c4qIAA+ubR5DsdSKICmD6+ieh/g7oSNVJ2zF+ZOO5IRK4BfmCfR9w6bRmkykrZDAkJpYn/trqByle6AEsV7SfhzTaV6sSPb7x5fZNL4lDkk0I2nq3U4tgRFqAgsK4TerwvyTL74jQQrm480NdMiYCrNIx1Pum5Ca38Zy7HEEZfpqTaDSBCsjg7Y9IvLo7f5cW9CWtAk1zZ6/HqzIXGwQoT8TnYFhmm0y8Bt5u12PBIp3tWI6dQ18gYW3tXGRCfS5xqQiduEGhgkhOvMEBvm9ZU0PRY6lBEp+DPFTAgVP11JB/K4TpK7LukchecRTFlXJjLkqCTVXaYcPlOjlV6kJDA70YPdYpfVRWpqMcTLKFABSAo2EkSTQXxS//pkDWdrB3DNKCVUSE8SQBPpwbn5j8QNPSq1uW3lp0MDCuLekkVhfSGDy4VzSrfQIlcBM9NwX1pwsHHol8B2bG+VRS6DD0COR+0KF4H+RocnFtt8hgcF+rhye1lw9UIuZbWKSJk2MXcZWLNi1j4MHD3HyzB0ubhhFHrHc6hslMGH2Bqy+o+e1/qoEmmJpl5RkyVOQLJmhkBQ760IM2XgLX/FsgnwvMDKNuAepCzFwt6F6dV/ubRqtkcAoDwwTQgDvnl5g9dCmZHNITsKEibCzUQRLHFMdLMnVch4PPmrfuWhJ4GpN80PzBNgnSUFyvdevDUJgbLKO5HSIgAZ6cWvLWAokM0NlkZAkSZOR2L4EfZfs5PChQxy/cIXrhxZRM6PYv13nGJZALR8ecGznDOonSYa9+B3a2dpiYaYImCKC4riWDVj5UKeRa7QlsA1p7cR7bmlP0i++MynE++1A4SpjOBfSalQtgUo/xiz0O2igD6ReCXzDmsrp1YMQZRl3Wtw9/SgS+HuhBFICJfGOeCuBPGN5jTSobJLTdOVdTdSD9ZTLpHwsasSGZ9EoV/wCxAcJ9D4xEQshgTa2/TlhYNCO4ABX1vXKKd6JrLSefsEoabCUQCMhfuLGksA1syFrW5gqjqNTKpJEgxiSQH/ur++JrSjkZa4zmtNvviYMrmxVj7Jpgn2lNULfdAiVwIwYmnhUvwQqcxI1xMZMhUlZ7bxpegh+v5vmyoAnhpqDGpTAQF7sHkIa5RqrjMQpVMZ08eb0vE4kF+tYf6ME2gkJXPVNEviezR2yCXlxoP7ie9q4qBEc9IKVLdILccpCk5lnDSTIHlxY3Fs9L526Oeg3SaAOwe+5dvkypzZOolrR4hTJl50kdorkFGeK01PNPHjRkEDfp5vV9y9xiU446TMAgwTjevtf6iURz6pQM5ac09cUN4hH2yZQSmmimDCmawIj4/H0MicPbGR059oUKZSPTCns1c2ibVtvDUvwoiWBgdxd0Y10ytQRtVZ/+2ANOhLY96CBm61XAj3Y3/t/WJiId6nFf7hrYyMS+NGJLkphRE9zUCmBkp+Z+CuBwTze0EH8tiwpUH+penTI20u74GijwqLRGvTPlBOEt8c7Hl08zanTZ7l06yWeoQloAB8eXOH0qXu46jbYwI/3969y5roLn8Mlej838UECufc3eUXabmnbiLXO+msAgvxuMbGYNapUhem35wstrWIQKYFGIgYk8PUTuCay/Ps6RfKI+Ipy4YJxQgI7w6ILSolfEhPEjASKRN310lIqmYqEJFUZxmy7Z7gmThB4fwN11cO2W5Fj8nltrJZwEvgtNYGiOHhwOIktzDBNXJel1/UVcf25t7a7WuRMDA0MY1AC37K+taMQpzTUnWugP9Snu8xoU1icuyi4N53MTZ1c7Gt9AhUJjFJN4LOQImww91Y2V9/DvLWmcdlQydrvA5cObWLR3/u4/VY7iX3wZ079WVlsa0vh32ZzU18r1I+3md++lLpm1a59FPsEBvnx7NJuFi7byPEbb/W/A+/OM6ChMsBLenr/cwMf5YQiSqC+R6cjgbp9AgN8bjOprBCThHno9891g00EFMHavuZvVhy5y2fFjsR9vbxIOaY9tXook4zrIeA1m0LmnEzUlb2vIvYJ/F4JDML9ieZ8VjvdMTBQiRuHf6+LnTLlQu5ZhClRiATaUm/J1W+UQPELuLKQnKkSiPe4FguuGG6U43HXiaXL1rDt0IMwWQwngd9SEygkbn0X7ExNsErZlg0u+u/W03W91L9NfQPDhPUJXMiDcNcVBQn0fyclUPJDib8SKJLJ51tpZCXyiXwt2HTjFgt+K4iFSCN67tXbQxe3G9sZ3bsxuZTfuhKSVWbIsgO4qJNXVzY1Ti/ia7Duue4P/QWr62ZGlWskV5U+DfGE+NAnkOBrjEor8hSLFNRYcEUbGZ4P52ZQSDzrBLnr8PdNA9WFMYyUQCMRAxK4Zpimhq/GX4Zr+N7fg3ZdofgEOCQ7GscYMSSBonDpfps5jZXBF8xJlac583ac4f77CPv0d+fxmU0MalAEc6U/nXkNFt6LkCBEQwLxPEP33MqccAnIWW0wm6+/ChMRP1eu75hEBUdlREcV5t8sgW9Y1zqD2NaOPE0mc/y57nn78vzuSZZ2rUJaW6WWS5xbleGcCpUG8TuJcQkUBfU7q6ii1FLZOFKl32wO3opQc/rxIdvm9yWbMi9iit/YeOuDRgKFxLy/vJhSygA5CXPTdvIGbuhMPeH/5ibrJ7UgnZIxiOMmjKIEKu3+T8xQBm9RkbrKAP69EHGCYF+eHllDu8LJ1fdh8gEDNYHfIIHBAe4cnFRHLatJszVg8r9HefRRt/AQxOuruxjVuKB6gJesA7fhphxU3NdLi5qJ/ZniULoHKy+F/2b96elVtszqSs6UmmkgVKrf+Pd+iGlHVwIDeXFwOnmV55KkAr/vuMjrCCb4+dV5/mxdCitxbMvW/+nU2ikSWJXE4l5VmHlBG6clChKI9xVGlVfeQ0vSlmjBnwdu8kH3VQ7+xP0TK2heMo36uosMOBgjEsj7/bTMbI/KJCF5G41j7x0dXfN5w5VdU6meRTtXoEEJtCBn6RmEr/eWEiiJ+8RnCQwOfMvOviVEPpSFJn2GUiGv+B3nH8ENz8h5RvDr4/StIdKfjGXoMnIKM/6cRN8mxUhmlYeRa2+LdPQj21orIxw3YtML3QTsJeua5ces2ESuSwmMQWJAAkWKemJYSXXabZO3HhN33sIjtELQB+dLm+hcXMlPEpC32ULuGSkBlhJoJEThJ7oS6LIP8naEUv1hxgnC5pDW8uI+TPkdcohjdFotUgNZDRhjxJgEEuzLkyPzKK1MFC4SA3tlwu8iZahcpSqVK1elSpUqlCtVgjwZUqn7BqlUmWm/9HrkWpDvbg6q4fXOwZo5wVQ2pMpWiNLlq1C1alXKlypK5kRJyNGtL62UYa2/uTmoP3f/VqRBhalVEjLlK0mFSsp1iVChNAVyZUKZH09diFVCif4ceB5WdI/55qBiUdBHTs1trZ7QXWWZiHQ5ilC2YmX1/a5cuQpli+YldSJxTUKcak/aw2vfsEw12O8NWwZVxlpsa2LvQI7CZaik3q4ypQrlJkOWnFRqUIvcYnnUm4MG8uH2ZlpkUI6ZgFRZC1Em9HyqUqlCKfKqB0JR4VBtPJdea68lGs1BxcZ4PT3CwLKKoKuwTZGRPMXKhR2zYlkKZkunvk5Vuoasu/FeK8JCDk/PpLgSb25HymyFKVexina7ihTPl4OUSrNJZbk61GTp1ZDOcTHQHPTTdcbXzKm+FwnSZKfQ/yqq3yXl91KlYgVK5M+CnXrgodJMPKvzMST4OWtbVSap2M4uQyHKV6pM/YkHNJPvRkUCBR/OzKd6Ys11WQlZK1pS3C/luFWqUalMCXI7aubrM0vbik0uOqntdzcHVfDn6X8DNFNAmCQgTY6i4n5rfj/l/1eErKlC+oyK9ENIYLf/Hoq7HMazde3Vy23sM4l7VZ1WY9bwUN2nVDYHlcR94rMEKmnp23NzKCp+n5YJ7TFV2VP+9wN4hUzIGkoA99f0Jp1pDrqvvxH6O/R+cpDORVKTot40IQhv2dZGmetUSqBxiGpz0CDubxpIWVGeatp+FtcitDzye/oP1U006bdNmhwUK1Nek6eU/x/5sqRUd2swsy/GyP0RPwzHHlICjYTIhqMigcEu0GcGdP8LVmu7D4fiBQuE5GUX+yjZD1pNhR6ztUFs03Q4FBXLyo9ElKu120hihJiTQAV/d27tmk7FTMr8Z0qCYCA4VGLQytO4q6uBIhBNCSToE5c3jqCkOkEKH0zLjubky1OMSin+/o6BYfzdLjGpplLgjLxvJVhV7se8eSOopuzfpgHLLr/VCkfsSKBCoJcLW8fUVw9Wo++cVKbJKTlgNffDd7AQBOP99jpLupQjSaTtTCgxdC1H1o1VS9I3jQ4a5MXd3X9SQj2xe8T9akKKQl3YeE07Z6FCtCRQIQDXG9toWUhTe6Uv2Gatw4x9SlNQ7SaCQC9nNg2ojJ2e9dXbpGjM1HmTqVw8lfg7C/22PdZuGTN9Ar0e76ZXPqXmWv/xVarCDNlyC+/Qr6oKPlz7uw+ZbLUDx4hgk6o3R5UmvW+jJoGKkL06PZcqSt/YcMfTCYW6svbi23AiFj0JFAS+4eAfLTQiGCmkpu7Y0bRQBm1KV4KRB8JPYOFzbznllObmIetnEYJ6V2nOKiVQEveJ3xIYjM/7SwwvH5KWVWD60WeRuwP4O7Pot6KYZurB8fc6eV2QP+7vXuD8xl3syZWtsibQiERVAgO5OK2c+vmmzNqZI5ESWi+u/juAYiHpc6SQmc5zT4Qf/yGWkRJoJKIogUFC/IqLdQoIyRt7Vhupg7d4+aaM1zQLzd8JCnUOC3nFdsX7w3bjdCf9pYhZCdTi9/oOB/etZVR1RXpCEgFLMhVvw58rD3LnrYfhQrP/JYamVSTSke57DUngTn5T9pk0A533RJBAheAgPB44MaN3fRy0CVCjAcu4rAzUEnCRoUlFXOq8jD2p06TN04n2Si2ElT11Nxh604Lx83rOkSXDKZdD23RNZUfJvvPYuv2ieu6b4PfXmCQyK2Wk1KYLzuKrza8CPj1kXhultqoQIzfqSuB/1BL7sclSj5UGJPDZvinkU45VuRcH9Q5I48Oru2dZO6IxSW2VWjjlvMzI3eMvjp9/hD6nCsX7PdcPL6Z5Bs3cjCpVZcauO8mbID8ebBqlbsdv2WbeNw4ME4jr02vsnd2NFInCanjskjRm+s7jPNIZMEeNkMDLi5qIdSwo0nCmAQl8zUb1PIFJaDPvVAQJ1OLxgvPH19A7v9LcVDmmELmk5Ri2xom7r/S3NA/6/IHbe+dQp4Bj6DaqsoP4d/ch7n4QhZCg56zrXRl7EZ+g03rt/JNCAp8doks+RXQrMe9ENAaG8XnG0R0r6F86Rdjxk+Wl1bjVnH/mRqSP6Qperzi3fjTZEijTcKiwsqvHRuXrmJDAbrWyirj0DNz6UP+2OgT4OHN05WxallI+umiObVOlJyvWneKFvo39ztPbPoFYLyO9DxiSwG3UV/aVMjt9Dkb+/QYrU6xc2sof3epoP1xYkbfVeHZce0+A1ykGKb/NrGWZejbCRPbBPjx0WkrbMoqQi3Usa7LkgrJ/N/5rnVHEWZOnyX8GJXBVN6WpenZ6LpYSKDE+8VsCBb4f2DZO0xXAtMpwzuh0hQjF9zGz6xZAlb0/Zz/qyevUfGBrK30S+Ir1UgJjASGBK3uR3kqkqfX+jpIEps7RlaN6E9oAPj44zOzBv5Ez9INdWppOXMaOS8arAQxBSqCREIWf2ROhSDvocUQbp4cQCSw4AMaf00ZGIMAH7p6G/mJ/BTqKdYUM5hsEa4RcOusfPEESTWJFAiUSiUSXIH9vPDw8RPCJXEOgxf/1DlpaC9nO8xurbhnqHi6R/HzEewnEhxurBpNDFPyL9FuDi2e45gsa/J4wr0EhVFn7cMpNVwKDCfTzxtNLiQvg8vSqmKgas1lXAj9fZ2zpzKgKSQn8kXhfXEB1h3Y4GegSHpeQEhgH8Rdp4SgYaUACJcZHSqBEIol1nq1tqf0yXI35Vz4QEK6MGMjnjy7smVAHM5UZmcsM59RPUMiQSKJKvJfAYG+urxxEdvEbL9RnNS5hI4Po4M+dFd1JZ5KHAdvuE9pF/fNT1vSoQKKCXTn8xoPrc2qJdKIGS3U+BH2+sY46uRKjKvy7lMAfRcAnzs9vQ47i8w1OCh+XkBIY9/jwELoNhE2GpqeWGB0pgRKJJPZ5tp6y1iaoRKHHqmBTRs1YyvrNm9i4cTObls9icKvS6tFbVWaO/Pb76W+fw1AiicNICdQQ+GwfbcumQZWnHuP+WsvmDf+ycGxbcqTLROPJ+3EVYuh1chwpVFbkqj+EJes38c/S2Yzq0YSSDlaoikoJ/FF4XllM4xq1GX5E/+yPcQ0pgXEMH/jrd+i9DgxPTiUxNlICJRKJEXDlyNjGZFTXBhoKGajW4y+uGprzUiL5SZESGEIgr0+vomuDYmEDclnno8mweZx7qe2t6/OQNX1aUthBuzxZBUau/IdZNbIIeRwl5wn8Qbjf3MU/x10MNuePa0gJjGN4wa7D8EaqRpxCSqBEIjEOAe+49N88hnVvS0n1NCLaQp4qN417DWH2P+dE4TH+FPAkkhB+BQm8urQXacTvOVuXv3E2KIEKQXi9e8zZnTvZsWsPTmce4uYbYf0Adx5dPsK2Hfs4efU53sE+vLpynF0n7vMpSM+gVT8pP1ufwJ8JKYESydeREiiRSIxIAJ89PvLq2QNu377DnTu3uX3vOR88Pit9xiWSeEm8l0Ahdr4f3/Do5h2evHbH/0sOKAlFSmDsISVQIvk6agm0t7dX/yGRSCQSiSRmmTFjhjpIJLpICYw9vL29SZcunfYviUSiD7UEOjg4YGpqKoMMMsgggwwyxGAwMzNTF/aVoPxb3zoy/HpBeReU5vDynYi9IO+vDDJ8OciaQIlEIpFIYpE5c+aog0Sii6wJjD2Cg4NJnz699i+JRKIP2SdQIpFIJJJYJP73CZR8D1ICYw/ZJ1Ai+TpSAiUSiUQiiUWkBEr0ISUw9pASKJF8HSmBEolEIpHEIlICJfqQEhh7SAmUSL6OlECJRCKRSGIRKYESfUgJjD2kBEokXydmJDDIhwuLW6JSZeC3/rt5o43+El7HJ5IwYSLSOI7hsp828pfElfP/TqJeaiusbW0xT1KJCTsfEsRjFhROSoIU6Wm+9bl23bjNp5N/kE6ViILVxnPVXRsZ2/i74eodfyYPjgrBXl589vMj7KqD8Xx+lH6lk6FKXI95R1yQn3QkkriDlECJPuKEBAY9ZHaNLNi2Ws1rbdT3EvDpHtvmDqVKjmQksLXByqISo1dv5/Ddj9o1jIeUQOPhdxcaD4JBJ7QR30FwEJzYAEV7Qrm++kOp3jBul/AH7TaS6BNDEujN2XkNhQQmo06P7VFKSDwPjxLrm5IwyVAu/LIS+J5DQyurhzFW7oXm/8UYteG+kMCHzMpugco6CfU3PtOuH7dxPzaexOI6spYZwaVYl0Bv7h2YSat0vTnurY2K7wT78vrMcmp3GM/Gm+/DSaCHixPdClqiMqvCjEPOUgIlkjiElECJPn68BPpyc1U/HBOIskeD5bzSxn47Qbw9P48q1koZRk8wSUereRdFrm08pAQaCVF+nzsFinWAXke1cd9BUCCsmwZ5OkGRrvpDgc4wfKvwB+02kugjJfBH8vQfSisJpKkVCZOnJ2OmDKTO2oJFJ16Khc4sr5wNx1wF6bpb+TvuY0wJ9Do8Qp25WNgO5KyvNjJeE8zHhztpkVm8LznasuGum5RAieQnQUqgRB8/VAKDvbi740+Kpk+oEbWG3y+Bge8P0SOnjSZPtkuGQ/oMZMqcmcwZ0pEyqS0mIt4qaTn+OOWm3SL2kRIY+wQJG9u4DMoIQSvYMXoSGPgZhgmRLNgDqg2DeiMjh1rDYdoBEKtKYggpgT8Qn1MT1NJkZV+SCQffa2N/XowpgZ+PjcPM1BQbu19HAt0f7aV9bjNUudtJCZRIfiKkBEr08aMkMOCTC6f/HU9xR1uNAEZLAv25NKWSRgAdS9Jl6QnehpbpPnFj32wqOwrRNE1Cid67+KBdEttICYxd3F7AqqVQTshf/i7Rl0CfJ1C7DdSYAtel5RkNKYE/kIDjI9X3wD5lKw580kb+xBi1Oej5yZiZKRI4jKvaqPhOwKvDdM4jJDBPJ7Y565qvlECJJC4jJVCiD+NLoA8vzm9jWOeaZLIQ0uZQhCql82BvGh0JvMuUHPaozJNQ9o/z2rjwvNw7jHRCEtMXG8DhN8bpwy8lMHYI9oEzQvaGTIA8raHBJPhtIBSJpgQ+d4Kc7aD5bHgWpI2UxDpxTwIDndk8qC8d2g1hzS2l+6c/b68fZsGUobRp25bWrSaz5exNnn/1S8FH7p09yLzxfcV27WjTajBL9l7k2Vd6lH56dJXdK3+nVet2tG/Thm4z1nLm6ksCtcvD48+DrdPo3KE9XVZdV6/j++4WuxdPo0+btrRt3ZOpm09yzyV8C2bPu3sYM6QnrarlV98DC+tMVGragXath7Fs131tVfcbDozoTNuuvZh3IeTbWSAuh/+mb+e2tFl0XiTn4ta73cfp3/kMatWGNq27M2H1Aa4/+bqB+b26xYG1M+girrOduM7us9dz6cbrKMhDMB/unuXf+aPFs2hNyxELcXqiMdhoSaDfK84dWMvvXdrQtn179fNavPssdyI8sOC3V/hj7EBa1SgkMlBTzCzyUrt1R7qMnsExF+WOiKfyYBddOou4UYd4TxCvrmxn8oCONO/yB/8duY1rYPhM6PPHB+xbNIneHdvTXhy7w8BVnHvsYqDzcRAvTiymWfMeTF10Qb3Ox1f3ObRoLB07dKR9p64MWOrE07efdGrq9ODrztNTGxnSr6f6mB07zsPp7gt8xRN4tGcZ/X7rzB87ruOrfvE+cHRuP35rUJWsiU1RJc5GhUYtxPMez57HSi+L8BI4/ZBmICG3Byf5u69499t1os/I2ey4+AwfmbhKJEYnXkngxzssnNCfVs2mc/qNvzZSD+6XmNWuPV37zuTEK/056K+O8SXwMYtLaJptpq85mE2n73JpVT8y2woJ/N4+gY/XUFzszzxBaWZf198sJ9j7PIPSi2OkL8MoJ+N0b5ESGDv4PYQqbSBXZ+i3Hu6Jl2aOEMHo9gk8u0pIYFfouUUpZUmMRdyTQP9LDEmTWCxLT48tF9g5pS1ZHdOS0NpMnXCpVDakzJiN/MWHsuel/ipEj8c7GVYhN5kzpMfOUtlGCWYkcshM7kKtWXxBj6EEvGTX9LbkyZaFNEk0iaQ6JEhBxow5Kdx7Gdc9tOuG4s2JkeXV65l03cjVQ7NplDUjKROFNbGwSZmRHHlqMGHH01ApeH9kErlSiwK7ep2QAWGUkJ7WE46haTV/nxmZRJyZHbXXhwwM48fVeS2FaIn4lqu4cXoxrXOI801mr25zr+zDMmlaMmerwMC1d4Si6sOds0v6kzdHVtImsws7tm1KMmXKRc2pe3hrKF8Pfsex+T3IntGRZAm152+WkNSZazFx/3Pcz0z8Lgn8dHMNHfPmJH3aFFiFnI94XvZpMpM9d2FaLDynFl6F4IdbKZkjmXYdnXuXvSKLrmpk1PvEBExFnEn2uVx7so0OOZNgrl0vTccVPNeYldjZJy6tHE0NcQ9T2+s8c/EeZ8hVhFp9/uVhyIFDCeDm37+JdWwoW38h2zdMoWaJ3DjYhzxPEezTkaVUIybuvCukLiLB+Dw/zYROtciaLrn6PDXb2eOQozjNBi9jzZi2pBZxJcfuxlP9LJ6xsGZS7Xq670s+Jp9VbrSOBJrXYMGJ+5xf0Y/CuTJp3hUlmNuRIl0BGgxdx2NPWU8okRiTeCWBgY+YVSsnZiJdKTjtrIEPpPDhwEBsxDoJs43gXKR0VKJgfAm8wqQ6nZi2/hAP3iqfm4O5t7oPGaMxMIzv6UlYmamwTtAdJwMtmoICXrOyfWZUJtloO+dSaH4em0gJjB18b0C7hXDgDnxUCjjC2GJCAv8eCAX6w7SL8FkUeacugQ5Tof0fsPYCOH+lAkfyfcRBCbzMcMdUQmrMsbZLhI2FibbAqxuUuARkr7lCFI/DE/BqNz2yJoiwvm4wJ3H6+iy6oVuV+IpNnUphZ2WhZ31tMLMhRZFRHHfTrd/x5uSYyliYCUG1siehrZX+bcUxk2Vqzuanmu8b7w5PJFvyEKnVLdQ70HL8UW2b+Qea0UFtdEcH9efagrakTGAujpcQeztdcdENJlgnqsbi2xEl+TOnx9UiwReu08TSDse2G3in3SIMDy5Ma4qlech5RwjWTZgzrz+phLx9kwR6nKB3FkPXoQmWSYowfJ/m62Hwwy0Uy6J8JFCW6dy7LOVYGCKBJ0WmZGGGuWML2rXMG7aOyo76887io64JDOD6ys4kU79LIcsjhtRU6rCCR+GGNAvg1nJlOhQVFuJe2VrryF+EYF22C/uehK8F9vtwnRkti+hdXx3MbbG1Ud4jW8pP2BsqgQuq2WvXMQ0VfpUqN7+f0ZVAa1SWhWjQvCapkxg6r8x0++cGfvJTm0RiNOKVBArtu7uyG2kTivQk7UgD3Tnc2NYqlyj0qyg0WX8TQcmPkMAAvL18CAhN/wO4s6p3tCTwyT9tMDNVkSDffB5r4yISHPiJXWNKi/wnHb+NPcw3fCP+bqQExhKBoiQpfvM6r1D0JVBIQ/NOUKof9JkH9XuJ/XWDwl00oWRvqDICVtzUri+JMeKwBCoFfAtSpG/P8pMP+KR+4zx5cGIVnRyVAq4ZSdI3Zt0j3e+Q7uzrU1IsEwV7q8Tk7LaUm++1dTGBbzm9uBdplP1aJqHQYKfQEYaebx1M8oSiAC22S5CtJ2tPP9IuC+TtnUNMbZwHUxOxnVkCMnfbozM8rY4EivOxss9Dt6VHcHHXnJP7o5Ms6FpMvV8Tewcar76vjg/h08GhYpm4B8l/I/JUgF+RQLFPM8tMNJ2xg4eummfn9eIKqwdXFgIklptbU3xW+N5yn8/OIFdCRbjMSJirD5svOofeg09PzrCop3LvTDFPkJPeW59ql2gIfLCKymbKcZVn0pE1558rIwMLvHiwexrVLJRnojwzG7J/gwS+2NRZvZ1NwrL8vvUG7jqO7edymult86n3mbt2eOH/0sAwGglURNcM6ySFGbDmSqSmnQHPNlHPTpGiBOJ8u/HPuWdCDjXLgl5d4u8RDbBVpClZSQZvuqVToxcmgeqQrgx9lx7jra/mGfg9O83c/jWxVpaZlmD89vthXz2D/bmzYSCZ1dumpXrnZVx381HXEAcHvsDpryGUVzJjtZjaaSUw5IZEYWCYQiE1u7YU6jiV/be1I7EFeHFr+xQq5EqiXm7T+m9ehtSGSiSSWCd+SaDg0QbKpk8k0pN8jDmpJ7F/tpnaCSwwMSvOrKuyGtAQP2pgmDCiL4GPV7fUSGCBhYQvNeggyojHZtYV70tydRnxrTY6NpESaCRiQAK9RVG1eOfIU0LoBkUGyw2H/x5oN5LECHFYAk2wStyO3a7aeB3cxbYOojBrmao4Y0/ojDX1Zic1rYTMmViTtes2Ik9PGsjdJa2wsU1N4XJTuK6u4XnK/Ko51M1WLKr/yW29+dU7tvQtpT7fRA61Wfsg5F6FSKAppubZ6PyfizZeB8+jdE8n5MgiBSWGHQknI98vgYp0OvDbqofaeB38LjEsj724B1akbbNN54ubKzu6lCKBSKytcozkvN6vtx4c7FdC7NuKbFUX8UgbqzRDPTu+otinCTbJO7BHzzPhyWoqKZ3Lv1EC7y1pILYxI2n+ydxQbmtQ1KqooiSBpjbk7H9ET5NMcR/n1lIfN02R7hx4qWOeIQR7cHRGEyxUlhTrvISnniHr6EhgipIM+U+Z0zE8fu/PM7hcCrFOBrouOMunELn0f8aCxg4iPjmVuq7lZaSfnC93to6imI1G5L5dAjXNkBNWHccN94g7d8NpSgt153xVvtFc1FQxSiQSIxDvJBBnllbJpG4SmnbQ4QhdD/y5OquRpolgnaVEytokoUgJjD2kBBoJUdSIrgQ+c4Ly/aHWKJh/Ej5EKJ/ePQ09e0M+cYxWi+HhrzI3tBGIwxKoIlmXvfrbjn/cRyulMJs8I533hB3t7a6BWFmbY2pWgWUP9RTs9fF4GxWzJxfnko8hTl9Imt7voL5yzKSOdNoRkq2FSKAJFva9OKa3zbIrW9tlFvtPQtHWO8RfYXy/BIrzMG3LXr1jLXtyqE9BsV8LHMqvCnsWH47SPmtqEZ+BLoe+MEjzh13q60yUrSnrH4Rk7U+Zlz+peCZWFF9wWxsXET9OTSwj9m/5TRLoun8wCZT7KqQtV5NBzF60ml2Hz3L94Qs+fDT8BfnrEijeA4scDD6mb16ie8wqmgiVdXrqzDd0PULJnjvRKaeQroId2f80pENomASmLdeb/S56fjefX7FkgHIvktJi+hHctLfR/8V/1FOuNVslpp/TP19SoOt1JjZXaj+tv0MCldrsvAxadR2fSK9/MC+dplPMwQSVfR+OftT7FUAikcQC8U8Clcq+XiQXomeeQqQnunlfwE0mlEwr8gtH2u/8Oea4/VH8ihJYu7uUwHhFDEhgVHh/CxqIY+QYBP8aLrZJvpEfJoFeR0aL9b8kgdaUW6mnpkvBdRfNlMJ0isx03RtytGDuLm1JAksTIYEdOBC5GlAvn87/Rf4MSu1hVw66famJ3APmFrYSUpaW2otvaAvgWglUatf+97eBL57v2NQqo7jWJBRruzPcHDnhJPCFNjKUL0igtbj2PDN1aup0+cS+Hsqoo0ICK67mjTaW++v4X2ZlcJGCdJ+xnNUrV7JiRcSwSoSJNEyswsyxDJNOa0XF4zitkitNf3Iy9JjhG+t6aAR24nq+qU+g50XGlM6pEUGdkChfVdp2Gs7M5Rs5ejvyqKVRkUBzywosu6fnvfY6Sjcl07PLTINRf/HvauW6w9+LlStX8ffcCdTKnxBVkvqsuvZOOwCCIoEtxDlaUbTebO7odi3VEuz1kr/6KDXHyWg5I0wCvS/OJJO4trQlenFQX+2jgv8bNo9ogKWQ6XIRJfBxeAkMI6RPoHg/TcozZe/jCF/mNXy6vIIy2cS7nrgvx9z1rSGRSGKD+CiBBFymv6MdKrPM9NwXVqz3ubSIomlFOpOoG4c+GEjnJGrihASujp4EPlrVAjMTFbaFFuGsjYtE0GecptYQeWIq6vXfjTFmRZYSaCSMJIG+HjB3NGTtDH9dUKodJDFBjEngmXlKs77k1O25M0w8vsCrLV3F+kKAEg3mnG4hXi2BKcUyRzrsMPAVUa8EenNqXHVszFVCAntzIorVxa4nZpAvrTmqpP054fUlCXzNvy0cUVk5UHfpzfASKBJAqzZbDHR2fhs1CfyWmkBlxNP6q/QM3qIQXgJD7k7gzRXkyRgyqmYUQuLM9D2kPcLzbRRLrvQ3K8yk82E9IiPy6fhEknyrBAq8XM6zanBnav0vp5CfiOdiSurCtRk897R21FQNUZPAGqzTlyu57aVlpON8KVRk4dlXWhENkUA7yjRZxVM9r0yw1wu9Euh1ciIJVSZkKjWYE/ofntj9O/aMaUoi8fwiSWCUJouvyoxDz7TnGh73S8sok1WIoloCZRIqkRiLeCmB+HJuXAWRzpmQueV/2u4XXpyc0JjUpirS9tXtPy/RR3yoCXy3sx+mSk1g2olcM+D8wYHubB2qDIiWgeYTTxBpoPVYQEqgkTCSBAZ8hn/nCQlsC9OPizKgNl4SPWJIAn25tqy1+IFb879Wi7j/1aFc/Tg3oaJY3xT7nLMIV98XKoEZ6bnPQElZrwQKbVrRRlsT2I79X2jxqIvHhUXkz6gMltKGnW+/dA/uMVOZqFtbE6jpB6YjgV13G3gpY0kCm6/T0+dRQb8EBlxfTs4MygiTVZm89RBHnJxwMhQOiXDyHA9D7eUUHZIrI3JmoMMuw9nEu/1DsVWZke0bJVCN3ydePb7FkY0rmfnHGHrVU5pEhkiYCstMVfjzbFhj2qhJYHX+faonV/qwW/3+mCcpSO8lezlx9LD++6CEQ4c4cOQaLz75aaUrRAITUr7pv+jpBWpQAr0vzSabOG6qop3Y5Wzgg4PfazYOr4+5vprAKEmg4cnipQRKJD+G+CmBIke6NpucIk2zd2zPfqV65/MNhtXIIdK+nIw4/D1KER4DThFviA8SGHBhGkmV/p+23ThsIN8PCnBhUeM0qGzz0mnNHW2rmthFSqCRMJIE+nnCMpGEKhI486RS+pbEBDEjgcGBvNg3Vt3Uzax4G1FA/cp3nsAbTCyRSmQUJth33RO+35+OBPb4Rgl8v2cw1uo+gWX4666B63HeTL3EyUlZoDzjj4r9v9xD1RzK8XLQa+8X+i+83EQ15ZjJMtB9b0hSqSOBXXYZkMBYaA6qSGCzdeFqxsIw0Bz04wm65FAGJSnAlEvf+vMRCXjR5CgjtuYedlSvYKi/Ck+rqT7ut/QJjEwwAf6+eHu48ebNC67smU2r/EJATRypN+pE6JflaEmguLfzSiVHlTA9bf7T34jXMGESWM6gBOpvDhrwegdNTMWzy1yOySf1N4gJ+nCL39sY6BP41eag3yKBsjmoRGIs4qsEEnyH6cUSobJLR9ddLnjeXEPlrOaoMvXjtN4PTYG8u7OPsWWz4OBQmG5Lj+HifJ5x9avSfrKTOk97t2846RwK0H2XbqYYjPO2YeRK34JVd+JP/WJ8aA6K+0Gai7KciU0eBh7RXyoJdj9CF3sl7/sfv5/SN7JczCMl0EjEgASuHgPVhkHPvdoIPXiLMuWU/pB9EKL8o42URJuYkUCRQHu9PETvHMo0AQ5UG/wfbyKPTKHFnwer+5PcThRGVWlosjFCe71wEmig+7ABCcR1Hw0S2AhhsCBdm3V6mqX6cnWW0jnZlFS52rJbXf5/ztJauTXTAaTppf9LVvAL/ulcWL1d4nQN2fQk5DtWVCQwlmoCoyiBYXfnCX9VyqqeusC82hSuGshHP1+dSwmVGanydmDHs5BxLwO4+Ec1TIV0Wdo2ZtndyFW9fk830iy5OK9vGh30LZub58HU3JrCI44ZaOPtypbuOVFZZKTB7IuhI31GTwI/sX9AAXGuVjgWHsrRN/refVFYubKGug6mqMr04tjzkGuOIIF6dm+oJjAo4AVLWmYQ8Uko03YZTyONe+PL/e1jKWyh3McvTRHRPgYkUNYESiTGIt5KoDpPUvJUW8q0W8bW+d3IqEpM43lniDwLjT/3/h1MzhRK3q+kcSJY2pGhfmdqFy1Mw+F71AOnvd7aHVNVKppuCsn3FIJ5tK47ic2q8dd1YzQmNA7xoSYQXrKyelpR7rIkQ/vlPIv0ffEzZ/+oLp63CY7Fv9AfPoaREmgkYkACT/8NBbtA9XFw00DR5PpOyNcWGswV/47imB+SrxNDEiiSaJ937JpYDyt14p6Y8p3Gs+zgLT55eOAhgqenG843T7Bq2G+kshdyI9azyjKRaxHH14+OBOLJ4aHlRQZiop50O2Ob2Zx98o7PXp/x/viIAzM7kFTZziQxBRqvDU3wXu8ZTdokmgnmzdO3Z/GBa7z5/JnPnz/y6Pw2xtTMql6mMktIjh5bdUTuZ5JAIQHHJpA6seY6rTJ24O+D53H+6CWejRef3R5yaMUwIYDK/Umovj/hKiff76FRAmX0SSHCKZsyb99lXrqL+/r5FZd2zaNFSgtMlek5vkkCA3m4sr36eZlZZaLF9G3cfOaGl6d4Zzw/4+V8gdXjf8NOnJOJQ0EG7g27SRoJNMMyQUNW3nbDz8cHf+279HUJFEL2cDVllWtVWZKxaCtm7brMa1d39bvq4fGCE2smUieL8lEjMZX7r+VlaOXp90sgwQE82DqCXOrjpqR8q7mcfvZO/EY8+fTxHtun96KEubIsZJ7APREkcA/t84h3IkV1ph+8i5uHN37qie+lBEokcZn4K4EiFf9wiC6JVCRzKE7pQllE3luTJRdeR27y9/YsXUpnIFGVvuy5pxG5AOdD9FcEQqSHTUfv05HA1DTTK4HVpQTGKFGXwEC/z0KsRFnOywd1tqOD8/p24hmKfVjYkbvjPE7efcGnz954uVxm/ZSW2CvLbFJTcfxhUUIxDlICjURUJVCUzz77gJcvkT4Q+d6Esl2FCHaDutPhrIsozYsiymexrlIDuGczVGkP+XvA2L3KZwVJTBFjEqjw+fkpRtTNi7WZMmm4Upg1EMxsSZ62LRud9RREoyWB4j1zPc6YMhmwUxem9QU7MhbuyPpHusd2Zf+weqRLokiMvm1EsE5BzqIjOKprcT+ZBCrLTs1sg4O9IjcRri802JE+f9sI90chGOf/+uOYPKGebZQ5G/uwddN4Uojr+aaBYbwvM75MOs3k6oaCRVqq9PwP3ca6vuenk1z3GTtUZeFZTfPhqEgg+HBtdT+y2n7pXliSpnwX1l/XvdPRkEBB0GcX1g6tiqXSLFTPMU1sUpIiqXKPE1L59/146Uigp7MQvWKaCd81IReDD2uesJRAiSTuEp8lMDjwPVv7FwpNlxI3nsy19xGaZ4j0682pBZRwrMi4nY/FX2F8uLycmlYpaDByr5RAoxNVCQzk/KRi6udr59CGkDHjQgm4ztQiybEIzZsiBisyFevO1qfG64YgJdBIRFECg+5AvpaQXYjc8NPaSB2uCtErL5YpcwHmags522iD+HcuIYCKIHZZAS7Ge4V+CWJUAhV8X15i/sB2lC9dnOzJwhewLezSkbdQaSr1mcOhpwYswf8ig1IqA5ikpvNuAxL4fgeNlH3aOdBht55k6+N1lgxsQOFcWbAPLWzbkiFfUcrVmMSBJ3p0LegdR5cPpvL/ipItjWbSbXVIlJ4ChctSe+JmHkRqvufN8eHKfHBivfY7wk0EH8Zb1v+mzM9nQ77m29SZXAju+waot7Wwq8/mSBJ4n2kZlHOwoWboEJd+XJnTnITK8Rr+Y0AC3dndWemYryJpqRURJFDBg9OLB1KtXAlyptMViqRkL1yCKnX/YO8jQyP7+PF09xwalChA2qRaYbZIRrZCLZlz8jXuJ8aoZS5dsSFc+Ibq+mC3s8xsWYkiebKSyCzkfESwzUDhkhVo3H8DjyN+Vva/z1/Ny5AtlbZpkVlOeqy6JTRZ6N3x8dp9VGTNE0MSKAj24NLaCdQtX4LsKZTRT0OObYNjgTLUbDWKPbfCWb8ggBtLGot1LCjZYA3P9Ergc+Z3V0ZCs6XJH07hJFApzPi+ucK8oW0pmSeDKOyEHDMZuUrVo9+ElfzZpwYmquS0mH8ab92fpc8bdszqTv6kmtpcJeSZeVm9yMP5IB1yKXHl+GP/U/V9iMjHC0solk6sY9WDI3KeQInEaMRnCVTGBHDeO5J06jQpLS2nH+ZDpATIh9trB5G1QBv+vfMhnAR+fnmCvmULUW/Ybo0Ebukm0r/IEvh4Qw8pgTFOALeXdyO1iXh2tZaE+9AankAu/PE/dZ6TKkdXjurp0u7+5ACTG5Uid5bU2hZhSjAlda7ClK0xkC1XXMM999hGSqCREGWUGeMhfyvoelgbp4egu1BYSF3+/jD+nDZSF1HGO75TiN7vUKU35BHil1eEPF2hmYgbtg6eSAGMcWJcAtUEe/Pu7VMubF/Gn9OmM02EP6fOYtn6g1x/9C60X5degt5wfPECpv25hIP6ZE3B+xE7p4pMdf4SIXQGhCXYE+cbp9mwZBZTReY7ZfIajt14zLsvHlxkSK8ecW7/Wib/IfY/9Q9mb3bizqPwmVYYAbw4uZEZ06Yxc/8jvQVvpeL63u4lTP5zHmv2PAo3CI7f02PqezNn/g4eRMrX3Li4bAZTZ81j672QBhRBvL2yhwUzpzJ15x39E+mLu/vk4EpxzTP4a8MtA2Iqfm9uzlxy2szMKVPFvZ7KlNn/ceHBMz5FIZX2fXsfp20rmDJlCpOX7+Cys0bo/VxOM/f36fz97wnefOU+R+az+nltXjqLP/6cxjRx76f8e4T7Lu8N3FfhgZ+ec3GPOA/xrP6YvoJD194q6REBL4RUzpjBjJmbuROFGkl/rxdc3LmWedPFccWznDZtNcfuPsdN7zUE8f7GLn6fNIf14hnoLY74e3LV6V8mTpjPrgvP8InY5FmND29uHWPJwrnqY06fvo2rL8Tegt6yZlBVkXlmpNeqq/hG2DbQ9z039qxj4XTxfv4xhUVnNR9B/DycObBqJhOmb+SC8yft6LXh8X1zg3//nsnvc51wibhjiUQSa8RrCRS5o9fzA3RWPlomqcD0wy7qdDg83txc3Z/MeVtFlsAXx+lTuqBaAhW38Dw6isQmqSP0CfTj+oJW2KuqSgmMUYJwveXEktkiv912w2B5QXnGby6sZ2zPhhTJ2A4nA2P24efK7TN7WTVzClOniXx5yhL2XX7IS0/j5zdSAo2EeLSXzsKafXBI30h5WoI/iHV2QYdhMPKMNlIP3uLdOiEkcdV+WC3CqmPw8LUoVmmXS2KW2JFAiUQSiUCfWyxqUolKzfrx1wn9tdxBb84wtIrSR6Ykv+819GFBIpH8TMR3CfR2Pc+QEtaoMtZm0WV9hhDEq+NzKJKpCpMP6ModeNzfQovM2ag/fI967tugS9NwMElDy+267Vg+srdHGWxUFaUE/kA8j02mcOqBXND/BTpOISUwDuIHYwfDzBvavyU/HCmBEomRCPJ/ytw6KYTgWZKpYnfWXQo/fu27K1sY/lt+zJVmNMW6s++xsbrQSySS2CTeS+D7cwwuJiQwQy3+uvQ2XE1fKB8uMrx0dmyLdmP7Y61FfL7L/C4lRZqYkt9G7+WdUmHksp7yKlNStF3CfW1rjBfH5vG/LEpfaSmBP4pg1zOMrpGZwuPP6m1pEteQEhj3OLkKqo6EW1I34gxSAiUSYxHky8VFLTFRJM/UAnNLG6ytE4QGK0srzJS+GaosdJh3EjfZYlMiiRdICVQIxu3MYso7JsHM3FKkedZYWtmSKlcNihcqTKPhe3irLoY84+/KmnmELcU6VmYqEhRrxPBB9UloLvsE/ihebOlLjeHbeP6TdCeXEhjHcIW+o+GogaE+JD8GKYESiREJ9HrKP/2qkEBlqp7iQuk4HxJMzCwwSZaNOn/u450ct0UiiTf8GhJohcrxSxKoEITr/cP82TiPWgILD1vLletO9Nf2CdRIoMDXmZ2/tyCJyoZsJXuw5fZr7m3qR2rbOiy5KSVQ8nWkBEokXydUAiUSibEIxNX5NH/3a0qZAnnJl68A+fIX5LdZe3noLJuASiTxjenTp6tDfCXA4zazWhQhXfVebL4X1fmBNPi/PkGfUgWpP2IfH6IwMFl8Qkpg7OHl5UW6dOm0f0kkEn2oJTBp0qRs2LCBTZs2ySCDDLEdNm9my5Zt7Nyzj/0HDnBAG/bt2s7WLf+xWd82Msggw08Ztm7dSuvWrdVB+be+dX72sHnzFnbuPcCh/XvYvmWz3nX0hc2bN/HPX2OpnDEN+WsP5e/1Iv0TcfrWjW9hx44dKNMo7Ny5U+9yGaIXVq9erS7b7t69W+9yGWSQYZNGAlOkSMGAAQMYNGiQDDLIIIMMMsgQQ2HIkCGUK1dOHZR/61vnlw6DhzJyzBhGjxzGYH3L42kYNmyYWgKHDx+ud7kM0Qu9e/fGzs6OkSNH6l0ugwwyDNJIoL29vfI/iUQikUgkMcysWbPUQSLRRTYHjT38/Pxkc1CJ5CvIgWEkEolEIolF4vfAMJLvRUpg7CEHhpFIvo6UQIlEIpFIYhEpgRJ9SAmMPaQESiRfR0qgRCKRSCSxiJRAiT6kBMYeUgIlkq8jJVAikUgkklhESqBEH1ICYw8pgRLJ14kZCQwOwt3lOvv2HePa3XdEZZ7rQLdHODk5cfTYQz4FaSOjjQ/Pzx3hkNjv5Vfe2rgIBAYQqP3nT0XgZ5xvXeDgvlM8eOf9hcl4v4EAL57ePi+e2wnuvPhE0HfuNCggxh6gRCKRxDukBEr0ETck0AeXyyc4dP0lvtqY78cX1+cPuXTyMIcOHeTggYs8fuOKu6/xJ4CUEmhEPsO1e3DPTft3NAj0AedncPEOnBfh3EN49wn8frE5RI1FzEhgkDenZtZApbKgUof/eKWN/hIeBwerh0dWWfTjbFSsMUo4Myer2KfYb4ll4s0JRyBud5yYve4SntqYnwrPu0xsnE9cW1J6bX5AQEz8ID7cYmzz7GKfCWm98Bw+32zHvjy7uI31p58SKD1QIpFI9CIlUKKPuCCBvnc30SidKDfVWMRLbdz3EOB2kw0Te9CoYmGSmWrKYUp5pXid32jbbwYHb3/UrmkcpAQaj0vboEQ76OSkjfhOXt+GWcuh6SDI1xpytoHs3aD3Api9Fx4L2ZTELDEmgWfnNRQ/+CTU6bGd19roL+F5eJQ6kUiYZCgXYlACZ2slsHg4CQzEefefNCieHpMWm/HQxv5UeN5hQqO86nvca1MMSaDbXSa1LyT26UCXvy9+owR6cGnZBGpmdKTWgrP4f281okQikcRzpARK9PGjJTDw1VnGNS2GpSJsDZdH6QO+XoJfsX1ARRKpxU9fsCB7tTEce2u8r8VSAo3D44vQdgAU6gC9jmojvwM/IQ4Dh0IuIZN52gsBbAs5hAQqf+cS+y7YBQZsBuN+Soj/xDMJ9OP93WtcvnKFBx90Gzb4cn5KXWyUxKjtlp+zJjDIlzdP73H5wk1efPSNmeagbneiIYFv2dy1ukj0Lakx75yUQIlEIjGAlECJPn6kBAa8PsfIZiWwCKm1i4YEvtozgCTmYh8mljjWH8Havce5fP06145tZUbfGlgp+7fNSIP51zDW6BNSAmOfB2eh82AoIgStYMfoSeCOaVBAyF6R3kL2NsL5h2L/L+DsCRg+CnJ3grLi/ztdtBtIYoR4JoGG8OXC1AYkNPuJJTA2iKYEbulRi6Qqa2pKCZRIJBKDSAmU6ONHSeDz00tpVyylRv5CwndL4FvWN8ok9mFO2qZLeeijW9sXTID/G/YMLS2W21Cg2lzuxnp5T4OUwFhElBWdNkDNbkL+hJwptXTRksA30LIzFO4LYw4r1Tk6iNfJ+z0M6yVEsAdMdAJ/7SJJ9JES+CsjJVAikUhiHSmBEn0YXwLfcXBoZXXZS6VKRLFW01k/uxuZbcXfDb5TAj8fo4OZKSrrrHTbo7/0F/BuL62sVFjnacSKG17a2NhFSmDsEPAWhgyA/EL88vWEaXth8kQoHo3moB9OQgEhgVVGwOlP2khdRPHy/iEhgW2g43J4ZqQPCb8CcU8C/S8yMLmNWJaKTrte4Pv2FtvnDKFMriTahCsH7X6fz+ZTLkQecMqZudmVdVSUXP5IHfNs32SKJ9PE6YZkWbty3FW9in4+Xmdso1xi3awM3fXEQPPL64zJVp8ZFwwMifR6O5WV45m0YM97bZxCcACeD87wz8oJ1LULOScrslbox/JDl3n5Sc93Ds+7/N4kv1gvOX30DQwT+Im7p/awZFBN7f5UmFpVY8K6wzx9fZ+/qimDyphTc/F17QYC3T6Byy7h7fORa3sW07Oy9guhdTpq9JrJrqtP8Qo9YADOeyaSR3sMlYn2/0rIPpcn2rUkEolEoiH+S6AfD7aPo5DIBxI3+JOb7w2V0j6wq9v/1PlF6mFHlY/8vzTGl8CbTM5sTULHXLRdelZd4/JgTR8yJhD593dKYOClmaQyM8EqQUM2P9dGRiDQ9xaTStqhSpyPLhvuG+W5SwmMHXxvQsluUHcC7HigiZs7CYpFQwJPLtHUJtaZonym0M87cdyaQgIrTIMzQkQlMUMclMDLDHdMLpalod7IqXQv56ARjEihMIO2PoogZ89YWCABKlMzKq5+rInZP5VSqSNvnzpXD058SQLx4c66YWS1tSRDv6146rFA/6uLyJckMXnGn9Dbzv3Zuu5YmFpRaNzJsOrrYE9u7JxGtcRWkc5JE1JTsc9K7rtFyES97jO1VQmx3JFB2x4RqHs+Pm84tqQ/GRKbRtiXEmwoUKcz7YvlxFqViAbLxS8pBJ2awI5ztrB1TD3MI20vQuKSjDv4RDO1hhDYZ3snUVDPehZ55ksJlEgkkgj8CjWB3s+O0reK8gGxBJMOPg2fR4Xw/igdcqcW65Rk2uWfcoi2GMX4EviQ9bO2cutD2EfdO6t6R0sCP+4fiqmpCpvko7looBgZHOjOliEFxXPPSItJp4zSGktKYOzgLwp5S0+Ae9grxJxoSuA2IX8FhVg2/ldd6acXz/cwvBPkGiPkUxY0Y4w4KoEpMQmViwyUq9+Szj1706dPF1rWK09WS82ypDmHcDpcahJZAt3uOjF3fC8alcyEhVJrlaMGXfr0Y/TkTTz6WquEFwdolCcpqmRdOfIh4v35zOlJrcmbzg5VhuGcizR0rTNL6uZCZVKdpQ9CBqkJ4NXxxVROby3O34R0BcrTuF13evfqRa8e3WjXsALpE5uJZXaUHrOP97rVfYYkMNiXB7v+5H/Jle2syFSoOq2796SX2Gf3ri2pUiCDZkAcdUhKw0gSWETE25IrR0ZUdlkpU6cF3Xr3FufUnY6/VSVTUlvNtqWmcc9X+X4XJDY7yIxOramWNwNWKjMcyzahR48eDJhygi96tUQikfyC/AoSiN8L1g2pRQKRXxQevQuPyM1VcN42huzJRX5S6A/uyI49P3RgGA3Rl8CHK5tjJspWtoUWiVKPfoIDvTg4uaooS6SmweC9RiknSAk0EjEggYv6QaHu0O6ANkIPn91gykDIPgjW39VGSqJNnJZAc9MCdJ91hGfuYSv4uzuze1BF9WhTtmkqMeeyrslFlsAQbs5qrOkT2HH3NzRFeM0/rUsIicpE9z0vtHFaPl9lUKkW9O3aBDtVfgYdi5CsPd5E5XSWmFZciHPIAT0fs7hPWUzFuTtWGsTOi4/x0Mkngz1c2L+wP7mSmqKyqc6SWzqGa0ACAzwes6B9ARFvSa4qI9l96ZWmxk6NPy8ubGNEjRziHA1JYFH1c1Bku9G8gzx+rzOqqq8z64Y3Jo2Nsrwh65x9tAsUvNjTp666T2CdJTpNTCUSiUQSjl9CAkV+82jrBAonFvmFKKldcI9geT6PmN2+tMi7k1J7yWWl7PjLEx8k8PHqlpiZqkhQYCFPtXGRCPLh2Mx6ohyRnNrdt/M24veBWEBKoJGIAQlcokwxISSw7X5thB683WHGcMjaF9aIYqwRXqFfgjgtgdblFuhPVFzWU0MRlxTZ6HVAt3GwIQn8/oFhXm4dRDIbE2x770G3ss/9wl8ULDeArafW0cjMkmSdd+vs15tLCzqQUpWNjpu1jaaVGrTbW2mXyxJV4urMOvncwEv8knVdy6m/puaZdCZsHb0SqNTKradRInFdmWuz8JS+qV4DeXl0PiUzivuiSmygJlBF+pZCVr0i67HP1VWUyJFIrFOM6Rd1e+zKgWEkEokkKvwaEigKZs8O0rSo0twzD+OOh++443l7M/XyinwoVQf2vjTO4CBxnV9HAr2FBNYV70VydRnRGF26pAQaCWNLYD8hgbekBMYUcVoCc88yUMPkupvmagnMSNe9ukeLeQkk4Brj8tmjchzL5dAqtk+cmtKRip0X4Ox9lxlZTDFN2JVDIePDuF2ib6VMQsz6cupjyMX58fTQNMqK807TYg4PIjUfDePDnsGkUBLlmsvD7qU+CQwOwGXfBLKJfTrWH8u51waeoTifHhVziG0TRZBAZWCYwur4+jOO8lnf5u+P06poerFOQaaeF7/CUKQESiQSSVT4VSRQyRudxjYilYkKh6EHCGs78plrK/qTU+RVGXr+g6u6a4EkTkjg6h9QE6iNjk2kBBoJI0mgjyh+zgypCZQSGGP8OAk88rWBYVLScL2BJMV1F82MJYHiDb8yo6aQ0sL8fk7bkd39BuMaNqf7rNN4Cbk7MaqkOGZGOu3SnMv7s4spnTYxuYZsxdNf+6oGe3N3wyjyK+dtYoqZmTnm5vqDmTLcsrJexqnc02ytXwKD/Li/sS+WKivKdVrGI0Ni6Su2rVEQC4MDw6Sh81IDU0R8OEnbYo5iHSmBEolE8j38OhIIHmdmkzOtJaqk/TkRkid5PmFxr7IiH8nOgLU3kQ6oIT7UBD5SJFDpE1jwL4MSGBzowe5xyvNPS5MxTnzUxscmUgKNRAxI4OL+X5dAL1cYLwQw5zD4L6SBnSTaxJAE+nBufiPxA09MrW5beRmFBP7eEmV9IYHJR3BJt+tAqARmouc+A4PFGlUCBbcXkVVs6zjsmLo/4auTi6hSqTkLz79R/+134Q/SqkxI1WILHnzmxJ8tSKXKx7idj8KmclBL4EjyKedtbUeSpMlIluwLIak9SQrN5aF2c8MS2A9rlSmFWs7m1kcDIuZznyk1CmD+hdFBDc4TKCVQIpFIosWvJIF4X2ZIAaX1SFb6H9Dk4Z8e7qVLURtUWdqz+Z6b/IqvJT5IoPeJiVgoo4Pa6kh/BIIDXFnXK6f6nWg9/QLe2vjYREqgkYgBCTwwBwp2hfrLIkwUr4PHG+jfDvKOh73PtJGSaBNDEujPvXU91P3YstYdy9k3+mxClw9s76wMZqLCvuLq8E0DQiUwIz32GWg0YGwJ5BFziyfBNM0gznh44jSxAyWqjuSqq/Y6A64yIZsVCVMP5tyL+0xrWQj7CiM4+1o3qfPhwbYJ6nmUcnRdFiVRDoeB5qDPD0xSN7FJW3c0Z14ZGG7N7SJdK2YT20ZsDiolUCKRSGKbX0oCRRH/7LjaWJmoSNp5p8j5RPlgy0j13LK5uyzhkXtYRhMU4IHL3ds8eucdQQyD+fzuCdduPkdPV/V4Q3yQQO4uJbd41pa2TVj3TP/DCvK7zaQSNqhSFqbvbkNjiMYsUgKNRAxI4JW1UECZJ3AmCNfTi3qewNZQYzZc/qCNlESbmJFAgnC9tJRKpiIhSVWaMdvu64xQGZnA+xuo66hMPWBJjsnntbFawklgVGoCdV+ZKEhgu618T5f0j4eHklyVj7FON1jatTF1e2/jfWiu5cu5PyqhSlKWmTu20r1UMZpMdeJjuFsaxIc7W2iTwwRVhkYsOWeo0WwQb644sXblUv45+1xd06jGwMAw7g+20jyNuK7UlZh2UH/i+vLIXEpkUCbgT6KnT2D0JbDWgvMExOOMWiKRSKLDryWBIhu/No/MFiaYJGzPnpev+G+QknflYtia6+EGWPN1u8jw8jko3Ht3hCaCH9nesyCWeSdxNzpFkzhOfOgTSPA1RqUV5S6LFNRYcEUbGZ4P52aoP4AnyF2Hv29+YUCEGERKoJGIAQn0uQ6lOkHZwfCfvjkARXn34HLI0RY6iv8/M1RdKPlmYkgCRaLvfps5jbOKhN6MVHmaMW/HGe6/j7BPf3cen9nIoAZFMFeEzLwGC+9FSBBiWwIbrkV3jMso43Gc3hlSkLtrXxqUKUGP1beVdz+UD0fGkFJlR54yxciYvTKzj72IJMKBbreY3VoZiMUcx/91ZfWR67wM1y7iMw+cltCueBqxjooSs3USVL0SKPbp5SyktJiIN8GxSA/WHn0aNjE9Pjw+soa+ZTNp5wqMOEVE9CUwmcqCslNPaeMkEolEEpFfTQIJesLc6plEvpGSBlNn0i2HNfalunPIJULpLcCdI9Paka/YQM6GfVVVvrrS0SENVRfe0kbET+KFBOLNiWElxbNWYZO3HhN33sIj9KOwD86XNtFZXaZJQN5mC7lnjLagAimBRiIGJFD5MjSiFxToDs3mwXEXbbwg2APOHYQGXcRysc7UI4abjEq+nRiTQGXS8idH5lI6hSIbKuzTZCZ3kdJUrlKZypUrU6VKJcqVKkYeIVLmaiHJRPul13VGD9MSK81BfTg7qQ62FmKbxNkoWbEmrbou4843tQv14PBIkdCZ2JKlZAe2PQ7/Gga4HaOPozKgiwU56kzmygd9RhXAq5PLqOpop75HSR1zULBkeXFvqohQmQrlSpArXWL1MlXBIZx6r3MMAxKo3ufp5dTMptSsmpEiQz5KVRL3W9zzShX+R570ybT3WwlJqL/shnY7QXSagwa/YVPnGqQQ+7V1zE+5ihWpPW4fBrRdIpFIfll+OQkUuO3up+4iYpk8GXaq5FTsuoFXkVqMiPzrzGJqFqjElKMvQ5uEvt3dh0QmdVjjrC9Tij/8PM1Bg7i/aSBly1ehaftZXNP9Hizwe/oP1U2UMoYJNmlyUKxMeVH2q0qV8v8jXxbNaO9m9sUYuV/fNFaxg5RAIxFFCQwWYtdnBnT/C1brmez93nbI3haKCBGsPgo6i3V7zoZOYt81e0P+TlBtAoSbqUwSbWJOAhX83bm1azoVMyXRSoeB4FCRQStP4x4ycqYusSKB4H5kEumVmkDtOdhlqs3ym9/WMNT96nxKmplTtOVadD5UqAkOdGPnsOKozLLQav6XOj778HTvVIokswy7HxFCqjI92XLzffiaRIMSKAj8yJX1o8mRUt8+E1GyZnuqFcog/p2WzhtDh5qJZp9AX26tGUz2hGHHskzaLWyaDIlEIpGo+RUlEA8nOtlr84dUeej9X/g8OQS/txcZWrcyjcYe5INaEt/xX7OMOLTZTHzv+vPzSGAgF6eVUz/LlFk7c+S9NjoUL67+O4Bi2rJA5JCZznNPGPUjsZRAIxFFCQwS4ldcrFOgH4w9q43UIVAUx5fPhBxtxDqdoVBI6AL5xHbFxXbr72tXlsQYMSuBaoLxfnGDvbtWMayKIg8hiYApjoVbMOXvvVx/9RF9/qfG/xJD0iiTk6el6x4DEvh+J02UfSZKS6c94SVwfh4L9fHKrnykjQvBjSs759AsmfZ8UudizAlX7bKoEejzhEVdS9JktZ43MTiQ53vHU8ChCn9d004l8QUC39xi55ZZYecj7k/avI2Z8t9ZXrhF7CQv8LzH5ObKxO5p6L/lYdioo6H48vz6SdaPb4ypen8qbOwbMe/gLTzeX6NfFWVkruyMOqjzJU5I4MQ2eUV8cjosvqBfAl1P0LKg0pQjL5PPRvj85/WKc4p82mruuYlFDf55aujBSiQSya/JLymBuLOvXz6RN5jiUKATuwwMGkLAe/aMbk2xehO5qljfu23UMS3I2NPx/5N/XJDA2yt6kFZpJVVnKYbr6YQETi2jzudT5+jK0UgSqBSB/HC9c4AZ/Ruq5y7WlGvS0HjsEraccwkb38BISAk0EkIdZk0QstYWuh/RxulBkcCi7YTgDYDx57SREfD3hpsnoc94IX7tIX9HyCtEcM5BEf9txXVJFIkFCZQYk+Agf7w9PvHJ0xt/Q6ns65N0KKMIeWlmn9eTekskEokk1vg1JRBebO4i8h0r8pZZyAOD3weDeHduKWUqtGfx1bc4b2iHynE0V+J3S1A1P14Cvw3viwuo7tAOp5+gQC4lMA7iL9LCUTDSgARKjI+UwJ+aID7e30hDcxUqy2IM3XyNTxEeY6DvW86tGUbepGKdZJ3Y+9I4I3NJJBKJRMOvKoEumzqrJTBPmQXc/1JVkOctRlRvSu95a5lbKQs5fj8VuTVMPOSnksBATy4tak+OInPR37A3biElMO7x8Qn0GAgb5Dx/cQYpgT85Ae73mNpMmQNQReJcFekxYSHr1m9gw4YNrF+7gsm9G5A9udIsw4pCo7fj6mfsRhkSiUTyayMl8CsSiBdnpnamXLGcOKoqMPvqrzH6w88kgZ5XFtO4Rm2GHzE0k1vcQkpgHMMH/vodeq9TJoCRxBWkBP7sBHpzY9tkSqS2Voug/mBHnoZTOOHs+Ut8XZVIJJK4hJTAr0kgfL62kgoZLFAVn8pd318jp/qZJND95i7+Oe7yxTmg4xJSAuMYXrDrMLyRqhGnkBIYH/B35+b+NUwc2YUKyU3CCWDmGl2ZsGATl998zxT5EolEIokuv6oEPvu3lTofylBoFne/1gjl5X4a5nQk99iD/CIO+NP1CfyZkBIokXwdtQTa29ur/5D8/Pi4vubFi+c8f/6cFy9f4y5n1ZRIJJIfypw5c9Th18OLZy4vefchCh+ZPx6lca7slJ59SRsR/5ESGHsEBweTPn167V8SiUQfagl0cHDAwsJChp85WFpi+aWgbxsZZJBBBhliNSjpr5mZmToo/9a3TnwNUc2D1MvNTbUtWEz1rhPfgnLNyvUq/9e3XIboB0Wy5f2VQQbDQdYESiQSiUQSi/y6NYGSL2FjY6P9lySm8fHxIUuWLNq/JBKJPmSfQIlEIpFIJBJJvENpFiqRSPQB/wc4/5Z92hy3hwAAAABJRU5ErkJggg==</raw>
+      </picture>
+    </region>
+    <region id="101" left="108" top="1368" width="250" height="57" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">φ.d</e>
+          <e type="operand">φ.k</e>
+          <e type="function" args="1">tan</e>
+          <e type="operand">γ.φ'</e>
+          <e type="operator" args="2">/</e>
+          <e type="function" args="1">atan</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">deg</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">21.4974</e>
+        </result>
+      </math>
+    </region>
+    <region id="102" left="0" top="1485" width="361" height="40" color="#000000" bgColor="#ffffff" fontSize="10">
+      <text lang="eng">
+        <p>Friction from the self weight and friction 
+angle</p>
+      </text>
+    </region>
+    <region id="103" left="108" top="1530" width="195" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">F.1</e>
+          <e type="operand">Ν.1</e>
+          <e type="operand">φ.d</e>
+          <e type="function" args="1">tan</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">2.14</e>
+        </result>
+      </math>
+    </region>
+    <region id="104" left="324" top="1530" width="195" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">F.2</e>
+          <e type="operand">Ν.2</e>
+          <e type="operand">φ.d</e>
+          <e type="function" args="1">tan</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">5.64</e>
+        </result>
+      </math>
+    </region>
+    <region id="105" left="531" top="1530" width="203" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">F.3</e>
+          <e type="operand">Ν.3</e>
+          <e type="operand">φ.d</e>
+          <e type="function" args="1">tan</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">18.07</e>
+        </result>
+      </math>
+    </region>
+    <region id="106" left="738" top="1530" width="203" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">F.4</e>
+          <e type="operand">Ν.4</e>
+          <e type="operand">φ.d</e>
+          <e type="function" args="1">tan</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">33.71</e>
+        </result>
+      </math>
+    </region>
+    <region id="107" left="945" top="1530" width="203" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">F.5</e>
+          <e type="operand">Ν.5</e>
+          <e type="operand">φ.d</e>
+          <e type="function" args="1">tan</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">46.48</e>
+        </result>
+      </math>
+    </region>
+    <region id="108" left="108" top="1575" width="203" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">F.6</e>
+          <e type="operand">Ν.6</e>
+          <e type="operand">φ.d</e>
+          <e type="function" args="1">tan</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">55.14</e>
+        </result>
+      </math>
+    </region>
+    <region id="109" left="324" top="1575" width="203" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">F.7</e>
+          <e type="operand">Ν.7</e>
+          <e type="operand">φ.d</e>
+          <e type="function" args="1">tan</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">59.65</e>
+        </result>
+      </math>
+    </region>
+    <region id="110" left="540" top="1575" width="195" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">F.8</e>
+          <e type="operand">Ν.8</e>
+          <e type="operand">φ.d</e>
+          <e type="function" args="1">tan</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">52.7</e>
+        </result>
+      </math>
+    </region>
+    <region id="111" left="747" top="1575" width="203" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">F.9</e>
+          <e type="operand">Ν.9</e>
+          <e type="operand">φ.d</e>
+          <e type="function" args="1">tan</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">33.58</e>
+        </result>
+      </math>
+    </region>
+    <region id="112" left="954" top="1575" width="207" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">F.10</e>
+          <e type="operand">Ν.10</e>
+          <e type="operand">φ.d</e>
+          <e type="function" args="1">tan</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">8.48</e>
+        </result>
+      </math>
+    </region>
+    <region id="113" left="72" top="1620" width="483" height="41" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">F.n</e>
+          <e type="function" args="1">Σ</e>
+          <e type="operand">F.1</e>
+          <e type="operand">F.2</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">F.3</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">F.4</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">F.5</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">F.6</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">F.7</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">F.8</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">F.9</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">F.10</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">315.6037</e>
+        </result>
+      </math>
+    </region>
+    <region id="114" left="0" top="1674" width="118" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+      <text lang="eng">
+        <p>Safety factor</p>
+      </text>
+    </region>
+    <region id="115" left="108" top="1710" width="246" height="57" border="true" color="#000000" bgColor="#00ff00" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ϑ</e>
+          <e type="operand">r</e>
+          <e type="operand">F.n</e>
+          <e type="function" args="1">Σ</e>
+          <e type="operand">c.n</e>
+          <e type="function" args="1">Σ</e>
+          <e type="operator" args="2">+</e>
+          <e type="bracket">(</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">r</e>
+          <e type="operand">ΣΤ.i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.2792</e>
+        </result>
+      </math>
+    </region>
+    <region id="116" left="0" top="1809" width="403" height="24" color="#000000" bgColor="#ffffff" fontSize="10">
+      <text lang="eng">
+        <p>safety factor is adequate when it is more than 1</p>
+      </text>
+    </region>
+    <region id="117" left="108" top="1863" width="271" height="59" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">F.s</e>
+          <e type="operand">G.i</e>
+          <e type="operand">α.i</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">φ.d</e>
+          <e type="function" args="1">tan</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">C.d</e>
+          <e type="operand">L.i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">Σ</e>
+          <e type="operand">ΣW.n</e>
+          <e type="operand">α.n</e>
+          <e type="function" args="1">sin</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region id="118" left="531" top="1863" width="267" height="55" border="true" color="#000000" bgColor="#00ff00" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">F.s</e>
+          <e type="operand">ΣG.i</e>
+          <e type="operand">φ.d</e>
+          <e type="function" args="1">tan</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">C.d</e>
+          <e type="operand">ΣL.i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">ΣΤ.i</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.069</e>
+        </result>
+      </math>
+    </region>
+    <region id="119" left="81" top="2034" width="198" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.1</e>
+          <e type="operand">Τ.1</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.1</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">5.71</e>
+        </result>
+      </math>
+    </region>
+    <region id="120" left="342" top="2034" width="222" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.2</e>
+          <e type="operand">1</e>
+          <e type="operand">Τ.2</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.2</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">14.51</e>
+        </result>
+      </math>
+    </region>
+    <region id="121" left="603" top="2034" width="222" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.3</e>
+          <e type="operand">1</e>
+          <e type="operand">Τ.3</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.3</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">45.92</e>
+        </result>
+      </math>
+    </region>
+    <region id="122" left="882" top="2034" width="222" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.4</e>
+          <e type="operand">1</e>
+          <e type="operand">Τ.4</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.4</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">86.06</e>
+        </result>
+      </math>
+    </region>
+    <region id="123" left="1161" top="2034" width="230" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.5</e>
+          <e type="operand">1</e>
+          <e type="operand">Τ.5</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.5</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">121.63</e>
+        </result>
+      </math>
+    </region>
+    <region id="124" left="81" top="2088" width="206" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.6</e>
+          <e type="operand">Τ.6</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.6</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">152.1</e>
+        </result>
+      </math>
+    </region>
+    <region id="125" left="360" top="2088" width="230" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.7</e>
+          <e type="operand">1</e>
+          <e type="operand">Τ.7</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.7</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">176.69</e>
+        </result>
+      </math>
+    </region>
+    <region id="126" left="630" top="2088" width="222" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.8</e>
+          <e type="operand">1</e>
+          <e type="operand">Τ.8</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.8</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">177.3</e>
+        </result>
+      </math>
+    </region>
+    <region id="127" left="918" top="2088" width="230" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.9</e>
+          <e type="operand">1</e>
+          <e type="operand">Τ.9</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.9</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">141.66</e>
+        </result>
+      </math>
+    </region>
+    <region id="128" left="1188" top="2088" width="240" height="44" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math decimalPlaces="2">
+        <input>
+          <e type="operand">G.10</e>
+          <e type="operand">1</e>
+          <e type="operand">Τ.10</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">Ν.10</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">78.16</e>
+        </result>
+      </math>
+    </region>
+    <region id="129" left="108" top="2196" width="450" height="41" border="true" color="#000000" bgColor="#ffffff" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ΣG.i</e>
+          <e type="operand">G.1</e>
+          <e type="operand">G.2</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.3</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.4</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.5</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.6</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.7</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.8</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.9</e>
+          <e type="operator" args="2">+</e>
+          <e type="operand">G.10</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <contract>
+          <e type="operand" style="unit">kN</e>
+          <e type="operand" style="unit">m</e>
+          <e type="operator" args="2">/</e>
+        </contract>
+        <result action="numeric">
+          <e type="operand">999.72</e>
+        </result>
+      </math>
+    </region>
+  </regions>
+</worksheet>
